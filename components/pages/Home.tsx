@@ -8,7 +8,6 @@ import RadialGradient from "components/RadialGradient";
 import Navbar from "components/Navbar";
 import Carousel from "components/carousel";
 import Content from "components/Content";
-import Collaborators from "components/Collaborators";
 import Footer from "components/Footer";
 
 const Home = () => {
@@ -22,7 +21,6 @@ const Home = () => {
         <Intro />
         <Carousel />
         <Content />
-        <Collaborators />
         <Footer />
       </Box>
     </Box>

@@ -37,7 +37,10 @@ const Navbar: FC = () => {
     >
       <Flex justify="space-between" width="100%" align="center">
         <Box>
-          <Image src="/logo.svg" alt="Astroport. The future of trading." />
+          <Image
+            src="/logo-astroport.svg"
+            alt="Astroport. The future of trading."
+          />
         </Box>
         <HStack
           spacing={{ md: "12", lg: "16" }}
@@ -102,7 +105,7 @@ const Navbar: FC = () => {
             <Flex justify="space-between" width="100%" align="center">
               <Box>
                 <Image
-                  src="/logo.svg"
+                  src="/logo-astroport.svg"
                   alt="Astroport. The future of trading."
                 />
               </Box>

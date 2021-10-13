@@ -9,6 +9,7 @@ import {
   Text,
   StackDivider,
   Stack,
+  Divider,
 } from "@chakra-ui/react";
 
 import Socials from "components/Socials";
@@ -35,7 +36,7 @@ const Footer = () => {
             >
               <Flex py="18px" justify="center">
                 <Image
-                  src="/logo.svg"
+                  src="/logo-astroport.svg"
                   alt="Astroport. The future of trading."
                 />
               </Flex>
@@ -121,15 +122,6 @@ const Footer = () => {
                       <Link>Governance</Link>
                     </VStack>
                   </Box>
-                  <Box mt="20" display={["none", null, "block"]}>
-                    <Link
-                      textTransform="uppercase"
-                      opacity="0.7"
-                      fontSize="12px"
-                    >
-                      Terms of Use
-                    </Link>
-                  </Box>
                 </Flex>
                 <Flex
                   direction="column"
@@ -150,15 +142,17 @@ const Footer = () => {
                       <Link>Tutorials</Link>
                       <Link>Forum</Link>
                     </VStack>
-                  </Box>
-                  <Box mt="20" display={["none", null, "block"]}>
-                    <Link
+                    <Divider my="4" width="6" />
+                    <VStack
+                      align="flex-start"
+                      spacing="1"
+                      flex="1"
                       textTransform="uppercase"
-                      opacity="0.7"
-                      fontSize="12px"
+                      fontSize={["14px", null, "1rem"]}
                     >
-                      Privacy Policy
-                    </Link>
+                      <Link>Terms of use</Link>
+                      <Link>Privacy policy</Link>
+                    </VStack>
                   </Box>
                 </Flex>
                 <Flex direction="column" flex="1" fontFamily="WhyteInktrap">
@@ -183,14 +177,6 @@ const Footer = () => {
                 </Flex>
               </Stack>
             </Box>
-          </Flex>
-          <Flex display={["flex", null, "none"]} justifyContent="space-between">
-            <Link textTransform="uppercase" opacity="0.7" fontSize="12px">
-              Terms of Use
-            </Link>
-            <Link textTransform="uppercase" opacity="0.7" fontSize="12px">
-              Privacy Policy
-            </Link>
           </Flex>
         </Container>
       </Box>

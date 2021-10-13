@@ -24,7 +24,8 @@ const spinAnimation = `${spin} infinite 60s linear`;
 const Carousel = () => {
   return (
     <Box
-      py="4"
+      pt="4"
+      pb={["16", null, null, "20"]}
       bg="linear-gradient(180deg, #3122AA 0%, #0C044A 100%)"
       minHeight={[null, null, null, "100vh"]}
       position="relative"
@@ -153,50 +154,6 @@ const Carousel = () => {
             </Box>
           </Stack>
         </Container>
-        <HStack
-          fontSize="28px"
-          whiteSpace="nowrap"
-          spacing="3"
-          divider={<DividerIcon border="0" color="white" />}
-          mt={["16", null, null, "20"]}
-        >
-          <Text textTransform="uppercase" color="white">
-            Built by
-          </Text>
-          <Text textTransform="uppercase" color="white">
-            Delphi Labs
-          </Text>
-          <Text textTransform="uppercase" color="white">
-            Ideo Colab
-          </Text>
-          <Text textTransform="uppercase" color="white">
-            Terraform Labs
-          </Text>
-          <Text textTransform="uppercase" color="white">
-            Built by
-          </Text>
-          <Text textTransform="uppercase" color="white">
-            Delphi Labs
-          </Text>
-          <Text textTransform="uppercase" color="white">
-            Ideo Colab
-          </Text>
-          <Text textTransform="uppercase" color="white">
-            Terraform Labs
-          </Text>
-          <Text textTransform="uppercase" color="white">
-            Built by
-          </Text>
-          <Text textTransform="uppercase" color="white">
-            Delphi Labs
-          </Text>
-          <Text textTransform="uppercase" color="white">
-            Ideo Colab
-          </Text>
-          <Text textTransform="uppercase" color="white">
-            Terraform Labs
-          </Text>
-        </HStack>
       </Box>
     </Box>
   );

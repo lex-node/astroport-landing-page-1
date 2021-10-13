@@ -113,8 +113,7 @@ const Hero = () => {
         </Box>
         <Box>
           <strong>Decentralized, permissionless and open-source</strong>,
-          Astroport’s marketplace is a public good governed by governed by its
-          community of
+          Astroport’s marketplace is a public good governed by its community of
           <Box display="inline-block" px="3" py="1">
             <Image
               src="/astro.png"
