@@ -8,7 +8,7 @@ type Props = {
 
 const HeroStat: FC<Props> = ({ value, label }) => {
   return (
-    <Box color="white" bg="brand.purple" flex="1" textAlign="center" py="6">
+    <Box color="white" flex="1" textAlign="center">
       <Text fontSize="3xl">{value}</Text>
       <Text textTransform="uppercase">{label}</Text>
     </Box>

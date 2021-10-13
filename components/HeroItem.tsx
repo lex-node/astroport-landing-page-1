@@ -1,13 +1,5 @@
 import React, { FC, ReactNode } from "react";
-import {
-  Box,
-  Heading,
-  Text,
-  Button,
-  HStack,
-  Flex,
-  SimpleGrid,
-} from "@chakra-ui/react";
+import { Box, Text, HStack } from "@chakra-ui/react";
 
 type Props = {
   icon: ReactNode;

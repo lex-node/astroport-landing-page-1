@@ -2,7 +2,7 @@ const styles = {
   variants: {
     brand: {
       fontWeight: "400",
-      fontSize: "lg",
+      fontSize: "40px",
       color: "white",
     },
   },

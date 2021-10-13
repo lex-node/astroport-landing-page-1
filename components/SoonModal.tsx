@@ -2,7 +2,6 @@ import React, { FC, ReactNode } from "react";
 import {
   Modal,
   ModalOverlay,
-  Button,
   ModalContent,
   Flex,
   ModalBody,

@@ -2,9 +2,6 @@ import React, { FC } from "react";
 import { Box } from "@chakra-ui/react";
 import { Global } from "@emotion/react";
 
-import RadialGradient from "components/RadialGradient";
-import Navbar from "components/Navbar";
-
 const Layout: FC = ({ children }) => {
   return (
     <Box overflowX="hidden" position="relative">
@@ -21,8 +18,6 @@ const Layout: FC = ({ children }) => {
           },
         }}
       />
-      <RadialGradient />
-      <Navbar />
       <Box>{children}</Box>
     </Box>
   );

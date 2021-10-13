@@ -4,6 +4,8 @@ import Modal from "./modal";
 import Badge from "./badge";
 import Tooltip from "./tooltip";
 import Text from "./text";
+import Link from "./link";
+import List from "./list";
 import Button from "./button";
 import Tabs from "./tabs";
 import NumberInput from "./numberInput";
@@ -22,6 +24,7 @@ export default extendTheme({
     Modal,
     Tooltip,
     Text,
+    Link,
     Badge,
     Button,
     Heading,
@@ -29,6 +32,7 @@ export default extendTheme({
     Slider,
     Tabs,
     Menu,
+    List,
   },
   colors: {
     green: { 500: "#23C7AA" },
@@ -54,13 +58,14 @@ export default extendTheme({
       blue: "rgba(22,41,230,0.8)",
     },
     brand: {
-      purple: "#5643F2",
+      purple: "#5A42FB",
       lightPurple: "#83B3FD",
       teal: "#A1F4EF",
       dark: "#000D37",
       turquoise: "#59B7DD",
       blue: "#1629E6",
       lightBlue: "rgba(131,179,253,0.3)",
+      darkBlue: "#08082F",
     },
   },
 });

@@ -8,11 +8,11 @@ const HomePage: NextPage = () => {
   return (
     <>
       <NextSeo
-        title="Astroport Protocol"
+        title="Astroport. The future of trading."
         description="Maximize your yields in the Terra ecosystem with Terra’s first yield optimizer and liquidation protector vaults "
         openGraph={{
           url: "https://website-iota-umber.vercel.app/",
-          title: "Astroport Protocol",
+          title: "Astroport. The future of trading.",
           description:
             "Maximize your yields in the Terra ecosystem with Terra’s first yield optimizer and liquidation protector vaults ",
           images: [

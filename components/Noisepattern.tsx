@@ -5,14 +5,14 @@ const RadialGradient: FC = () => {
   return (
     <chakra.div
       position="absolute"
-      zIndex="0"
-      width="1500px"
-      height="1500px"
-      left="50%"
-      ml="-750px"
-      top="-150px"
-      bg="radial-gradient(50% 50% at 50% 50%, #5643F2 0%, #83B3FD 58.33%, #2CA4D6 73.44%, #000D37 100%)"
-      filter="blur(300px)"
+      zIndex="5"
+      width="100%"
+      height="100%"
+      left="0"
+      top="0"
+      backgroundImage="url('/grain pattern_200px.png')"
+      backgroundPosition="center"
+      backgroundRepeat="repeat"
       display={["none", null, "block"]}
     />
   );

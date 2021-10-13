@@ -1,8 +1,6 @@
 import React, { FC, ReactNode } from "react";
 import { Box, Heading, Text, HStack, Flex } from "@chakra-ui/react";
 
-import ArrowRightIcon from "components/icons/ArrowRightIcon";
-
 type Props = {
   content: ReactNode;
   title: string;

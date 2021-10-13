@@ -1,49 +1,79 @@
 import React from "react";
-import { Box, Heading, Text, Flex, Image } from "@chakra-ui/react";
+import {
+  Container,
+  Box,
+  Heading,
+  Text,
+  Flex,
+  Stack,
+  StackDivider,
+  Image,
+  Link,
+} from "@chakra-ui/react";
 
 import HeroStat from "components/HeroStat";
+import ArrowRightIcon from "components/icons/ArrowRightIcon";
 
 const Hero = () => {
   return (
-    <Box maxW="container.xl" margin="0 auto" px={["6", null, "12"]} mt="12">
+    <Container maxW="container.xl" px={["6", null, "12"]} mt="12">
       <Box borderWidth="1px" borderColor="white">
-        <Flex align="center" justify="space-between">
-          <Box
-            px="6"
-            py="4"
-            pr="24"
-            borderRightWidth="1px"
-            borderRightColor="white"
-          >
+        <Stack
+          direction={{ base: "column", md: "row" }}
+          divider={<StackDivider borderColor="white" />}
+          spacing="0"
+        >
+          <Box px="6" py="4" pr="24" flex="1">
             <Heading
               fontSize={["5xl", null, "5xl"]}
               fontWeight="500"
-              color="white"
+              variant="brand"
             >
               Astroport. The future of trading.
             </Heading>
           </Box>
-          <Box px="6" py="4" flex="1">
-            <Text
-              fontSize={["lg", null, "xl"]}
-              textTransform="uppercase"
-              textAlign="center"
-              color="white"
-            >
-              Start trading
-            </Text>
-          </Box>
-        </Flex>
+          <Link variant="cta" flex="0">
+            <Flex align="center" height="100%">
+              <Flex
+                px={["6", null, "12", "20"]}
+                py="4"
+                align="flex-end"
+                flex="1"
+              >
+                <ArrowRightIcon
+                  width="1.25rem"
+                  height="1.25rem"
+                  mb="1"
+                  mr="1"
+                />
+                <Text whiteSpace="nowrap">Start trading</Text>
+              </Flex>
+            </Flex>
+          </Link>
+        </Stack>
         <Box>
           <Image src="/home.jpg" alt="Illustration" />
         </Box>
-        <Flex>
+        <Stack
+          direction={{ base: "column", md: "row" }}
+          spacing={{ base: "6", md: "0" }}
+          align="center"
+          justifyContent="center"
+          py="6"
+          bg="brand.purple"
+          divider={
+            <StackDivider
+              borderColor="white"
+              width={{ base: "85px", md: "1px" }}
+              alignSelf={{ base: "center", md: "stretch" }}
+            />
+          }
+        >
           <HeroStat label="Liquidity" value="$1.6B" />
           <HeroStat label="24-hour trading volume" value="$203 million" />
-          <HeroStat label="Tradable tokens" value="44" />
-        </Flex>
+        </Stack>
       </Box>
-    </Box>
+    </Container>
   );
 };
 

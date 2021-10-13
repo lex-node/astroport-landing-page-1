@@ -3,17 +3,19 @@ const styles = {
     list: {
       bg: "#EFF5FF",
       border: "none",
-      boxShadow: "lg",
+      boxShadow: "0px 16px 16px rgba(0, 0, 0, 0.48)",
       borderRadius: "2xl",
+      marginTop: "4",
+      py: ".5rem",
     },
     item: {
-      py: "0.6rem",
+      py: ".6rem",
       px: "1.2rem",
       color: "black",
       fontWeight: "500",
-      fontSize: "sm",
+      fontSize: "md",
       _hover: {
-        color: "white",
+        textDecoration: "underline",
       },
       _focus: {
         bg: "transparent",
