@@ -3,17 +3,17 @@ import {
   Box,
   Container,
   HStack,
-  Button,
   Stack,
   Text,
   Heading,
   Image,
   VStack,
   keyframes,
-  StackDivider,
+  AspectRatio,
 } from "@chakra-ui/react";
 
-import DividerIcon from "components/icons/DividerIcon";
+import Lottie from "react-lottie";
+import * as animationHero from "../public/hero.json";
 
 const spin = keyframes`
   from {transform: rotate(0deg);}
@@ -22,6 +22,15 @@ const spin = keyframes`
 const spinAnimation = `${spin} infinite 60s linear`;
 
 const Carousel = () => {
+  const heroOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationHero,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
+
   return (
     <Box
       pt="4"
@@ -121,13 +130,14 @@ const Carousel = () => {
                 </Text>
               </Box>
             </VStack>
-            <Box position="relative" pt={["10", null, "0"]}>
+            <Box position="relative" w="100%" pt={["10", null, "0"]}>
               <Box
                 position="absolute"
                 top={["0", null, "10%"]}
                 left={["0", null, "10%"]}
                 width="230px"
                 height="230px"
+                zIndex="20"
               >
                 <Box animation={spinAnimation}>
                   <svg fill="white" width="230" viewBox="0 0 100 100">
@@ -150,7 +160,9 @@ const Carousel = () => {
                   </svg>
                 </Box>
               </Box>
-              <Image src="/1-core-features.png" alt="" />
+              <AspectRatio ratio={1668 / 1406}>
+                <Lottie options={heroOptions} />
+              </AspectRatio>
             </Box>
           </Stack>
         </Container>

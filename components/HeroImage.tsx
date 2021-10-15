@@ -1,4 +1,6 @@
 import React from "react";
+import Lottie from "react-lottie";
+import * as animationData from "./hero.json";
 import { Box, Image } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 

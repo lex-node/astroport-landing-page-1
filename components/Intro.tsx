@@ -1,7 +1,6 @@
 import React, { FC } from "react";
 import {
   Box,
-  Heading,
   Container,
   HStack,
   VStack,
@@ -9,7 +8,12 @@ import {
   Button,
   Image,
   keyframes,
+  AspectRatio,
 } from "@chakra-ui/react";
+
+import Lottie from "react-lottie";
+import * as animationTerra from "../public/terra.json";
+import * as animationAstro from "../public/astro.json";
 
 import SocialsNav from "components/SocialsNav";
 
@@ -20,6 +24,23 @@ const spin = keyframes`
 const spinAnimation = `${spin} infinite 60s linear`;
 
 const Hero = () => {
+  const terraOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationTerra,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
+  const astroOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationAstro,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
+
   return (
     <Container
       maxW="container.xl"
@@ -75,14 +96,10 @@ const Hero = () => {
       <VStack color="white" spacing="16" fontSize="20px" maxW="container.sm">
         <Box>
           Hovering above the
-          <Box display="inline-block" px="3">
-            <Image
-              src="/terra.png"
-              alt="Terra"
-              width="36px"
-              height="36px"
-              display="inline"
-            />
+          <Box display="inline-block" px="2" mb="-3">
+            <AspectRatio ratio={1} width="50px">
+              <Lottie options={terraOptions} />
+            </AspectRatio>
           </Box>
           <strong>Terra ecosystem</strong>, Astroport is a neutral marketplace
           where anyone, from anywhere in the galaxy
@@ -114,14 +131,11 @@ const Hero = () => {
         <Box>
           <strong>Decentralized, permissionless and open-source</strong>,
           Astroport’s marketplace is a public good governed by its community of
-          <Box display="inline-block" px="3" py="1">
-            <Image
-              src="/astro.png"
-              alt="Astro"
-              width="36px"
-              height="36px"
-              display="inline"
-            />
+          <br />
+          <Box display="inline-block" px="1" mb="-5">
+            <AspectRatio ratio={1} width="64px">
+              <Lottie options={astroOptions} />
+            </AspectRatio>
           </Box>
           token holders.
         </Box>

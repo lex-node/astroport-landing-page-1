@@ -44,6 +44,18 @@ const button = {
         color: "white",
       },
     },
+    outline: {
+      textTransform: "uppercase",
+      borderRadius: "100px",
+      color: "white",
+      fontSize: "13px",
+      px: "25px",
+      fontWeight: "500",
+      _hover: {
+        color: "brand.darkBlue",
+        bg: "white",
+      }
+    },
     secondary: {
       outline: "none",
       borderRadius: "none",

@@ -5,6 +5,7 @@ import Hero from "components/Hero";
 import Intro from "components/Intro";
 import NoisePattern from "components/Noisepattern";
 import RadialGradient from "components/RadialGradient";
+import TCBanner from "components/TCBanner";
 import Navbar from "components/Navbar";
 import Carousel from "components/carousel";
 import Content from "components/Content";
@@ -15,6 +16,7 @@ const Home = () => {
     <Box>
       <RadialGradient />
       <NoisePattern />
+      <TCBanner />
       <Box position="relative" zIndex="10">
         <Navbar />
         <Hero />

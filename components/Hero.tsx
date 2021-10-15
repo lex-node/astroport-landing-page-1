@@ -7,9 +7,11 @@ import {
   Flex,
   Stack,
   StackDivider,
-  Image,
+  AspectRatio,
   Link,
 } from "@chakra-ui/react";
+
+import ReactPlayer from "react-player/lazy";
 
 import HeroStat from "components/HeroStat";
 import ArrowRightIcon from "components/icons/ArrowRightIcon";
@@ -51,8 +53,24 @@ const Hero = () => {
             </Flex>
           </Link>
         </Stack>
-        <Box>
-          <Image src="/home.jpg" alt="Illustration" />
+        <Box borderTop="1px" borderBottom="1px" color="white">
+          <AspectRatio display="none" ratio={1920 / 1020}>
+            <ReactPlayer
+              url="/home.mp4"
+              light="/home.jpg"
+              width="100%"
+              height="100%"
+              loop
+              muted
+              controls={false}
+              autoPlay={true}
+            />
+          </AspectRatio>
+          <AspectRatio ratio={1920 / 1020}>
+            <video loop autoPlay muted>
+              <source src="/home.mp4"></source>
+            </video>
+          </AspectRatio>
         </Box>
         <Stack
           direction={{ base: "column", md: "row" }}
