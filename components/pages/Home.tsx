@@ -1,15 +1,19 @@
 import React from "react";
 import { Box } from "@chakra-ui/react";
+import dynamic from "next/dynamic";
 
 import Hero from "components/Hero";
 import Intro from "components/Intro";
 import NoisePattern from "components/Noisepattern";
 import RadialGradient from "components/RadialGradient";
-import TCBanner from "components/TCBanner";
 import Navbar from "components/Navbar";
 import Carousel from "components/carousel";
 import Content from "components/Content";
 import Footer from "components/Footer";
+
+const TCBanner = dynamic(() => import("components/TCBanner"), {
+  ssr: false,
+});
 
 const Home = () => {
   return (

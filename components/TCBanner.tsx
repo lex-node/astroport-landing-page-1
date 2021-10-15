@@ -1,18 +1,20 @@
-/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import { Box, Flex, Text, Button } from "@chakra-ui/react";
 
 import useLocalStorage from "hooks/useLocalStorage";
 
 const TCBanner = () => {
-  const [hideBanner, setHideBanner] = useLocalStorage("displayBanner", false);
+  const [hideBanner, setHideBanner] = useLocalStorage(
+    "astroport:hideBanner",
+    false
+  );
 
   const handleClick = () => {
     setHideBanner(true);
   };
 
   if (hideBanner) {
-    return <Box></Box>;
+    return null;
   }
 
   return (
@@ -33,10 +35,10 @@ const TCBanner = () => {
       >
         <Box maxW="835px">
           <Text color="white">
-            Lorem ipsum. A cookie banner is a notice often displayed on a user's
-            first visit to a website that informs them about the cookies and
-            trackers the site uses and asks for the user's consent to store
-            cookies on their devices
+            Lorem ipsum. A cookie banner is a notice often displayed on a
+            user&apos;s first visit to a website that informs them about the
+            cookies and trackers the site uses and asks for the user&apos;s
+            consent to store cookies on their devices
           </Text>
         </Box>
         <Box mt={["4", null, "6", "0"]} pl={[null, null, null, "12"]}>
