@@ -9,15 +9,15 @@ const HomePage: NextPage = () => {
     <>
       <NextSeo
         title="Astroport. The future of trading."
-        description="Maximize your yields in the Terra ecosystem with Terra’s first yield optimizer and liquidation protector vaults "
+        description="An intergalactic AMM/DEX where adventurers can dock, swap and provide liquidity. Powered by the Terra blockchain."
         openGraph={{
-          url: "https://website-iota-umber.vercel.app/",
+          url: "https://website-ten-navy.vercel.app/",
           title: "Astroport. The future of trading.",
           description:
-            "Maximize your yields in the Terra ecosystem with Terra’s first yield optimizer and liquidation protector vaults ",
+            "An intergalactic AMM/DEX where adventurers can dock, swap and provide liquidity. Powered by the Terra blockchain.",
           images: [
             {
-              url: "https://website-iota-umber.vercel.app/banner.jpg",
+              url: "https://website-ten-navy.vercel.app/banner.jpg",
             },
           ],
           site_name: "AstroportProtocol",
