@@ -1,13 +1,6 @@
 import React from "react";
 import { AppProps } from "next/app";
 import { ChakraProvider, CSSReset } from "@chakra-ui/react";
-import {
-  useViewportScroll,
-  motion,
-  useTransform,
-  useMotionValue,
-} from "framer-motion";
-import { useInView } from "react-intersection-observer";
 import Layout from "components/Layout";
 import theme from "../theme";
 import "./styles.css";

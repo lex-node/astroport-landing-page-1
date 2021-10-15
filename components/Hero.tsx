@@ -67,7 +67,7 @@ const Hero = () => {
             />
           </AspectRatio>
           <AspectRatio ratio={1920 / 1020}>
-            <video loop autoPlay muted>
+            <video loop autoPlay muted poster="/home.jpg">
               <source src="/home.mp4"></source>
             </video>
           </AspectRatio>
