@@ -19,6 +19,8 @@ import {
   VStack,
 } from "@chakra-ui/react";
 
+import { Link as SmoothLink } from "react-scroll";
+
 import NavbarLink from "components/NavbarLink";
 import SocialsNav from "components/SocialsNav";
 import BurgerIcon from "components/icons/BurgerIcon";
@@ -48,7 +50,17 @@ const Navbar: FC = () => {
         >
           <Box>
             <HStack spacing="12">
-              <NavbarLink href="/" label="About" />
+              <Text color="white">
+                <SmoothLink
+                  href="#"
+                  to="about"
+                  offset={-50}
+                  smooth={true}
+                  duration={200}
+                >
+                  About
+                </SmoothLink>
+              </Text>
               <Menu>
                 <MenuButton as={Link} color="white">
                   Support

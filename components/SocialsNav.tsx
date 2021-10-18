@@ -15,30 +15,38 @@ const Socials: FC = () => {
         rel="noreferrer"
       >
         <TwitterIcon
-          width={{ base: "1.25rem", lg: "2rem" }}
-          height={{ base: "1.25rem", lg: "2rem" }}
+          width={{ base: "1.75rem", lg: "2rem" }}
+          height={{ base: "1.75rem", lg: "2rem" }}
           color="white"
+          transition="all ease-in-out .1s"
+          _hover={{ color: "#83FFCB" }}
         />
       </a>
       <a href="https://t.me/AstroportProtocol" target="_blank" rel="noreferrer">
         <TelegramIcon
-          width={{ base: "1.25rem", lg: "2rem" }}
-          height={{ base: "1.25rem", lg: "2rem" }}
+          width={{ base: "1.75rem", lg: "2rem" }}
+          height={{ base: "1.75rem", lg: "2rem" }}
           color="white"
+          transition="all ease-in-out .1s"
+          _hover={{ color: "#83FFCB" }}
         />
       </a>
       <a href="https://t.me/AstroportProtocol" target="_blank" rel="noreferrer">
         <DiscordIcon
-          width={{ base: "1.25rem", lg: "2rem" }}
-          height={{ base: "1.25rem", lg: "2rem" }}
+          width={{ base: "1.75rem", lg: "2rem" }}
+          height={{ base: "1.75rem", lg: "2rem" }}
           color="white"
+          transition="all ease-in-out .1s"
+          _hover={{ color: "#83FFCB" }}
         />
       </a>
       <a href="https://t.me/AstroportProtocol" target="_blank" rel="noreferrer">
         <MediumIcon
-          width={{ base: "1.25rem", lg: "2rem" }}
-          height={{ base: "1.25rem", lg: "2rem" }}
+          width={{ base: "1.5rem", lg: "2rem" }}
+          height={{ base: "1.5rem", lg: "2rem" }}
           color="white"
+          transition="all ease-in-out .1s"
+          _hover={{ color: "#83FFCB" }}
         />
       </a>
     </HStack>

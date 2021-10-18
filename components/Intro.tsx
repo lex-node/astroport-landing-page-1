@@ -84,16 +84,22 @@ const Hero = () => {
                 <textPath
                   href="#circlePath"
                   letterSpacing="4px"
-                  fontSize="13px"
+                  fontSize="12px"
                 >
-                  Hyper Speed &nbsp;&nbsp; Explained
+                  HYPER SPEED &nbsp; EXPLAINED
                 </textPath>
               </text>
             </svg>
           </Box>
         </Box>
       </Flex>
-      <VStack color="white" spacing="16" fontSize="20px" maxW="container.sm">
+      <VStack
+        color="white"
+        spacing="16"
+        fontSize="20px"
+        maxW="container.sm"
+        id="about"
+      >
         <Box>
           Hovering above the
           <Box display="inline-block" px="2" mb="-3">
@@ -142,7 +148,7 @@ const Hero = () => {
         <Button
           as="a"
           variant="primary"
-          href="/"
+          href="https://astroport.medium.com/astroport-litepaper-1fab783b77b5"
           size="sm"
           target="_blank"
           rel="noreferrer"

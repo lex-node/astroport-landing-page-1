@@ -1,14 +1,13 @@
 const button = {
-  sizes: {
-    lg: {
-      fontSize: "sm",
-    },
+  baseStyle: {
+    textTransform: "uppercase",
+    fontWeight: "500",
   },
   variants: {
     primary: {
       outline: "none",
+      fontSize: "13px",
       borderRadius: "full",
-      fontWeight: "400",
       bg: "brand.purple",
       color: "white",
       px: "6",
@@ -45,12 +44,10 @@ const button = {
       },
     },
     outline: {
-      textTransform: "uppercase",
       borderRadius: "100px",
       color: "white",
       fontSize: "13px",
       px: "25px",
-      fontWeight: "500",
       _hover: {
         color: "brand.darkBlue",
         bg: "white",

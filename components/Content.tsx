@@ -14,7 +14,13 @@ import {
   AspectRatio,
 } from "@chakra-ui/react";
 
+import { motion, useViewportScroll, useTransform } from "framer-motion";
+
+const MotionImage = motion(Image);
+
 const Content = () => {
+  const { scrollY } = useViewportScroll();
+
   return (
     <Box
       pt={["10", null, "16", "28"]}
@@ -58,8 +64,7 @@ const Content = () => {
               <Text>
                 It’s backwards compatible with Terraswap message formats and
                 features advanced analytics, charting and a next-generation user
-                interface designed by IDEO CoLab Venture’s world class user
-                interface team.
+                interface.
               </Text>
               <HStack pt="4" spacing="6">
                 <Button
@@ -82,7 +87,7 @@ const Content = () => {
               ratio={1}
             >
               <Box position="relative" width="100%" height="100%">
-                <Image
+                <MotionImage
                   src="/next-evolution-dex-1.png"
                   position="absolute"
                   top="0"
@@ -91,7 +96,10 @@ const Content = () => {
                   height="100%"
                   zIndex="1"
                   alt=""
-                ></Image>
+                  style={{
+                    x: useTransform(scrollY, [1000, 2000], [0, -500]),
+                  }}
+                ></MotionImage>
                 <Image
                   src="/next-evolution-dex-2.png"
                   position="absolute"

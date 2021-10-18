@@ -11,6 +11,19 @@ const styles = {
         textDecoration: "none",
       },
     },
+    outline: {
+      bg: "brand.darkBlue",
+      border: "solid 1px white",
+      borderRadius: "100px",
+      color: "white",
+      fontSize: "13px",
+      px: "25px",
+      _hover: {
+        color: "brand.darkBlue",
+        bg: "white",
+        textDecoration: "none",
+      }
+    },
     animated: {
       position: "relative",
       pb: "1px",
