@@ -14,13 +14,7 @@ import {
   AspectRatio,
 } from "@chakra-ui/react";
 
-import { motion, useViewportScroll, useTransform } from "framer-motion";
-
-const MotionImage = motion(Image);
-
 const Content = () => {
-  const { scrollY } = useViewportScroll();
-
   return (
     <Box
       pt={["10", null, "16", "28"]}
@@ -87,7 +81,7 @@ const Content = () => {
               ratio={1}
             >
               <Box position="relative" width="100%" height="100%">
-                <MotionImage
+                <Image
                   src="/next-evolution-dex-1.png"
                   position="absolute"
                   top="0"
@@ -96,10 +90,8 @@ const Content = () => {
                   height="100%"
                   zIndex="1"
                   alt=""
-                  style={{
-                    x: useTransform(scrollY, [1000, 2000], [0, -500]),
-                  }}
-                ></MotionImage>
+                  className="dex-1"
+                ></Image>
                 <Image
                   src="/next-evolution-dex-2.png"
                   position="absolute"
@@ -109,6 +101,7 @@ const Content = () => {
                   height="100%"
                   zIndex="2"
                   alt=""
+                  className="dex-2"
                 ></Image>
                 <Image
                   src="/next-evolution-dex-3.png"
@@ -119,6 +112,7 @@ const Content = () => {
                   height="100%"
                   zIndex="3"
                   alt=""
+                  className="dex-3"
                 ></Image>
               </Box>
             </AspectRatio>
@@ -199,6 +193,7 @@ const Content = () => {
                   height="100%"
                   zIndex="1"
                   alt=""
+                  className="lp-1"
                 ></Image>
                 <Image
                   src="/traders-lp-meet-2.png"
@@ -209,6 +204,7 @@ const Content = () => {
                   height="100%"
                   zIndex="2"
                   alt=""
+                  className="lp-2"
                 ></Image>
                 <Image
                   src="/traders-lp-meet-3.png"
@@ -219,6 +215,7 @@ const Content = () => {
                   height="100%"
                   zIndex="3"
                   alt=""
+                  className="lp-3"
                 ></Image>
               </Box>
             </AspectRatio>

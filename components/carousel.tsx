@@ -11,12 +11,8 @@ import {
   AspectRatio,
 } from "@chakra-ui/react";
 
-import { motion, useViewportScroll, useTransform } from "framer-motion";
-
 import Lottie from "react-lottie";
 import * as animationHero from "../public/hero.json";
-
-const MotionHStack = motion(HStack);
 
 const spin = keyframes`
   from {transform: rotate(0deg);}
@@ -25,7 +21,6 @@ const spin = keyframes`
 const spinAnimation = `${spin} infinite 60s linear`;
 
 const Carousel = () => {
-  const { scrollY } = useViewportScroll();
   const heroOptions = {
     loop: true,
     autoplay: true,
@@ -57,14 +52,13 @@ const Carousel = () => {
         zIndex="5"
       ></Box>
       <Box position="relative" zIndex="10">
-        <MotionHStack
+        <HStack
           fontSize="28px"
           whiteSpace="nowrap"
           spacing="3"
+          float="right"
           mb={["10", null, "16", "28"]}
-          style={{
-            x: useTransform(scrollY, [1000, 2000], [0, -500]),
-          }}
+          className="translate-carousel"
         >
           <Text textTransform="uppercase" color="white">
             Astroport Specs
@@ -183,38 +177,13 @@ const Carousel = () => {
           <Text textTransform="uppercase" color="white">
             Astroport Specs
           </Text>
-          <Text textTransform="uppercase" color="white">
-            Astroport Specs
-          </Text>
-          <Text textTransform="uppercase" color="white">
-            Astroport Specs
-          </Text>
-          <Text textTransform="uppercase" color="white">
-            Astroport Specs
-          </Text>
-          <Text textTransform="uppercase" color="white">
-            Astroport Specs
-          </Text>
-          <Text textTransform="uppercase" color="white">
-            Astroport Specs
-          </Text>
-          <Text textTransform="uppercase" color="white">
-            Astroport Specs
-          </Text>
-          <Text textTransform="uppercase" color="white">
-            Astroport Specs
-          </Text>
-          <Text textTransform="uppercase" color="white">
-            Astroport Specs
-          </Text>
-          <Text textTransform="uppercase" color="white">
-            Astroport Specs
-          </Text>
-          <Text textTransform="uppercase" color="white">
-            Astroport Specs
-          </Text>
-        </MotionHStack>
-        <Container maxW="container.xl" px={["8", null, "12"]} color="white">
+        </HStack>
+        <Container
+          maxW="container.xl"
+          px={["8", null, "12"]}
+          color="white"
+          className="wrapper-after-translate"
+        >
           <Stack
             spacing={["8", null, "5%"]}
             direction={["column", null, null, "row"]}
