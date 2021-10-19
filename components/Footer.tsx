@@ -117,7 +117,6 @@ const Footer = () => {
                     >
                       <Link>Trade / Swap</Link>
                       <Link>liquidity pools</Link>
-                      <Link>Pre-launches</Link>
                       <Link>Docs</Link>
                       <Link>Governance</Link>
                     </VStack>
