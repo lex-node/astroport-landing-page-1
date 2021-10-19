@@ -166,12 +166,12 @@ const Footer = () => {
                       textTransform="uppercase"
                       fontSize={["14px", null, "1rem"]}
                     >
-                      <Link
+                      <Text
                         href="https://astroport.medium.com/"
                         isExternal={true}
                       >
                         Discord
-                      </Link>
+                      </Text>
                       <Link
                         href="https://astroport.medium.com/"
                         isExternal={true}
