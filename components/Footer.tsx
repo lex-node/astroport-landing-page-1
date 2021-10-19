@@ -10,12 +10,24 @@ import {
   StackDivider,
   Stack,
   Divider,
+  AspectRatio,
 } from "@chakra-ui/react";
 
-import Socials from "components/Socials";
+import Lottie from "react-lottie";
+import * as animationAstro from "../public/astro_A.json";
+
 import ArrowRightIcon from "components/icons/ArrowRightIcon";
 
 const Footer = () => {
+  const astroOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationAstro,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
+
   return (
     <Box>
       <Box
@@ -35,10 +47,9 @@ const Footer = () => {
               divider={<StackDivider borderColor="white" />}
             >
               <Flex py="18px" justify="center">
-                <Image
-                  src="/logo-astroport.svg"
-                  alt="Astroport. The future of trading."
-                />
+                <AspectRatio ratio={1} width="45px">
+                  <Lottie options={astroOptions} />
+                </AspectRatio>
               </Flex>
               <Text
                 fontSize={["26px", null, "48px"]}
@@ -166,12 +177,7 @@ const Footer = () => {
                       textTransform="uppercase"
                       fontSize={["14px", null, "1rem"]}
                     >
-                      <Text
-                        href="https://astroport.medium.com/"
-                        isExternal={true}
-                      >
-                        Discord
-                      </Text>
+                      <Text>Discord</Text>
                       <Link
                         href="https://astroport.medium.com/"
                         isExternal={true}
