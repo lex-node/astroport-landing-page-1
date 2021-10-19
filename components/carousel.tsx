@@ -9,6 +9,8 @@ import {
   VStack,
   keyframes,
   AspectRatio,
+  UnorderedList,
+  ListItem,
 } from "@chakra-ui/react";
 
 import Lottie from "react-lottie";
@@ -203,15 +205,16 @@ const Carousel = () => {
                 Features
                 <sup className="heading__sup">01</sup>
               </Heading>
-              <Text fontSize="18px" pb={["10", null, "20"]}>
-                Programmable liquidity
-                <br />
-                All-new Rust code
-                <br />
-                Oracle integration
-                <br />
-                Easy dapp integration
-              </Text>
+              <UnorderedList
+                fontSize="18px"
+                pb={["10", null, "20"]}
+                fontWeight="normal"
+              >
+                <ListItem>Programmable liquidity</ListItem>
+                <ListItem>All-new Rust code</ListItem>
+                <ListItem>Oracle integration</ListItem>
+                <ListItem>Easy dapp integration</ListItem>
+              </UnorderedList>
               <Box borderTop="1px" color="white" pr="10" pt="4">
                 <Heading
                   as="h3"
@@ -228,7 +231,7 @@ const Carousel = () => {
                   <br />
                   Stableswap
                   <br />
-                  LBPs
+                  Liquidity Bootstrapping Pools
                 </Text>
               </Box>
             </VStack>

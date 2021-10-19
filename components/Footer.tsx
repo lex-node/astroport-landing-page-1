@@ -167,11 +167,27 @@ const Footer = () => {
                       textTransform="uppercase"
                       fontSize={["14px", null, "1rem"]}
                     >
-                      <Link>Discord</Link>
-                      <Link>Medium</Link>
-                      <Link>Substack</Link>
-                      <Link>Telegram</Link>
-                      <Link>Twitter</Link>
+                      <Link
+                        href="https://astroport.medium.com/"
+                        isExternal={true}
+                      >
+                        Discord
+                      </Link>
+                      <Link
+                        href="https://astroport.medium.com/"
+                        isExternal={true}
+                      >
+                        Medium
+                      </Link>
+                      <Link
+                        href="https://twitter.com/astroport_fi"
+                        isExternal={true}
+                      >
+                        Telegram
+                      </Link>
+                      <Link href="https://t.me/astroport_fi" isExternal={true}>
+                        Twitter
+                      </Link>
                     </VStack>
                   </Box>
                 </Flex>
