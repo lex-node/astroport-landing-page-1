@@ -50,7 +50,7 @@ const Navbar: FC = () => {
         >
           <Box>
             <HStack spacing="12">
-              <Text color="white">
+              <Text color="white" _hover={{ textDecoration: "underline" }}>
                 <SmoothLink
                   href="#"
                   to="about"
