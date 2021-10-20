@@ -191,7 +191,11 @@ const Carousel = () => {
             direction={["column", null, null, "row"]}
             justify="space-between"
           >
-            <VStack spacing={["4", null, "6"]} align="flex-start" width="45%">
+            <VStack
+              spacing={["4", null, "6"]}
+              align="flex-start"
+              width={["100%", null, null, "45%"]}
+            >
               <Heading
                 as="h2"
                 fontSize={["32px", null, "64px"]}
