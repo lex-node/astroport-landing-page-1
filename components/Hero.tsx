@@ -54,7 +54,7 @@ const Hero = () => {
                   mb="1"
                   mr="1"
                 />
-                <Text whiteSpace="nowrap">Start trading</Text>
+                <Text whiteSpace="nowrap">Add liquidity</Text>
               </Flex>
             </Flex>
           </Link>
