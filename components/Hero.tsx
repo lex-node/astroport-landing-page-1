@@ -78,7 +78,7 @@ const Hero = () => {
             </video>
           </AspectRatio>
         </Box>
-        <Stack
+        {/* <Stack
           direction={{ base: "column", md: "row" }}
           spacing={{ base: "6", md: "0" }}
           align="center"
@@ -95,7 +95,7 @@ const Hero = () => {
         >
           <HeroStat label="Liquidity" value="$1.6B" />
           <HeroStat label="24-hour trading volume" value="$203 million" />
-        </Stack>
+        </Stack> */}
       </Box>
     </Container>
   );

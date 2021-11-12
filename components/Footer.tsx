@@ -148,7 +148,7 @@ const Footer = () => {
                     <Text fontSize="24px" mb={["4", null, "6"]}>
                       Support
                     </Text>
-                    <VStack
+                    {/* <VStack
                       align="flex-start"
                       spacing="1"
                       flex="1"
@@ -158,7 +158,7 @@ const Footer = () => {
                       <Link>Tutorials</Link>
                       <Link>Forum</Link>
                     </VStack>
-                    <Divider my="4" width="6" />
+                    <Divider my="4" width="6" /> */}
                     <VStack
                       align="flex-start"
                       spacing="1"
@@ -167,7 +167,7 @@ const Footer = () => {
                       fontSize={["14px", null, "1rem"]}
                     >
                       <Link>Terms of use</Link>
-                      <Link>Privacy policy</Link>
+                      {/* <Link>Privacy policy</Link> */}
                     </VStack>
                   </Box>
                 </Flex>
@@ -183,7 +183,12 @@ const Footer = () => {
                       textTransform="uppercase"
                       fontSize={["14px", null, "1rem"]}
                     >
-                      <Text>Discord</Text>
+                      <Link
+                        href="https://astroport.medium.com/"
+                        isExternal={true}
+                      >
+                        Discord
+                      </Link>
                       <Link
                         href="https://astroport.medium.com/"
                         isExternal={true}

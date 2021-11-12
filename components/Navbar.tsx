@@ -61,7 +61,7 @@ const Navbar: FC = () => {
                   About
                 </SmoothLink>
               </Text>
-              <Menu>
+              {/* <Menu>
                 <MenuButton as={Link} color="white">
                   Support
                 </MenuButton>
@@ -69,7 +69,7 @@ const Navbar: FC = () => {
                   <MenuItem>Tutorials</MenuItem>
                   <MenuItem>Forum</MenuItem>
                 </MenuList>
-              </Menu>
+              </Menu> */}
             </HStack>
           </Box>
           <Box>
