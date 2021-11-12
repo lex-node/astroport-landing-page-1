@@ -21,8 +21,15 @@
 }
 
 .translate-carousel {
-    animation: carousel 45s infinite linear;
+    animation: carousel 15s infinite linear;
 }
+
+@media screen and (min-width: 48em) {
+    .translate-carousel {
+        animation: carousel 45s infinite linear;
+    }
+}
+
 
 .wrapper-after-translate {
     float: none;

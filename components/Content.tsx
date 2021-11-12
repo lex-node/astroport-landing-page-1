@@ -71,7 +71,7 @@ const Content = () => {
                   textTransform="uppercase"
                   fontWeight="500"
                 >
-                  Launch App
+                  Go to Astro drop
                 </Button>
               </HStack>
             </VStack>
@@ -151,7 +151,7 @@ const Content = () => {
                 directly into their platforms. That means traders throughout the
                 Terra ecosystem always have access to your liquidity.
               </Text>
-              <HStack pt="4" spacing="6">
+              <HStack pt="4" spacing="6" display="none">
                 <Button
                   as="a"
                   variant="primary"

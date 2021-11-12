@@ -18,12 +18,18 @@ import ArrowRightIcon from "components/icons/ArrowRightIcon";
 
 const Hero = () => {
   return (
-    <Container maxW="container.xl" px={["6", null, "12"]} mt="12">
+    <Container
+      maxW="container.xl"
+      px={["6", null, "12"]}
+      mt="12"
+      className="wrapper-after-translate"
+    >
       <Box borderWidth="1px" borderColor="white">
         <Stack
           direction={{ base: "column", md: "row" }}
           divider={<StackDivider borderColor="white" />}
           spacing="0"
+          justify="space-between"
         >
           <Box px="6" py="4" pr="24" flex="1">
             <Heading

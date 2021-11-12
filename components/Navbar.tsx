@@ -86,7 +86,7 @@ const Navbar: FC = () => {
               textTransform="uppercase"
               fontWeight="500"
             >
-              Launch App
+              Go to Astro drop
             </Button>
           </Box>
         </HStack>

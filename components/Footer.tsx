@@ -76,7 +76,7 @@ const Footer = () => {
                       mr="1"
                       display={[null, null, "none"]}
                     />
-                    <Text whiteSpace="nowrap">Enter Astroport</Text>
+                    <Text whiteSpace="nowrap">Enter Astro drop</Text>
                   </Flex>
                 </Flex>
               </Link>
@@ -126,10 +126,16 @@ const Footer = () => {
                       textTransform="uppercase"
                       fontSize={["14px", null, "1rem"]}
                     >
-                      <Link>Trade / Swap</Link>
-                      <Link>liquidity pools</Link>
+                      <Link pointerEvents="none" opacity="0.5">
+                        Trade / Swap
+                      </Link>
+                      <Link pointerEvents="none" opacity="0.5">
+                        liquidity pools
+                      </Link>
                       <Link>Docs</Link>
-                      <Link>Governance</Link>
+                      <Link pointerEvents="none" opacity="0.5">
+                        Governance
+                      </Link>
                     </VStack>
                   </Box>
                 </Flex>
