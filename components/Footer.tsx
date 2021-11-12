@@ -115,7 +115,7 @@ const Footer = () => {
                   justifyContent="space-between"
                   fontFamily="WhyteInktrap"
                 >
-                  <Box>
+                  {/* <Box>
                     <Text fontSize="24px" mb={["4", null, "6"]}>
                       Astroport
                     </Text>
@@ -137,7 +137,7 @@ const Footer = () => {
                         Governance
                       </Link>
                     </VStack>
-                  </Box>
+                  </Box> */}
                 </Flex>
                 <Flex
                   direction="column"
