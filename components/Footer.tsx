@@ -184,7 +184,7 @@ const Footer = () => {
                       fontSize={["14px", null, "1rem"]}
                     >
                       <Link
-                        href="https://astroport.medium.com/"
+                        href="https://discord.gg/astroport"
                         isExternal={true}
                       >
                         Discord
