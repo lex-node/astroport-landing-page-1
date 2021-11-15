@@ -60,7 +60,7 @@ const Footer = () => {
                 Astroport brings liquidity to Terra tokens from all parts of the
                 galaxy.
               </Text>
-              <Link variant="cta" flex="0">
+              {/* <Link variant="cta" flex="0">
                 <Flex align="center" height="100%">
                   <Flex
                     px={["6", null, "12", "20"]}
@@ -79,7 +79,7 @@ const Footer = () => {
                     <Text whiteSpace="nowrap">Enter Astro drop</Text>
                   </Flex>
                 </Flex>
-              </Link>
+              </Link> */}
             </VStack>
           </Box>
         </Container>

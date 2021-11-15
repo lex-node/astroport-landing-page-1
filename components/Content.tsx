@@ -60,7 +60,7 @@ const Content = () => {
                 features advanced analytics, charting and a next-generation user
                 interface.
               </Text>
-              <HStack pt="4" spacing="6">
+              {/* <HStack pt="4" spacing="6">
                 <Button
                   as="a"
                   variant="primary"
@@ -73,7 +73,7 @@ const Content = () => {
                 >
                   Go to Astro drop
                 </Button>
-              </HStack>
+              </HStack> */}
             </VStack>
             <AspectRatio
               position="relative"

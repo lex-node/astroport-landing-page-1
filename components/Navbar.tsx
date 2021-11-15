@@ -75,7 +75,7 @@ const Navbar: FC = () => {
           <Box>
             <SocialsNav />
           </Box>
-          <Box>
+          {/* <Box>
             <Button
               as="a"
               variant="primary"
@@ -88,7 +88,7 @@ const Navbar: FC = () => {
             >
               Go to Astro drop
             </Button>
-          </Box>
+          </Box> */}
         </HStack>
         <Box display={{ md: "none" }} mr="-4">
           <Button variant="icon" ref={btnRef} onClick={onOpen}>

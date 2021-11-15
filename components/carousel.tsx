@@ -219,7 +219,7 @@ const Carousel = () => {
                 <ListItem>Oracle integration</ListItem>
                 <ListItem>Easy dapp integration</ListItem>
               </UnorderedList>
-              <Box borderTop="1px" color="white" pr="10" pt="4">
+              {/* <Box borderTop="1px" color="white" pr="10" pt="4">
                 <Heading
                   as="h3"
                   fontSize="18px"
@@ -237,7 +237,7 @@ const Carousel = () => {
                   <br />
                   Liquidity Bootstrapping Pools
                 </Text>
-              </Box>
+              </Box> */}
             </VStack>
             <Box position="relative" w="100%" pt={["10", null, "0"]}>
               <Box
