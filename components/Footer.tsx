@@ -195,13 +195,13 @@ const Footer = () => {
                       >
                         Medium
                       </Link>
+                      <Link href="https://t.me/astroport_fi" isExternal={true}>
+                        Telegram
+                      </Link>
                       <Link
                         href="https://twitter.com/astroport_fi"
                         isExternal={true}
                       >
-                        Telegram
-                      </Link>
-                      <Link href="https://t.me/astroport_fi" isExternal={true}>
                         Twitter
                       </Link>
                     </VStack>
