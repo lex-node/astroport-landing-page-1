@@ -21,9 +21,9 @@ const Socials: FC = () => {
       >
         <GithubIcon width="1.25rem" height="1.25rem" />
       </a> */}
-      {/* <a href="https://t.me/AstroportProtocol" target="_blank" rel="noreferrer">
+      <a href="https://t.me/astroport_fi" target="_blank" rel="noreferrer">
         <TelegramIcon width="1.25rem" height="1.25rem" />
-      </a> */}
+      </a>
       {/* <a href="https://google.com" target="_blank" rel="noreferrer">
         <DiscordIcon width="1.25rem" height="1.25rem" />
       </a> */}
