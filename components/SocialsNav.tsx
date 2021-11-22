@@ -18,7 +18,7 @@ const Socials: FC = () => {
           _hover={{ color: "#83FFCB" }}
         />
       </Link>
-      <Link href="https://t.me/AstroportProtocol" isExternal={true}>
+      {/* <Link href="https://t.me/AstroportProtocol" isExternal={true}>
         <TelegramIcon
           width={{ base: "1.75rem", lg: "2rem" }}
           height={{ base: "1.75rem", lg: "2rem" }}
@@ -26,7 +26,7 @@ const Socials: FC = () => {
           transition="all ease-in-out .1s"
           _hover={{ color: "#83FFCB" }}
         />
-      </Link>
+      </Link> */}
       <Link href="https://discord.gg/astroport" isExternal={true}>
         <DiscordIcon
           width={{ base: "1.75rem", lg: "2rem" }}
