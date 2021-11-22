@@ -11,20 +11,20 @@ const HomePage: NextPage = () => {
         title="Astroport. The future of trading."
         description="An intergalactic AMM/DEX where adventurers can dock, swap and provide liquidity. Powered by the Terra blockchain."
         openGraph={{
-          url: "https://website-ten-navy.vercel.app/",
+          url: "https://astroport.fi.vercel.app/",
           title: "Astroport. The future of trading.",
           description:
             "An intergalactic AMM/DEX where adventurers can dock, swap and provide liquidity. Powered by the Terra blockchain.",
           images: [
             {
-              url: "https://website-ten-navy.vercel.app/banner.jpg",
+              url: "https://astroport.fi/banner.jpg",
             },
           ],
           site_name: "AstroportProtocol",
         }}
         twitter={{
-          handle: "@AstroportProtocol",
-          site: "@AstroportProtocol",
+          handle: "@astroport_fi",
+          site: "@astroport_fi",
           cardType: "summary_large_image",
         }}
       />

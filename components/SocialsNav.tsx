@@ -9,7 +9,7 @@ import MediumIcon from "components/icons/MediumIcon";
 const Socials: FC = () => {
   return (
     <HStack spacing={["9", null, "4"]}>
-      <Link href="https://twitter.com/AstroportProtocol" isExternal={true}>
+      <Link href="https://twitter.com/astroport_fi" isExternal={true}>
         <TwitterIcon
           width={{ base: "1.75rem", lg: "2rem" }}
           height={{ base: "1.75rem", lg: "2rem" }}

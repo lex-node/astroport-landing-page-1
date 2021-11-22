@@ -8,7 +8,7 @@ const Socials: FC = () => {
   return (
     <HStack spacing={["8", null, "4"]}>
       <a
-        href="https://twitter.com/AstroportProtocol"
+        href="https://twitter.com/astroport_fi"
         target="_blank"
         rel="noreferrer"
       >
