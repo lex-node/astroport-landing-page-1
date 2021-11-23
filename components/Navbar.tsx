@@ -6,10 +6,6 @@ import {
   HStack,
   Image,
   Button,
-  Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,
   Container,
   Drawer,
   DrawerOverlay,
@@ -21,7 +17,8 @@ import {
 
 import { Link as SmoothLink } from "react-scroll";
 
-import NavbarLink from "components/NavbarLink";
+import NextLink from "next/link";
+
 import SocialsNav from "components/SocialsNav";
 import BurgerIcon from "components/icons/BurgerIcon";
 import CloseIcon from "components/icons/CloseIcon";
@@ -39,10 +36,13 @@ const Navbar: FC = () => {
     >
       <Flex justify="space-between" width="100%" align="center">
         <Box>
-          <Image
-            src="/logo-astroport.svg"
-            alt="Astroport. The future of trading."
-          />
+          <NextLink href="/" passHref>
+            <Image
+              src="/logo-astroport.svg"
+              alt="Astroport. The future of trading."
+              cursor="pointer"
+            />
+          </NextLink>
         </Box>
         <HStack
           spacing={{ md: "12", lg: "16" }}

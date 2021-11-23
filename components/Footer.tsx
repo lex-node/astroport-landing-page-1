@@ -13,6 +13,8 @@ import {
   AspectRatio,
 } from "@chakra-ui/react";
 
+import NextLink from "next/link";
+
 import Lottie from "react-lottie";
 import * as animationAstro from "../public/astro_A.json";
 
@@ -166,7 +168,9 @@ const Footer = () => {
                       textTransform="uppercase"
                       fontSize={["14px", null, "1rem"]}
                     >
-                      <Link>Terms of use</Link>
+                      <NextLink href="/terms-and-conditions" passHref>
+                        <Link>Terms of use</Link>
+                      </NextLink>
                       {/* <Link>Privacy policy</Link> */}
                     </VStack>
                   </Box>

@@ -16,11 +16,7 @@ import {
 
 const Content = () => {
   return (
-    <Box
-      pt={["10", null, "16", "28"]}
-      pb={["16", null, null, "20"]}
-      bg="brand.darkBlue"
-    >
+    <Box pt={["10", null, "16", "28"]} pb={["16", null, null, "20"]}>
       <Container maxW="container.xl" px={["8", null, "12"]} color="white">
         <VStack spacing="34">
           <Stack
