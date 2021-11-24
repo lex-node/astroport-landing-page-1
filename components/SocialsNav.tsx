@@ -36,7 +36,7 @@ const Socials: FC = () => {
           _hover={{ color: "#83FFCB" }}
         />
       </Link>
-      <Link href="https://astroport.medium.com/" isExternal={true}>
+      <Link href="https://astroport.medium.com" isExternal={true}>
         <MediumIcon
           width={{ base: "1.5rem", lg: "2rem" }}
           height={{ base: "1.5rem", lg: "2rem" }}
