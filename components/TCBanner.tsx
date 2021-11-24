@@ -35,10 +35,10 @@ const TCBanner = () => {
           <Text>
             This website (the “Site”) is an information aggregator relating to
             an Astroport smart contract system on Terra. By viewing, interacting
-            with or otherwise using the Site, you are agreeing to the
-            <Link href="#" fontWeight="bold">
-              Terms and Conditions for the Site
-            </Link>
+            with or otherwise using the Site, you are agreeing to the{" "}
+            <NextLink href="/terms-and-conditions" passHref>
+              <Link fontWeight="bold">Terms and Conditions for the Site</Link>
+            </NextLink>
             . Please check below to certify you have read and understood and are
             agreeing to be bound by the Terms and Conditions in their entirety.
           </Text>
