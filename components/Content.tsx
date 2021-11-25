@@ -43,13 +43,13 @@ const Content = () => {
                 of six years of development on the Ethereum blockchain and
                 delivers it on Terra.
               </Text>
-              <Text>It supports three liquidity pool types:</Text>
+              <Text>It supports two liquidity pool types:</Text>
               <UnorderedList>
                 <ListItem>Uniswap’s Constant Product formula pools</ListItem>
                 <ListItem>Curve’s StableSwap Invariant formula pools </ListItem>
-                <ListItem>
+                {/* <ListItem>
                   Balancer’s Liquidity Bootstrapping (LBP) pools.
-                </ListItem>
+                </ListItem> */}
               </UnorderedList>
               <Text>
                 It’s backwards compatible with Terraswap message formats and

@@ -22,6 +22,7 @@ import NextLink from "next/link";
 import SocialsNav from "components/SocialsNav";
 import BurgerIcon from "components/icons/BurgerIcon";
 import CloseIcon from "components/icons/CloseIcon";
+import AstroportLogo from "components/icons/AstroportLogo";
 
 const Navbar: FC = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -37,11 +38,7 @@ const Navbar: FC = () => {
       <Flex justify="space-between" width="100%" align="center">
         <Box>
           <NextLink href="/" passHref>
-            <Image
-              src="/logo-astroport.svg"
-              alt="Astroport. The future of trading."
-              cursor="pointer"
-            />
+            <AstroportLogo width="41px" height="32px" color="white" />
           </NextLink>
         </Box>
         <HStack
