@@ -80,9 +80,6 @@ const Navbar: FC = () => {
               size="sm"
               target="_blank"
               rel="noreferrer"
-              bg="white"
-              color="brand.purple"
-              _hover={{ textDecoration: "underline" }}
             >
               Bug Bounty
             </Button>
