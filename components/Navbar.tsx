@@ -72,8 +72,21 @@ const Navbar: FC = () => {
           <Box>
             <SocialsNav />
           </Box>
-          {/* <Box>
+          <Box>
             <Button
+              as="a"
+              variant="primary"
+              href="https://www.immunefi.com/bounty/astroport"
+              size="sm"
+              target="_blank"
+              rel="noreferrer"
+              bg="white"
+              color="brand.purple"
+              _hover={{ textDecoration: "underline" }}
+            >
+              Bug Bounty
+            </Button>
+            {/* <Button
               as="a"
               variant="primary"
               href="/"
@@ -84,8 +97,8 @@ const Navbar: FC = () => {
               fontWeight="500"
             >
               Go to Astro drop
-            </Button>
-          </Box> */}
+            </Button> */}
+          </Box>
         </HStack>
         <Box display={{ md: "none" }} mr="-4">
           <Button variant="icon" ref={btnRef} onClick={onOpen}>
