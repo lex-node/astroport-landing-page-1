@@ -9,7 +9,6 @@ import {
   Text,
   StackDivider,
   Stack,
-  Divider,
   AspectRatio,
 } from "@chakra-ui/react";
 
@@ -17,8 +16,6 @@ import NextLink from "next/link";
 
 import Lottie from "react-lottie";
 import * as animationAstro from "../public/astro_A.json";
-
-import ArrowRightIcon from "components/icons/ArrowRightIcon";
 
 const Footer = () => {
   const astroOptions = {

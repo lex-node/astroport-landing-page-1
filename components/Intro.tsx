@@ -16,6 +16,7 @@ import * as animationTerra from "../public/terra.json";
 import * as animationAstro from "../public/astro.json";
 
 import SocialsNav from "components/SocialsNav";
+import ImmunefiBanner from "components/ImmunefiBanner";
 
 const spin = keyframes`
   from {transform: rotate(0deg);}
@@ -159,6 +160,7 @@ const Hero = () => {
         </Button>
         <SocialsNav />
       </VStack>
+      <ImmunefiBanner />
     </Container>
   );
 };
