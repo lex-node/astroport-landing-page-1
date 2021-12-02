@@ -168,6 +168,13 @@ const Footer = () => {
                       <NextLink href="/terms-and-conditions" passHref>
                         <Link>Terms of use</Link>
                       </NextLink>
+                      <Link
+                        href="https://www.immunefi.com/bounty/astroport"
+                        isExternal
+                      >
+                        Bug Bounty
+                      </Link>
+
                       {/* <Link>Privacy policy</Link> */}
                     </VStack>
                   </Box>
