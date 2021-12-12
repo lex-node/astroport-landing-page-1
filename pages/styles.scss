@@ -152,6 +152,10 @@
       padding-left: 2rem;
       list-style-type: circle;
     }
+
+    &.letter {
+      list-style: lower-latin;
+    }
   }
 
   p,

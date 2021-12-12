@@ -14,6 +14,9 @@ const TCContent = () => {
           <h1>Terms and conditions</h1>
           <VStack spacing="6" align="flex-start">
             <p>
+              <strong>Date of Initial Publication:</strong> December 11, 2021
+            </p>
+            <p>
               These terms and conditions (these{" "}
               <strong>
                 <i>“Terms”</i>
@@ -33,6 +36,13 @@ const TCContent = () => {
               </strong>
               ).
             </p>
+            <p>
+              Please contact us at{" "}
+              <a href="mailto:delphi_labs_contracts@delphidigital.io">
+                delphi_labs_contracts@delphidigital.io
+              </a>{" "}
+              for any questions or issues.
+            </p>
             <h2>Summary</h2>
             <p>
               Among other things, the Terms and Conditions provide that you
@@ -49,7 +59,7 @@ const TCContent = () => {
                   agree that the Site is provided for informational purposes
                   only and is not directly or indirectly in control of or
                   capable of interacting with Terra and Astroport or performing
-                  or effecting any transactions on your behalf;{" "}
+                  or effecting any transactions on your behalf;
                 </li>
                 <li>
                   agree that the Site is only being provided as an aid to your
@@ -101,8 +111,8 @@ const TCContent = () => {
           </VStack>
           <VStack spacing="6" align="flex-start">
             <h2>Binding provisions</h2>
-            <h3>Site overview</h3>
-            <h4>About the Site</h4>
+            <h3>1. Site overview</h3>
+            <h4>1.1 About the Site</h4>
             <p>
               The Site aggregates and publishes publicly available third-party
               information about:
@@ -116,7 +126,7 @@ const TCContent = () => {
                   third parties known as “liquidity providers” in connection
                   with the Astroport Smart Contract System;
                 </li>
-                <li>the implied or express fair market prices of tokens;</li>
+                <li>the implied or express fair market prices of tokens; </li>
                 <li>
                   the staking, distribution and voting of $ASTRO, $xASTRO and
                   $vxASTRO pursuant to governance of the Astroport Smart
@@ -137,7 +147,7 @@ const TCContent = () => {
               independently utilize in conjunction with a third-party wallet
               application or device to conduct transactions on Terra.
             </p>
-            <h4>About Astroport</h4>
+            <h4>1.2 About Astroport</h4>
             <p>
               The Astroport Smart Contract Protocol is software source code
               freely licensed to the public, which provides an “automatic
@@ -152,9 +162,9 @@ const TCContent = () => {
               any User may pay Terra Validators to operate and record the
               results of the Astroport Smart Contract System in accordance with
               the User’s instructions, thus effectuating token transactions on
-              Terra.{" "}
+              Terra.
             </p>
-            <h4>Relationship to Astroport Smart Contract System</h4>
+            <h4>1.3 Relationship to Astroport Smart Contract System</h4>
             <p>
               The Site Operator does not own, operate or control Terra or the
               Astroport Smart Contract System. Using Terra or the Astroport
@@ -202,14 +212,22 @@ const TCContent = () => {
               Terra Validators , who are not under the control of or affiliated
               with the Site Operator or the Site.
             </p>
-            <h4>Defined Terms</h4>
+            <h4>1.4 Defined Terms</h4>
             <Box w={[null, null, "80%"]}>
               <ul>
                 <li>
                   <strong>
                     <i>“Astroport Smart Contract Protocol”</i>
                   </strong>{" "}
-                  means the source code at [REPO URL].
+                  means the source code at{" "}
+                  <a
+                    href="https://github.com/astroport-fi/astroport."
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    https://github.com/astroport-fi/astroport.
+                  </a>
+                  .
                 </li>
                 <li>
                   <strong>
@@ -225,7 +243,15 @@ const TCContent = () => {
                   </strong>{" "}
                   means the web site, web pages, web applications and
                   information and software available at or accessible through
-                  the URL http://[____] or any sub-URL of such URL.
+                  the URL{" "}
+                  <a
+                    href="https://astroport.fi/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    https://astroport.fi/
+                  </a>{" "}
+                  or any sub-URL of such URL.
                 </li>
                 <li>
                   <strong>
@@ -264,12 +290,12 @@ const TCContent = () => {
                 </li>
               </ul>
             </Box>
-            <h3>Site operator discretion; certain risks of the site</h3>
+            <h3>2. Site operator discretion; certain risks of the site</h3>
             <p>
               Each User hereby acknowledges and agrees and consents to, and
               assumes the risks of, the matters described in this Section 2.
             </p>
-            <h4>Content</h4>
+            <h4>2.1 Content</h4>
             <p>
               Site Operator makes no representations or warranties as to the
               quality, origin, or ownership of any content found on or available
@@ -279,7 +305,7 @@ const TCContent = () => {
               shall not be liable for any losses, injuries, or damages from the
               purchase, inability to purchase, display, or use of content.
             </p>
-            <h4>Token Lists and Token Identification</h4>
+            <h4>2.2 Token Lists and Token Identification</h4>
             <p>
               In providing information about tokens, the Site associates or
               presumes the association of a token name, symbol or logo with a
@@ -296,7 +322,7 @@ const TCContent = () => {
               branding and confirm that the token accords with User’s
               expectations.
             </p>
-            <h4>User Responsibility for Accounts & Security</h4>
+            <h4>2.3 User Responsibility for Accounts & Security</h4>
             <p>
               Users are solely responsible for all matters relating to their
               accounts, addresses and tokens and for ensuring that all uses
@@ -311,7 +337,7 @@ const TCContent = () => {
               a warranty, guarantee, promise or assurance regarding the fitness
               or security thereof.
             </p>
-            <h4>No Site Fees; Third-Party Fees Irreversible</h4>
+            <h4>2.4 No Site Fees; Third-Party Fees Irreversible</h4>
             <p>
               There are no fees or charges for use of the Site. Use of the
               Astroport Smart Contract System and use of Terra is subject to
@@ -319,26 +345,26 @@ const TCContent = () => {
               such fees and has no ability to reverse or refund any mounts paid
               in error.
             </p>
-            <p>
+            <h4>
               <strong>
-                Site Operator Has No Business Plan and May Discontinue, Limit,
-                Terminate or Refuse Support for the Site or any Smart Contracts,
-                Tokens or Pools
+                2.5 Site Operator Has No Business Plan and May Discontinue,
+                Limit, Terminate or Refuse Support for the Site or any Smart
+                Contracts, Tokens or Pools
               </strong>
-            </p>
+            </h4>
             <p>
-              The Site is a free web application operated and maintained in the
-              sole and absolute discretion of the Site Operator The Site
-              Operator assumes no duties, liabilities, obligations or
-              undertakings to continue operating or maintaining the availability
-              of the Site and may terminate or change the Site in any or all
-              respects at any time. The Site Operator has no business plan or
-              revenue model for the Site. The Site Operator does not have
-              revenues or a viable long-term business plan or capital-raising
-              plan, and may become unable or unwilling to fund the operational
-              costs of the Site on a long-term basis or to fund the upgrade
-              costs required to keep the Site up to date with current
-              technologies.
+              <strong>The</strong> Site is a free web application operated and
+              maintained in the sole and absolute discretion of the Site
+              Operator The Site Operator assumes no duties, liabilities,
+              obligations or undertakings to continue operating or maintaining
+              the availability of the Site and may terminate or change the Site
+              in any or all respects at any time. The Site Operator has no
+              business plan or revenue model for the Site. The Site Operator
+              does not have revenues or a viable long-term business plan or
+              capital-raising plan, and may become unable or unwilling to fund
+              the operational costs of the Site on a long-term basis or to fund
+              the upgrade costs required to keep the Site up to date with
+              current technologies.
             </p>
             <p>
               The Site Operator has no obligation to ensure that the Site is a
@@ -355,7 +381,7 @@ const TCContent = () => {
               equivalent information, and, depending on the User’s level of
               expertise and the quality of such third-party resources, this may
               result in the User incurring financial losses due to delays or
-              mistakes in processing information or transactions.{" "}
+              mistakes in processing information or transactions.
             </p>
             <p>
               The Astroport Smart Contract Protocol is available under a free
@@ -368,9 +394,11 @@ const TCContent = () => {
               contract systems. The Site Operator is under no obligation to
               publish information for all such copies of the Astroport Smart
               Contract Protocol or to warn Users regarding the existence of such
-              alternatives.{" "}
+              alternatives.
             </p>
-            <h4>Site Operator May Deny or Limit Access on a Targeted Basis</h4>
+            <h4>
+              2.6 Site Operator May Deny or Limit Access on a Targeted Basis
+            </h4>
             <p>
               The Site Operator reserves the right to terminate or limit any
               person’s User status or access to or use of the Site at any time,
@@ -382,10 +410,10 @@ const TCContent = () => {
               browser software, device type, wallet application, wallet device,
               region of citizenship or residence or current location, or
               suspicion that User has engaged or intends to engaged in any
-              Prohibited Use.{" "}
+              Prohibited Use.
             </p>
             <h4>
-              Site Operator May Cooperate with Investigations and Disclose
+              2.7 Site Operator May Cooperate with Investigations and Disclose
               Information
             </h4>
             <p>
@@ -398,7 +426,7 @@ const TCContent = () => {
               regulation, legal process or governmental request, in the Site
               Operator’s sole and absolute discretion.
             </p>
-            <h4>No Regulatory Supervision</h4>
+            <h4>2.8 No Regulatory Supervision</h4>
             <p>
               The Site Operator and the Site are not registered or qualified
               with or licensed by, do not report to and are not under the active
@@ -413,8 +441,8 @@ const TCContent = () => {
               authority or organization. The Site Operator is not registered as
               a broker, dealer, advisor, transfer agent or other intermediary.
             </p>
-            <h3>Intellectual property matters</h3>
-            <h4>License to Use Site</h4>
+            <h3>3. Intellectual property matters</h3>
+            <h4>3.1 License to Use Site</h4>
             <p>
               Each User, subject to and conditioned upon such User’s eligibility
               under and acceptance of and adherence to these Terms, is hereby
@@ -422,48 +450,81 @@ const TCContent = () => {
               non-sub-licensable license to view, access and use the Site for
               the Permitted Uses in accordance with these Terms.
             </p>
-            <h4>Site Code & License</h4>
+            <h4>3.2 Site Code & License</h4>
             <p>
-              The HTML and other software code and text used in the Site is
-              available at [GITHUB] and is freely licensed under [LICENSE].{" "}
+              The HTML and other software code and text used in the Site (other
+              than certain proprietary third-party fonts) will be available in
+              various repositories at{" "}
+              <a
+                href="https://github.com/astroport-fi"
+                target="_blank"
+                rel="noreferrer"
+              >
+                https://github.com/astroport-fi
+              </a>
+              , and will be freely licensed under the applicable license set
+              forth in each such repository.
             </p>
-            <h4>Marks, Logos and Branding</h4>
+            <h4>3.3 Marks, Logos and Branding</h4>
             <p>
               All Astroport-related marks, logos and branding used on the Site
-              are non-proprietary and freely licensed under the [SHARE A LIKE
-              LICENSE]. All other marks, logos and branding appearing on the
-              Site (including token names, symbols and logos identified on the
-              Site which may trade in connection with the Astroport Smart
-              Contract System) are the property of their respective owners.
+              are non-proprietary and freely licensed under the{" "}
+              <a
+                href="https://astroport.medium.com/launching-the-astroport-brand-into-the-creative-commons-9a369953ee29"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Astroport Brand Policy
+              </a>{" "}
+              and{" "}
+              <a
+                href="https://creativecommons.org/licenses/by-sa/4.0/legalcode"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Creative Commons Attribution-ShareAlike 4.0 International
+                License
+              </a>
+              . All other marks, logos and branding appearing on the Site
+              (including token names, symbols and logos identified on the Site
+              which may trade in connection with the Astroport Smart Contract
+              System) are the property of their respective owners.
             </p>
-            <h4>Marks, Logos and Branding</h4>
+            <h4>3.4 Privacy Policy</h4>
             <p>
-              All Astroport-related marks, logos and branding used on the Site
-              are non-proprietary and freely licensed under the [SHARE A LIKE
-              LICENSE]. All other marks, logos and branding appearing on the
-              Site (including token names, symbols and logos identified on the
-              Site which may trade in connection with the Astroport Smart
-              Contract System) are the property of their respective owners.
+              The Site may directly or indirectly collect and temporarily store
+              personally identifiable information for operational purposes,
+              including for the purpose of identifying blockchain addresses or
+              IP addresses that may indicate use of the Site from prohibited
+              jurisdictions or by sanctioned persons or other Prohibited Uses.
+              Except as required by applicable law, the Site Operator will have
+              no obligation of confidentiality with respect to any information
+              collected by the Site.
             </p>
-            <h4>Privacy Policy</h4>
+            <h4>3.5 Astroport Smart Contract Protocol</h4>
             <p>
-              The Site does not engage in long-term storage of personally
-              identifiable information. The Site may directly or indirectly
-              collect and temporarily store personally identifiable information
-              for operational purposes, including for the purpose of identifying
-              blockchain addresses or IP addresses that may indicate use of the
-              Site from prohibited jurisdictions or by sanctioned persons or
-              other Prohibited Uses. Except as required by applicable law, the
-              Site Operator will have no obligation of confidentiality with
-              respect to any information collected by the Site.
+              The Astroport Smart Contract Protocol will be available in various
+              repositories at{" "}
+              <a
+                href="https://github.com/astroport-fi"
+                target="_blank"
+                rel="noreferrer"
+              >
+                https://github.com/astroport-fi
+              </a>
+              , including{" "}
+              <a
+                href="https://github.com/astroport-fi/astroport"
+                target="_blank"
+                rel="noreferrer"
+              >
+                https://github.com/astroport-fi/astroport
+              </a>
+              , and will be freely licensed under the applicable license set
+              forth in each such repository.
             </p>
-            <h4>Astroport Smart Contract Protocol</h4>
-            <p>
-              The Astroport Smart Contract Protocol is available at [GITHUB] and
-              is freely licensed under [LICENSE].
-            </p>
-            <h3>Permitted & prohibited uses</h3>
-            <h4>Permitted Uses</h4>
+            <h3>4. Permitted & prohibited uses</h3>
+            <h4>4.1 Permitted Uses</h4>
             <p>
               The Site is available exclusively for use by technologically and
               financially sophisticated persons who wish to use the Site for
@@ -479,7 +540,7 @@ const TCContent = () => {
               </strong>
               .
             </p>
-            <h4>Prohibited Uses</h4>
+            <h4>4.2 Prohibited Uses</h4>
             <p>
               Each User must not, directly or indirectly, in connection with
               their use of the Site:{" "}
@@ -488,11 +549,11 @@ const TCContent = () => {
               <li>utilize the Site other than for the Permitted Uses; </li>
               <li>
                 utilize the Site at any time when any representation of User set
-                forth in Section 5 is untrue or inaccurate;{" "}
+                forth in Section 5 is untrue or inaccurate;
               </li>
               <li>
                 rely on the Site as a basis for or a source of advice concerning
-                any financial decisionmaking or transactions;{" "}
+                any financial decisionmaking or transactions;
               </li>
               <li>
                 employ any device, scheme or artifice to defraud, or otherwise
@@ -501,23 +562,26 @@ const TCContent = () => {
               <li>
                 engage in any act, practice or course of business that operates
                 or would operate as a fraud or deceit upon the Site Operator or
-                any other person;{" "}
+                any other person;
               </li>
               <li>
                 violate, breach or fail to comply with any applicable provision
                 of these Terms or any other terms of service, privacy policy,
-                trading policy or other contract governing the use of the Site;{" "}
+                trading policy or other contract governing the use of the Site;
               </li>
               <li>
                 engage or attempt to engage in or assist any hack of or attack
                 on the Site or any wallet application or device, including any
-                “sybil attack”, “DoS attack” or “griefing attack” or theft;{" "}
+                “sybil attack”, “DoS attack” or “griefing attack” or theft;
+              </li>
+              <li>
+                commit any violation of applicable laws, rules or regulations;
               </li>
               <li>
                 engage in or knowingly facilitate any “front-running,” “wash
                 trading,” “pump and dump trading,” “ramping,” “cornering” or
                 fraudulent, deceptive or manipulative trading activities,
-                including:{" "}
+                including:
               </li>
             </ul>
             <ul className="second">
@@ -549,18 +613,13 @@ const TCContent = () => {
                 or real estate leases, equipment leases, debt financings, equity
                 financings or other similar transactions, in each case, if such
                 transactions do not comply with all laws, rules and regulations
-                applicable to the parties and assets engaged therein;{" "}
+                applicable to the parties and assets engaged therein; or
               </li>
               <li>
                 engage in token-based or other financings of a business,
                 enterprise, venture, DAO, software development project or other
-                initiative, including ICOs, DAICOs, IEOs, “yield farming” or
-                other token-based fundraising events; or
-              </li>
-              <li>
-                engage in any conduct that would cause the Site to be classified
-                as a regulated financial product such as securities, derivatives
-                or swaps.
+                initiative, including ICOs, DAICOs, IEOs, or other token-based
+                fundraising events.
               </li>
             </ul>
             <p>
@@ -570,7 +629,7 @@ const TCContent = () => {
               </strong>
               .
             </p>
-            <h3>Representations and warranties of users</h3>
+            <h3>5. Representations and warranties of users</h3>
             <p>
               Each User hereby represents and warrants to Site Operator that the
               following statements and information are accurate and complete at
@@ -578,7 +637,7 @@ const TCContent = () => {
               information becomes untrue as to a User, User shall immediately
               cease accessing and using the Site.
             </p>
-            <h4>Adult Status; Capacity; Residence; Etc.</h4>
+            <h4>5.1 Adult Status; Capacity; Residence; Etc.</h4>
             <p>
               If User is an individual, User is of legal age in the jurisdiction
               in which User resides (and in any event is older than eighteen
@@ -588,7 +647,7 @@ const TCContent = () => {
               has all requisite power and authority for a business entity of its
               type to carry on its business as now conducted.
             </p>
-            <h4>Power and Authority</h4>
+            <h4>5.2 Power and Authority</h4>
             <p>
               User has all requisite capacity, power and authority to accept the
               terms and conditions of these Terms and to carry out and perform
@@ -596,7 +655,7 @@ const TCContent = () => {
               legal, valid and binding obligation of User enforceable against
               User in accordance with its terms.
             </p>
-            <h4>No Conflict; Compliance with Law</h4>
+            <h4>5.3 No Conflict; Compliance with Law</h4>
             <p>
               User agreeing to these Term and using the Site does not
               constitute, and would not reasonably be expected to result in
@@ -605,22 +664,20 @@ const TCContent = () => {
               or contract or agreement to which User is a party or by which User
               is bound.
             </p>
-            <h4>Absence of Sanctions</h4>
+            <h4>5.4 Absence of Sanctions</h4>
             <p>
-              User is not, (and, if User is an entity, User is not owned or
-              controlled by any other person who is), and is not acting on
-              behalf of any other person who is, identified on any list of
-              prohibited parties under any law or by any nation or government,
-              state or other political subdivision thereof, any entity
-              exercising legislative, judicial or administrative functions of or
-              pertaining to government such as the sanctions lists maintained by
-              the United Nations Security Council, the U.S. government
-              (including the U.S. Treasury Department’s Specially Designated
-              Nationals list and Foreign Sanctions Evaders list), the European
-              Union (EU) or its member states, and the government of a User home
-              country. User is not, (and, if User is an entity, User is not
-              owned or controlled by any other person who is), and is not acting
-              on behalf of any other person who is, located, ordinarily
+              is not acting on behalf of any other person who is, identified on
+              any list of prohibited parties under any law or by any nation or
+              government, state or other political subdivision thereof, any
+              entity exercising legislative, judicial or administrative
+              functions of or pertaining to government such as the sanctions
+              lists maintained by the United Nations Security Council, the U.S.
+              government (including the U.S. Treasury Department’s Specially
+              Designated Nationals list and Foreign Sanctions Evaders list), the
+              European Union (EU) or its member states, and the government of a
+              User home country. User is not, (and, if User is an entity, User
+              is not owned or controlled by any other person who is), and is not
+              acting on behalf of any other person who is, located, ordinarily
               resident, organized, established, or domiciled in Cuba, Iran,
               North Korea, Sudan, Syria, the Crimea region (including
               Sevastopol) or any other country or jurisdiction against which the
@@ -630,14 +687,14 @@ const TCContent = () => {
               represent the proceeds of, any activities done in violation or
               contravention of any law.
             </p>
-            <h4>Non-Reliance</h4>
+            <h4>5.5 Non-Reliance</h4>
             <p>
               User is knowledgeable, experienced and sophisticated in using and
               evaluating blockchain and related technologies and assets,
-              including Terra, ERC20 tokens, yield-generating smart contract
-              systems, automated market making smart contract systems, bonding
-              curve systems and “smart contracts” (runtime bytecode deployed to
-              Terra or another blockchain). User has conducted its own thorough
+              including Terra, tokens, yield-generating smart contract systems,
+              automated market making smart contract systems, bonding curve
+              systems and “smart contracts” (runtime bytecode deployed to Terra
+              or another blockchain). User has conducted its own thorough
               independent investigation and analysis of the Astroport Smart
               Contract System and the other matters contemplated by these Terms,
               and has not relied upon any information, statement, omission,
@@ -645,12 +702,12 @@ const TCContent = () => {
               made by or on behalf of Site Operator in connection therewith,
               except as expressly set forth by Site Operator in these Terms.
             </p>
-            <h3>Risks, Disclaimers and Limitations of Liability</h3>
+            <h3>6. Risks, Disclaimers and Limitations of Liability</h3>
             <p>
               Each User hereby acknowledges and agrees and consents to, and
               assumes the risks of, the matters described in this Section 6.
             </p>
-            <h4>No Consequential, Incidental or Punitive Damages</h4>
+            <h4>6.1 No Consequential, Incidental or Punitive Damages</h4>
             <p>
               Notwithstanding anything to the contrary contained on the Site, in
               these Terms, or in any other agreement or publication, Site
@@ -665,7 +722,7 @@ const TCContent = () => {
               knew of the possibility of such damages, and regardless of the
               nature of the cause of action or theory asserted.
             </p>
-            <h4>Disclaimer of Representations</h4>
+            <h4>6.2 Disclaimer of Representations</h4>
             <p>
               The Site is being provided on an “AS IS” and “AS AVAILABLE” basis.
               To the fullest extent permitted by law, Site Operator is not
@@ -681,7 +738,7 @@ const TCContent = () => {
               the Site is at the User’s own risk.
             </p>
             <h4>
-              No Responsibility for Tokens; No Guarantee of Uniqueness or IP
+              6.3 No Responsibility for Tokens; No Guarantee of Uniqueness or IP
             </h4>
             <p>
               Site Operator has no responsibility for the tokens traded by Users
@@ -689,9 +746,9 @@ const TCContent = () => {
               investigate and cannot guarantee or warrant the authenticity,
               originality, uniqueness, marketability, legality or value of any
               token traded by Users on the Astroport Smart Contract System, even
-              if information about such token is available on the Site.{" "}
+              if information about such token is available on the Site.
             </p>
-            <h4>No Professional Advice or Liability</h4>
+            <h4>6.4 No Professional Advice or Liability</h4>
             <p>
               All information provided by or on behalf of Site Operator is for
               informational purposes only and should not be construed as
@@ -703,7 +760,7 @@ const TCContent = () => {
               professional advice from persons licensed and qualified in the
               area for which such advice would be appropriate.
             </p>
-            <h4>Limited Survival Period for Claims</h4>
+            <h4>6.5 Limited Survival Period for Claims</h4>
             <p>
               Any claim or cause of action a User may have or acquire in
               connection with the Site or any of the other matters contemplated
@@ -714,7 +771,7 @@ const TCContent = () => {
               circumstances giving rise to such claim or cause of action first
               arose.
             </p>
-            <h4>Third-Party Offerings and Content</h4>
+            <h4>6.6 Third-Party Offerings and Content</h4>
             <p>
               References, links or referrals to or connections with or reliance
               on third-party resources, products, services or content, including
@@ -733,147 +790,153 @@ const TCContent = () => {
               Operator shall not be responsible or liable, directly or
               indirectly, for any damage or loss caused or alleged to be caused
               by or in connection with use of or reliance on any such resources,
-              products, services, content or promotions from third parties.{" "}
+              products, services, content or promotions from third parties.
             </p>
-            <h4>Certain Uses and Risks of Blockchain Technology</h4>
-            <p>
-              Use of Blockchain Technology. Site Operator or third parties may
-              utilize experimental cryptographic technologies and blockchain
-              technologies, including tokens, cryptocurrencies, stablecoins,
-              “smart contracts,” consensus algorithms, voting systems and
-              distributed, decentralized or peer-to-peer networks or systems in
-              connection with the Site or systems about which the Site provides
-              information Each User acknowledges and agrees that such
-              technologies are novel, experimental, and speculative, and that
-              therefore there is significant uncertainty regarding the operation
-              and effects and risks thereof and the application of existing law
-              thereto.{" "}
-            </p>
-            <p>
-              Certain Risks of Blockchain Technology. The technologies relevant
-              to the Site depend on public peer-to-peer networks such as Terra
-              that are not under the control or influence of Site Operator and
-              are subject to many risks and uncertainties. Such technologies
-              include the Astroport Smart Contract System, which Site Operator
-              has no ability to change, other than ceasing to display
-              information about certain “smart contracts” or adding information
-              about new “smart contracts”. Users are solely responsible for the
-              safekeeping of the private key associated with the blockchain
-              address used in connection with the Astroport Smart Contract
-              System. Site Operator will not be able to restore or issue any
-              refund in respect of property lost or frozen due to loss of
-              private keys or otherwise. If a User is not able to spend or use
-              tokens due to loss or theft of the corresponding private key or
-              otherwise, a User will be unable to enjoy the benefits of such
-              tokens.
-            </p>
-            <p>
-              Certain Risks of Smart Contract Technology. Digital assets
-              relevant to the Site depend on the Astroport Smart Contract System
-              or other smart contracts deployed to Terra or other blockchain
-              systems, which may be coded or deployed by persons other than Site
-              Operator. Once deployed to Terra, the code of smart contracts,
-              including the Astroport Smart Contract System, cannot be modified.
-              In the event that the Astroport Smart Contract System or other
-              smart contracts are adversely affected by malfunctions, bugs,
-              defects, malfunctions, hacking, theft, attacks, negligent coding
-              or design choices, or changes to the protocol rules of Terra,
-              Users may be exposed to a risk of total loss and forfeiture of all
-              relevant digital assets. Site Operator assumes no liability or
-              responsibility for any of the foregoing matters.
-            </p>
-            <p>
-              Asset Prices. The fiat-denominated prices and value in public
-              markets of cryptocurrencies and tokens (including $LUNA, $UST,
-              $ASTRO, $xASTRO and $vxASTRO) have historically been subject to
-              dramatic fluctuations and may be highly volatile. As relatively
-              new products and technologies, blockchain-based assets are not
-              widely accepted as a means of payment for goods and services. A
-              significant portion of demand for these assets is generated by
-              speculators and investors seeking to profit from the short- or
-              long-term holding of blockchain assets. The market value of any
-              token may decline below the price for which a User acquires such
-              asset through the Astroport Smart Contract System or on any other
-              platform. User acknowledges and agrees that the costs and speeds
-              of transacting with cryptographic and blockchain-based systems
-              such as Terra are variable and may increase or decrease
-              dramatically at any time, resulting in prolonged inability to
-              access or use any tokens.{" "}
-            </p>
-            <p>
-              Regulatory Uncertainty. Blockchain technologies and digital assets
-              are subject to many legal and regulatory uncertainties, and the
-              Astroport Smart Contract System or any tokens could be adversely
-              impacted by one or more regulatory or legal inquiries, actions,
-              suits, investigations, claims, fines or judgments, which could
-              impede or limit the ability of User to continue the use and
-              enjoyment of such assets and technologies.{" "}
-            </p>
-            <p>
-              Cryptography Risks. Cryptography is a progressing field. Advances
-              in code cracking or technical advances such as the development of
-              quantum computers may present risks to Terra, the Astroport Smart
-              Contract System or tokens, including the theft, loss or
-              inaccessibility thereof.{" "}
-            </p>
-            <p>
-              Fork Handling. Terra, the Astroport Smart Contract System, and all
-              tokens may be subject to “forks.” Forks occur when some or all
-              persons running the software clients for a particular blockchain
-              system adopt a new client or a new version of an existing client
-              that: (i) changes the protocol rules in backwards-compatible or
-              backwards-incompatible manner that affects which transactions can
-              be added into later blocks, how later blocks are added to the
-              blockchain, or other matters relating to the future operation of
-              the protocol; or (ii) reorganizes or changes past blocks to alter
-              the history of the blockchain. Some forks are “contentious” and
-              thus may result in two or more persistent alternative versions of
-              the protocol or blockchain, either of which may be viewed as or
-              claimed to be the legitimate or genuine continuation of the
-              original. Site Operator may not be able to anticipate, control or
-              influence the occurrence or outcome of forks, and does not assume
-              any risk, liability or obligation in connection therewith. Without
-              limiting the generality of the foregoing, Site Operator does not
-              assume any responsibility to notify a User of pending, threatened
-              or completed forks. Site Operator will respond to any forks as
-              Site Operator determines in its sole and absolute discretion, and
-              Site Operator shall not have any duty or obligation or liability
-              to a User if such response (or lack of such response) acts to a
-              User detriment. Without limiting the generality of the foregoing,
-              Site Operator’s possible and permissible responses to a fork may
-              include: (i) honoring the Astroport Smart Contract System and
-              tokens on both chains; (ii) honoring the Astroport Smart Contract
-              System and tokens on only one of the chains; (iii) honoring the
-              Astroport Smart Contract System and tokens in different respects
-              or to a different extent on both chains; or (iv) any other
-              response or policy or procedure, as determined by Site Operator in
-              its sole and absolute discretion. Each User assumes full
-              responsibility to independently remain apprised of and informed
-              about possible forks, and to manage the User’s own interests and
-              risks in connection therewith.
-            </p>
-            <p>
-              Essential Third-Party Software Dependencies. The Astroport Smart
-              Contract System and other smart contracts deployed to Terra are
-              public software utilities which are accessible directly through
-              any Terra node (such as Infura) or indirectly through any
-              compatible Terra “wallet” application (such as the web browser
-              plugin Metamask) which interacts with such a node. Interacting
-              with the Astroport Smart Contract System does not require use of
-              the Astroport Apps, but the Astroport Apps provide a convenient
-              and user-friendly method of reading and displaying data from the
-              Astroport Smart Contract System and generating standard
-              transaction messages compatible with the Astroport Smart Contract
-              System. Because Astroport does not provide Terra wallet software
-              or Terra Nodes, such software constitutes an essential third-party
-              or user dependency without which the Astroport cannot be utilized
-              and tokens cannot be traded or used. Furthermore, the site may
-              utilize APIs, middleware and servers of Site Operator or third
-              parties, and Site Operator does not guarantee the continued
-              operation, maintenance, availability or security of any of the
-              foregoing dependencies.{" "}
-            </p>
-            <h4>Tax Issues</h4>
+            <h4>6.7 Certain Uses and Risks of Blockchain Technology</h4>
+            <ul className="letter">
+              <li>
+                <u>Use of Blockchain Technology.</u> Site Operator or third
+                parties may utilize experimental cryptographic technologies and
+                blockchain technologies, including tokens, cryptocurrencies,
+                stablecoins, “smart contracts,” consensus algorithms, voting
+                systems and distributed, decentralized or peer-to-peer networks
+                or systems in connection with the Site or systems about which
+                the Site provides information Each User acknowledges and agrees
+                that such technologies are novel, experimental, and speculative,
+                and that therefore there is significant uncertainty regarding
+                the operation and effects and risks thereof and the application
+                of existing law thereto.
+              </li>
+              <li>
+                <u>Certain Risks of Blockchain Technology.</u> The technologies
+                relevant to the Site depend on public peer-to-peer networks such
+                as Terra that are not under the control or influence of Site
+                Operator and are subject to many risks and uncertainties. Such
+                technologies include the Astroport Smart Contract System, which
+                Site Operator has no ability to change, other than ceasing to
+                display information about certain “smart contracts” or adding
+                information about new “smart contracts”. Users are solely
+                responsible for the safekeeping of the private key associated
+                with the blockchain address used in connection with the
+                Astroport Smart Contract System. Site Operator will not be able
+                to restore or issue any refund in respect of property lost or
+                frozen due to loss of private keys or otherwise. If a User is
+                not able to spend or use tokens due to loss or theft of the
+                corresponding private key or otherwise, a User will be unable to
+                enjoy the benefits of such tokens.{" "}
+              </li>
+              <li>
+                <u>Certain Risks of Smart Contract Technology.</u> Digital
+                assets relevant to the Site depend on the Astroport Smart
+                Contract System or other smart contracts deployed to Terra or
+                other blockchain systems, which may be coded or deployed by
+                persons other than Site Operator. Once deployed to Terra, the
+                code of smart contracts, including the Astroport Smart Contract
+                System, cannot be modified. In the event that the Astroport
+                Smart Contract System or other smart contracts are adversely
+                affected by malfunctions, bugs, defects, malfunctions, hacking,
+                theft, attacks, negligent coding or design choices, or changes
+                to the protocol rules of Terra, Users may be exposed to a risk
+                of total loss and forfeiture of all relevant digital assets.
+                Site Operator assumes no liability or responsibility for any of
+                the foregoing matters.{" "}
+              </li>
+              <li>
+                <u>Asset Prices.</u> The fiat-denominated prices and value in
+                public markets of cryptocurrencies and tokens (including $LUNA,
+                $UST, $ASTRO, $xASTRO and $vxASTRO) have historically been
+                subject to dramatic fluctuations and may be highly volatile. As
+                relatively new products and technologies, blockchain-based
+                assets are not widely accepted as a means of payment for goods
+                and services. A significant portion of demand for these assets
+                is generated by speculators and investors seeking to profit from
+                the short- or long-term holding of blockchain assets. The market
+                value of any token may decline below the price for which a User
+                acquires such asset through the Astroport Smart Contract System
+                or on any other platform. User acknowledges and agrees that the
+                costs and speeds of transacting with cryptographic and
+                blockchain-based systems such as Terra are variable and may
+                increase or decrease dramatically at any time, resulting in
+                prolonged inability to access or use any tokens.
+              </li>
+              <li>
+                <u>Regulatory Uncertainty.</u> Blockchain technologies and
+                digital assets are subject to many legal and regulatory
+                uncertainties, and the Astroport Smart Contract System or any
+                tokens could be adversely impacted by one or more regulatory or
+                legal inquiries, actions, suits, investigations, claims, fines
+                or judgments, which could impede or limit the ability of User to
+                continue the use and enjoyment of such assets and technologies.
+              </li>
+              <li>
+                <u>Cryptography Risks</u>. Cryptography is a progressing field.
+                Advances in code cracking or technical advances such as the
+                development of quantum computers may present risks to Terra, the
+                Astroport Smart Contract System or tokens, including the theft,
+                loss or inaccessibility thereof.{" "}
+              </li>
+              <li>
+                <u>Fork Handling.</u> Terra, the Astroport Smart Contract
+                System, and all tokens may be subject to “forks.” Forks occur
+                when some or all persons running the software clients for a
+                particular blockchain system adopt a new client or a new version
+                of an existing client that: (i) changes the protocol rules in
+                backwards-compatible or backwards-incompatible manner that
+                affects which transactions can be added into later blocks, how
+                later blocks are added to the blockchain, or other matters
+                relating to the future operation of the protocol; or (ii)
+                reorganizes or changes past blocks to alter the history of the
+                blockchain. Some forks are “contentious” and thus may result in
+                two or more persistent alternative versions of the protocol or
+                blockchain, either of which may be viewed as or claimed to be
+                the legitimate or genuine continuation of the original. Site
+                Operator may not be able to anticipate, control or influence the
+                occurrence or outcome of forks, and does not assume any risk,
+                liability or obligation in connection therewith. Without
+                limiting the generality of the foregoing, Site Operator does not
+                assume any responsibility to notify a User of pending,
+                threatened or completed forks. Site Operator will respond (or
+                refrain from responding) to any forks in such manner as Site
+                Operator determines in its sole and absolute discretion, and
+                Site Operator shall not have any duty or obligation or liability
+                to a User if such response (or lack of such response) acts to a
+                User detriment. Without limiting the generality of the
+                foregoing, Site Operator’s possible and permissible responses to
+                a fork may include: (i) honoring the Astroport Smart Contract
+                System and tokens on both chains; (ii) honoring the Astroport
+                Smart Contract System and tokens on only one of the chains;
+                (iii) honoring the Astroport Smart Contract System and tokens in
+                different respects or to a different extent on both chains; or
+                (iv) any other response or policy or procedure, as determined by
+                Site Operator in its sole and absolute discretion. Each User
+                assumes full responsibility to independently remain apprised of
+                and informed about possible forks, and to manage the User’s own
+                interests and risks in connection therewith.
+              </li>
+              <li>
+                <u>Essential Third-Party Software Dependencies.</u> The
+                Astroport Smart Contract System and other smart contracts
+                deployed to Terra are public software utilities which are
+                accessible directly through any Terra node (such as Infura) or
+                indirectly through any compatible Terra “wallet” application
+                (such as the web browser plugin Metamask) which interacts with
+                such a node. Interacting with the Astroport Smart Contract
+                System does not require use of the Astroport Apps, but the
+                Astroport Apps provide a convenient and user-friendly method of
+                reading and displaying data from the Astroport Smart Contract
+                System and generating standard transaction messages compatible
+                with the Astroport Smart Contract System. Because Astroport does
+                not provide Terra wallet software or Terra Nodes, such software
+                constitutes an essential third-party or user dependency without
+                which the Astroport cannot be utilized and tokens cannot be
+                traded or used. Furthermore, the site may utilize APIs,
+                middleware and servers of Site Operator or third parties, and
+                Site Operator does not guarantee the continued operation,
+                maintenance, availability or security of any of the foregoing
+                dependencies.{" "}
+              </li>
+            </ul>
+            <h4>6.8 Tax Issues</h4>
             <p>
               The tax consequences of purchasing, selling, holding, transferring
               or locking tokens or otherwise utilizing the Astroport Smart
@@ -881,9 +944,9 @@ const TCContent = () => {
               adverse to a User. Site Operator has undertaken no due diligence
               or investigation into such tax consequences, assumes no obligation
               or liability to optimize the tax consequences to any person and is
-              not providing any tax advice.{" "}
+              not providing any tax advice.
             </p>
-            <h4>Legal Limitations on Disclaimers</h4>
+            <h4>6.9 Legal Limitations on Disclaimers</h4>
             <p>
               Some jurisdictions do not allow the exclusion of certain
               warranties or the limitation or exclusion of certain liabilities
@@ -891,9 +954,9 @@ const TCContent = () => {
               set forth in these Terms may not apply in full to specific Users.
               The disclaimers and limitations of liability provided in these
               terms shall apply to the fullest extent permitted by applicable
-              law.{" "}
+              law.
             </p>
-            <h4>Officers, Directors, Etc. </h4>
+            <h4>6.10 Officers, Directors, Etc. </h4>
             <p>
               All provisions of these Terms which disclaim or limit obligations
               or liabilities of Site Operator shall also apply,{" "}
@@ -901,7 +964,7 @@ const TCContent = () => {
               employees, independent contractors, agents, stockholders,
               debtholders and affiliates of Site Operator.{" "}
             </p>
-            <h4>Indemnification</h4>
+            <h4>6.11 Indemnification</h4>
             <p>
               Each User shall defend, indemnify, compensate, reimburse and hold
               harmless Site Operator (and each of its officers, directors,
@@ -911,161 +974,181 @@ const TCContent = () => {
               (a) User’s use of, or conduct in connection with, the Site; (b)
               User’s violation of these Terms or any other applicable policy or
               contract of Site Operator; or (c) User’s violation of any rights
-              of any other person or entity.{" "}
+              of any other person or entity.
             </p>
-            <h3>Governing law; Dispute Resolution</h3>
-            <h4>Governing Law</h4>
+            <h3>7. Governing law; Dispute Resolution</h3>
+            <h4>7.1 Governing Law</h4>
             <p>
               These Terms shall be governed by and construed and interpreted in
-              accordance with the laws of the Cayman Islands (irrespective of
-              the choice of laws principles) as to all matters, including
-              matters of validity, construction, effect, enforceability,
-              performance and remedies. Although the Site may be available in
-              other jurisdictions, each User hereby acknowledges and agrees that
-              such availability shall not be deemed to give rise to general or
-              specific personal jurisdiction over Site Operator in any forum
-              outside the Cayman Islands.
+              accordance with the laws of the British Virgin Islands
+              (irrespective of the choice of laws principles) as to all matters,
+              including matters of validity, construction, effect,
+              enforceability, performance and remedies. Although the Site may be
+              available in other jurisdictions, each User hereby acknowledges
+              and agrees that such availability shall not be deemed to give rise
+              to general or specific personal jurisdiction over Site Operator in
+              any forum outside the British Virgin Islands.
             </p>
-            <h4>Settlement Negotiations</h4>
+            <h4>7.2 Settlement Negotiations</h4>
             <p>
               If a User has a potential legal dispute, claim or cause of action
               against Site Operator, the User shall first (prior to initiating
               any litigation proceedings) contact Site Operator by sending an
-              email to [_________________] describing the nature of the
-              potential dispute, claim or cause of action and providing all
-              relevant documentation and evidence thereof. If so elected by Site
-              Operator, User shall use commercially reasonable efforts to
-              negotiate a settlement of any such legal dispute, claim or cause
-              of action within 60 days of the delivery of such email. Any such
-              dispute, claim or cause of action that is not finally resolved by
-              a binding, written settlement agreement within such 60 days shall
-              be brought and resolved exclusively in accordance with the
-              following provisions of this Section 7.
+              email to{" "}
+              <a href="mailto:delphi_labs_contracts@delphidigital.io">
+                delphi_labs_contracts@delphidigital.io
+              </a>{" "}
+              describing the nature of the potential dispute, claim or cause of
+              action and providing all relevant documentation and evidence
+              thereof. If so elected by Site Operator, User shall use
+              commercially reasonable efforts to negotiate a settlement of any
+              such legal dispute, claim or cause of action within 60 days of the
+              delivery of such email. Any such dispute, claim or cause of action
+              that is not finally resolved by a binding, written settlement
+              agreement within such 60 days shall be brought and resolved
+              exclusively in accordance with the following provisions of this
+              Section 7.
             </p>
-            <h4>Agreement to Binding, Exclusive Arbitration</h4>
-            <p>
-              Mandatory Binding Arbitration. All claims, disputes and
-              controversies directly or indirectly arising out of or in
-              connection with or directly or indirectly relating to these Terms
-              or any of the matters or transactions contemplated by these Terms
-              (for the avoidance of doubt, including any claim seeking to
-              invalidate, or alleging that, all or any part of these Terms is
-              unenforceable, void or voidable) (such claims, disputes and
-              controversies, collectively, “Disputes”) shall be resolved by
-              confidential, binding arbitration to be seated in the Cayman
-              Islands and conducted in the English language by a single
-              arbitrator pursuant to the Commercial Arbitration Rules of the
-              American Arbitration Association (the “Rules”). The arbitrator
-              shall be appointed in accordance with the procedures set out in
-              the Rules. The award or decision of the arbitrator shall be final
-              and binding upon the parties and the parties expressly waive any
-              right under the laws of any jurisdiction to appeal or otherwise
-              challenge the award, ruling or decision of the arbitrator. The
-              judgment of any award or decision may be entered in any court
-              having competent jurisdiction to the extent necessary. If the
-              Company elects to have a Dispute resolved by arbitration pursuant
-              to this provision, no party hereto shall (or shall permit its
-              representatives to) commence, continue or pursue any Dispute in
-              any court; provided, however, that the Company shall be entitled
-              to obtain an injunction or injunctions to prevent breaches of this
-              provision and to enforce specifically the terms and provisions
-              thereof, this being in addition to any other remedy to which the
-              Company is entitled at law or in equity, and the parties hereto
-              hereby waive the requirement of any posting of a bond in
-              connection with such injunctive relief or specific performance.{" "}
-            </p>
-            <p>
-              Waiver of Jury Trial. The parties hereby acknowledge, represent
-              and warrant that they understand that: (i) there is no judge or
-              jury in arbitration, and, absent this mandatory provision, the
-              parties would have the right to sue in court and have a jury trial
-              concerning Disputes; (ii) in some instances, the costs of
-              arbitration could exceed the costs of litigation; (iii) the right
-              to discovery may be more limited in arbitration than in court; and
-              (iv) court review of an arbitration award is limited. Each of the
-              parties hereto hereby irrevocably waives any and all right to
-              trial by jury in any action, suit or other legal proceeding
-              arising out of or related to these Terms or the transactions
-              contemplated hereby.
-            </p>
-            <p>
-              Confidentiality of Arbitration.. Except to the extent necessary to
-              enforce their respective rights under these Terms or as otherwise
-              required by applicable law, the parties undertake to maintain
-              confidentiality as to the existence and events of the arbitration
-              proceedings and as to all submissions, correspondence and evidence
-              relating to the arbitration proceedings. This provision shall
-              survive the termination of the arbitral proceedings.
-            </p>
-            <h4>Court Jurisdiction</h4>
+            <h4>7.3 Agreement to Binding, Exclusive Arbitration</h4>
+            <ul className="letter">
+              <li>
+                <u>Mandatory Binding Arbitration.</u> All claims, disputes and
+                controversies directly or indirectly arising out of or in
+                connection with or directly or indirectly relating to these
+                Terms or any of the matters or transactions contemplated by
+                these Terms (for the avoidance of doubt, including any claim
+                seeking to invalidate, or alleging that, all or any part of
+                these Terms is unenforceable, void or voidable) (such claims,
+                disputes and controversies, collectively, “
+                <strong>
+                  <i>Disputes</i>
+                </strong>
+                ”) shall be resolved by confidential, binding arbitration to be
+                seated in the British Virgin Islands and conducted in the
+                English language by a single arbitrator pursuant to the
+                Commercial Arbitration Rules of the American Arbitration
+                Association (the “
+                <strong>
+                  <i>Rules</i>
+                </strong>
+                ”). The arbitrator shall be appointed in accordance with the
+                procedures set out in the Rules. The award or decision of the
+                arbitrator shall be final and binding upon the parties and the
+                parties expressly waive any right under the laws of any
+                jurisdiction to appeal or otherwise challenge the award, ruling
+                or decision of the arbitrator. The judgment of any award or
+                decision may be entered in any court having competent
+                jurisdiction to the extent necessary. If the Company elects to
+                have a Dispute resolved by arbitration pursuant to this
+                provision, no party hereto shall (or shall permit its
+                representatives to) commence, continue or pursue any Dispute in
+                any court; provided, however, that the Company shall be entitled
+                to obtain an injunction or injunctions to prevent breaches of
+                this provision and to enforce specifically the terms and
+                provisions thereof, this being in addition to any other remedy
+                to which the Company is entitled at law or in equity, and the
+                parties hereto hereby waive the requirement of any posting of a
+                bond in connection with such injunctive relief or specific
+                performance.{" "}
+              </li>
+              <li>
+                <u>Waiver of Jury Trial.</u> The parties hereby acknowledge,
+                represent and warrant that they understand that: (i) there is no
+                judge or jury in arbitration, and, absent this mandatory
+                provision, the parties would have the right to sue in court and
+                have a jury trial concerning Disputes; (ii) in some instances,
+                the costs of arbitration could exceed the costs of litigation;
+                (iii) the right to discovery may be more limited in arbitration
+                than in court; and (iv) court review of an arbitration award is
+                limited. Each of the parties hereto hereby irrevocably waives
+                any and all right to trial by jury in any action, suit or other
+                legal proceeding arising out of or related to these Terms or the
+                transactions contemplated hereby.
+              </li>
+              <li>
+                <u>Confidentiality of Arbitration.</u> Except to the extent
+                necessary to enforce their respective rights under these Terms
+                or as otherwise required by applicable law, the parties
+                undertake to maintain confidentiality as to the existence and
+                events of the arbitration proceedings and as to all submissions,
+                correspondence and evidence relating to the arbitration
+                proceedings. This provision shall survive the termination of the
+                arbitral proceedings.
+              </li>
+            </ul>
+            <h4>7.4 Court Jurisdiction</h4>
             <p>
               To the extent that any court is required to weigh on the
               enforceability of Section 7.3, to enforce any judgment of the
               arbitrator, then, without limiting Section 7.3 or any other
               provision of this Agreement, the User (A) hereby irrevocably and
-              unconditionally submit to the jurisdiction of the Grand Court of
-              the Cayman Islands for such purpose; (B) agrees not to commence
-              any suit, action or other proceeding arising in connection with or
-              based upon this instrument or the matters contemplated by this
-              instrument except before ethe Grand Court of the Cayman Islands,
-              and (C) hereby waives, and agrees not to assert, by way of motion,
-              as a defense, or otherwise, in any such suit, action or
-              proceeding, any claim that it is not subject personally to the
-              jurisdiction of the above-named courts, that its property is
-              exempt or immune from attachment or execution, that the suit,
-              action or proceeding is brought in an inconvenient forum, that the
-              venue of the suit, action or proceeding is improper or that this
-              instrument or the subject matter hereof or thereof may not be
-              enforced in or by such court.
+              unconditionally submit to the jurisdiction of the courts of the
+              British Virgin Islands for such purpose; (B) agrees not to
+              commence any suit, action or other proceeding arising in
+              connection with or based upon this instrument or the matters
+              contemplated by this instrument except before the courts of the
+              British Virgin Islands, and (C) hereby waives, and agrees not to
+              assert, by way of motion, as a defense, or otherwise, in any such
+              suit, action or proceeding, any claim that it is not subject
+              personally to the jurisdiction of the above-named courts, that its
+              property is exempt or immune from attachment or execution, that
+              the suit, action or proceeding is brought in an inconvenient
+              forum, that the venue of the suit, action or proceeding is
+              improper or that this instrument or the subject matter hereof or
+              thereof may not be enforced in or by such court.
             </p>
-            <h4>Class Action Waiver</h4>
-            <p>
-              No Class Actions Permitted. All Users hereby agree that any
-              arbitration or other permitted action with respect to any Dispute
-              shall be conducted in their individual capacities only and not as
-              a class action or other representative action, and the Users
-              expressly waive their right to file a class action or seek relief
-              on a class basis. USERS SHALL BRING CLAIMS AGAINST SITE OPERATOR
-              OTHER ONLY IN THEIR INDIVIDUAL CAPACITY, AND NOT AS A PLAINTIFF OR
-              CLASS MEMBER IN ANY PURPORTED CLASS OR REPRESENTATIVE PROCEEDING.
-            </p>
-            <p>
-              Agreements if Class Action Waiver Unenforceable. If any court or
-              arbitrator makes a final, binding and non-appealable determination
-              that the class action waiver set forth in this Section 7.8 is void
-              or unenforceable for any reason or that an arbitration can proceed
-              on a class basis, then the arbitration provision set forth above
-              shall be deemed null and void with respect to any Dispute that
-              would thus be required to be resolved by arbitration on a class
-              basis, and the parties shall be deemed to have not agreed to
-              arbitrate such Dispute. In the event that, as a result of the
-              application of the immediately preceding sentence or otherwise,
-              any Dispute is not subject to arbitration, the parties hereby
-              agree to submit to the personal and exclusive jurisdiction of and
-              venue in the federal and state courts located in Wilmington,
-              Delaware and to accept service of process by mail with respect to
-              such Dispute, and hereby waive any and all jurisdictional and
-              venue defenses otherwise available with respect to such Dispute.
-            </p>
-            <h4>California End-User Consumer Rights</h4>
+            <h4>7.5 Class Action Waiver</h4>
+            <ul className="letter">
+              <li>
+                <u>No Class Actions Permitted.</u> All Users hereby agree that
+                any arbitration or other permitted action with respect to any
+                Dispute shall be conducted in their individual capacities only
+                and not as a class action or other representative action, and
+                the Users expressly waive their right to file a class action or
+                seek relief on a class basis. USERS SHALL BRING CLAIMS AGAINST
+                SITE OPERATOR OTHER ONLY IN THEIR INDIVIDUAL CAPACITY, AND NOT
+                AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS OR
+                REPRESENTATIVE PROCEEDING.
+              </li>
+              <li>
+                <u>Agreements if Class Action Waiver Unenforceable.</u> If any
+                court or arbitrator makes a final, binding and non-appealable
+                determination that the class action waiver set forth in this
+                Section 7.8 is void or unenforceable for any reason or that an
+                arbitration can proceed on a class basis, then the arbitration
+                provision set forth above shall be deemed null and void with
+                respect to any Dispute that would thus be required to be
+                resolved by arbitration on a class basis, and the parties shall
+                be deemed to have not agreed to arbitrate such Dispute. In the
+                event that, as a result of the application of the immediately
+                preceding sentence or otherwise, any Dispute is not subject to
+                arbitration, the parties hereby agree to submit to the personal
+                and exclusive jurisdiction of and venue in the federal and state
+                courts located in Wilmington, Delaware and to accept service of
+                process by mail with respect to such Dispute, and hereby waive
+                any and all jurisdictional and venue defenses otherwise
+                available with respect to such Dispute.
+              </li>
+            </ul>
+            <h4>7.6 California End-User Consumer Rights</h4>
             <p>
               In accordance with Cal. Civ. Code Sec. 1789.3, if a User is a
               California State resident, the User may file grievances and
               complaints regarding the Site with the California Department of
               Consumer Affairs, Consumer Information Division; 1625 North Market
               Blvd., Suite N 112, 1625 North Market Blvd., Suite N 112,
-              Sacramento, CA 95834 or by phone at 800-952-5210; or by email to:
-              dca@dca.ca.gov.
+              Sacramento, CA 95834 or by phone at 800-952-5210; or by email to:{" "}
+              <a href="mailto:dca@dca.ca.gov">dca@dca.ca.gov</a>.
             </p>
-            <h3>Miscellaneous</h3>
-            <h4>Headings</h4>
+            <h3>8. Miscellaneous</h3>
+            <h4>8.1 Headings</h4>
             <p>
               The headings and captions contained in these Terms are for
               convenience of reference only, shall not be deemed to be a part of
               these Terms and shall not be referred to in connection with the
               construction or interpretation of these Terms.
             </p>
-            <h4>Successors and Assigns</h4>
+            <h4>8.2 Successors and Assigns</h4>
             <p>
               These Terms shall inure to the benefit of Site Operator, the
               Users, and their respective permitted successors, permitted
@@ -1080,9 +1163,8 @@ const TCContent = () => {
               liabilities under these Terms to the maximum extent permitted by
               applicable law.
             </p>
-            <h4>Severability</h4>
+            <h4>8.3 Severability</h4>
             <p>
-              {" "}
               In the event that any provision of these Terms, or the application
               of any such provision to any person or set of circumstances, shall
               be determined by an arbitrator or court of competent jurisdiction
@@ -1098,7 +1180,7 @@ const TCContent = () => {
               contemplated hereby be consumed as originally contemplated to the
               fullest extent possible.
             </p>
-            <h4>Force Majeure.</h4>
+            <h4>8.4 Force Majeure.</h4>
             <p>
               Site Operator shall not incur any liability or penalty for not
               performing any act or fulfilling any duty or obligation hereunder
@@ -1119,7 +1201,7 @@ const TCContent = () => {
               applicable, to resume performance as soon as reasonably
               practicable under the circumstances.
             </p>
-            <h4>Amendments and Modifications</h4>
+            <h4>8.5 Amendments and Modifications</h4>
             <p>
               These Terms may only be amended, modified, altered or supplemented
               by or with the written consent of Site Operator. Site Operator
@@ -1136,7 +1218,7 @@ const TCContent = () => {
               conditions. If a User does not agree to any such modifications,
               the User must immediately stop using the Site.
             </p>
-            <h4>No Implied Waivers</h4>
+            <h4>8.6 No Implied Waivers</h4>
             <p>
               No failure or delay on the part of Site Operator in the exercise
               of any power, right, privilege or remedy under these Terms shall
@@ -1152,7 +1234,7 @@ const TCContent = () => {
               not be applicable or have any effect except in the specific
               instance in which it is given.
             </p>
-            <h4>Entire Agreement</h4>
+            <h4>8.7 Entire Agreement</h4>
             <p>
               These Terms constitutes the entire agreement between the parties
               relating to the subject matter hereof and supersede all prior or
@@ -1160,8 +1242,8 @@ const TCContent = () => {
               oral, between the parties with respect to the subject matter
               hereof.
             </p>
-            <h4>Rules of Interpretation</h4>
-            <ul>
+            <h4>8.8 Rules of Interpretation</h4>
+            <ul className="letter">
               <li>
                 “hereof,” “herein,” “hereunder,” “hereby” and words of similar
                 import will, unless otherwise stated, be construed to refer to

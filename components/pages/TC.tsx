@@ -4,7 +4,7 @@ import { Box } from "@chakra-ui/react";
 import Navbar from "components/Navbar";
 import TCContent from "components/TCContent";
 
-const Home = () => {
+const TC = () => {
   return (
     <Box bg="brand.darkBlue">
       <Box position="relative" zIndex="10">
@@ -15,4 +15,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default TC;
