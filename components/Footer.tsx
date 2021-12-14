@@ -61,7 +61,12 @@ const Footer = () => {
                 Astroport brings liquidity to Terra tokens from all parts of the
                 galaxy.
               </Text>
-              <Link variant="cta" flex="0">
+              <Link
+                variant="cta"
+                flex="0"
+                href="https://lockdrop.astroport.fi"
+                isExternal
+              >
                 <Flex align="center" height="100%">
                   <Flex
                     px={["6", null, "12", "20"]}
