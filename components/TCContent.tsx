@@ -12,10 +12,12 @@ const TCContent = () => {
       >
         <VStack spacing="34">
           <h1>Terms and conditions</h1>
+          <p className="text-center">
+            <strong>Date of Initial Publication:</strong> December 11, 2021
+            <br />
+            <strong>Last Updated:</strong> December 14, 2021
+          </p>
           <VStack spacing="6" align="flex-start">
-            <p>
-              <strong>Date of Initial Publication:</strong> December 11, 2021
-            </p>
             <p>
               These terms and conditions (these{" "}
               <strong>
@@ -213,7 +215,7 @@ const TCContent = () => {
               with the Site Operator or the Site.
             </p>
             <h4>1.4 Defined Terms</h4>
-            <Box w={[null, null, "80%"]}>
+            <VStack spacing="4" align="flex-start" w={[null, null, "80%"]}>
               <ul>
                 <li>
                   <strong>
@@ -234,9 +236,40 @@ const TCContent = () => {
                     <i>“Astroport Smart Contract System”</i>
                   </strong>{" "}
                   means the runtime bytecodes (aka “smart contracts”) deployed
-                  to the following Terra network addresses: [LIST CONTRACTS AND
-                  ADDRESSES]
+                  to the following Terra network addresses:
                 </li>
+              </ul>
+              <ul className="second">
+                <li>
+                  &quot;astro_multisig&quot;:
+                  &quot;terra1c7m6j8ya58a2fkkptn8fgudx8sqjqvc8azq0ex&quot;,
+                </li>
+                <li>
+                  &quot;astro_token_address&quot;:
+                  &quot;terra1xj49zyqrwpv5k928jwfpfy2ha668nwdgkwlrg3&quot;,
+                </li>
+                <li>
+                  &quot;astro_builder_unlock_contract&quot;:
+                  &quot;terra1fh27l8h4s0tfx9ykqxq5efq4xx88f06x6clwmr&quot;,
+                </li>
+                <li>
+                  &quot;astroport_factory_address&quot;: &quot;[NOT YET
+                  DEPLOYED]&quot;
+                </li>
+                <li>
+                  &quot;lockdropAddress&quot;:
+                  &quot;terra1627ldjvxatt54ydd3ns6xaxtd68a2vtyu7kakj&quot;,
+                </li>
+                <li>
+                  &quot;airdrop_Address&quot;:
+                  &quot;terra1dpe2aqykm2vnakcz4vgpha0agxnlkjvgfahhk7&quot;,
+                </li>
+                <li>
+                  &quot;auction_Address&quot;:
+                  &quot;terra1tvld5k6pus2yh7pcu7xuwyjedn7mjxfkkkjjap&quot;
+                </li>
+              </ul>
+              <ul>
                 <li>
                   <strong>
                     <i>“Site”</i>
@@ -289,7 +322,7 @@ const TCContent = () => {
                   $LUNA staked) at such time.
                 </li>
               </ul>
-            </Box>
+            </VStack>
             <h3>2. Site operator discretion; certain risks of the site</h3>
             <p>
               Each User hereby acknowledges and agrees and consents to, and
