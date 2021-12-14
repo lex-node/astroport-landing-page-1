@@ -14,6 +14,8 @@ import {
 
 import NextLink from "next/link";
 
+import ArrowRightIcon from "components/icons/ArrowRightIcon";
+
 import Lottie from "react-lottie";
 import * as animationAstro from "../public/astro_A.json";
 
@@ -59,7 +61,7 @@ const Footer = () => {
                 Astroport brings liquidity to Terra tokens from all parts of the
                 galaxy.
               </Text>
-              {/* <Link variant="cta" flex="0">
+              <Link variant="cta" flex="0">
                 <Flex align="center" height="100%">
                   <Flex
                     px={["6", null, "12", "20"]}
@@ -73,12 +75,12 @@ const Footer = () => {
                       height="1.25rem"
                       mb="1"
                       mr="1"
-                      display={[null, null, "none"]}
+                      // display={[null, null, "none"]}
                     />
                     <Text whiteSpace="nowrap">Enter Astro drop</Text>
                   </Flex>
                 </Flex>
-              </Link> */}
+              </Link>
             </VStack>
           </Box>
         </Container>

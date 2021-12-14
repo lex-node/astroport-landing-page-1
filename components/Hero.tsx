@@ -13,7 +13,7 @@ import {
 
 import ReactPlayer from "react-player/lazy";
 
-import HeroStat from "components/HeroStat";
+// import HeroStat from "components/HeroStat";
 import ArrowRightIcon from "components/icons/ArrowRightIcon";
 
 const Hero = () => {
@@ -40,7 +40,12 @@ const Hero = () => {
               Astroport. The future of trading.
             </Heading>
           </Box>
-          {/* <Link variant="cta" flex="0">
+          <Link
+            href="https://lockdrop.astroport.fi/"
+            isExternal
+            variant="cta"
+            flex="0"
+          >
             <Flex align="center" height="100%">
               <Flex
                 px={["6", null, "12", "20"]}
@@ -57,7 +62,7 @@ const Hero = () => {
                 <Text whiteSpace="nowrap">Add liquidity</Text>
               </Flex>
             </Flex>
-          </Link> */}
+          </Link>
         </Stack>
         <Box borderTop="1px" borderBottom="1px" color="white">
           <AspectRatio display="none" ratio={1920 / 1020}>

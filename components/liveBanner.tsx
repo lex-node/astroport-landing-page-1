@@ -15,45 +15,279 @@ const liveBanner = () => {
       className="translate-carousel"
       divider={<DividerIcon border="0" />}
     >
-      <Link textTransform="uppercase">Astro Drop is Live</Link>
-      <Link textTransform="uppercase">Astro Drop is Live</Link>
-      <Link textTransform="uppercase">Astro Drop is Live</Link>
-      <Link textTransform="uppercase">Astro Drop is Live</Link>
-      <Link textTransform="uppercase">Astro Drop is Live</Link>
-      <Link textTransform="uppercase">Astro Drop is Live</Link>
-      <Link textTransform="uppercase">Astro Drop is Live</Link>
-      <Link textTransform="uppercase">Astro Drop is Live</Link>
-      <Link textTransform="uppercase">Astro Drop is Live</Link>
-      <Link textTransform="uppercase">Astro Drop is Live</Link>
-      <Link textTransform="uppercase">Astro Drop is Live</Link>
-      <Link textTransform="uppercase">Astro Drop is Live</Link>
-      <Link textTransform="uppercase">Astro Drop is Live</Link>
-      <Link textTransform="uppercase">Astro Drop is Live</Link>
-      <Link textTransform="uppercase">Astro Drop is Live</Link>
-      <Link textTransform="uppercase">Astro Drop is Live</Link>
-      <Link textTransform="uppercase">Astro Drop is Live</Link>
-      <Link textTransform="uppercase">Astro Drop is Live</Link>
-      <Link textTransform="uppercase">Astro Drop is Live</Link>
-      <Link textTransform="uppercase">Astro Drop is Live</Link>
-      <Link textTransform="uppercase">Astro Drop is Live</Link>
-      <Link textTransform="uppercase">Astro Drop is Live</Link>
-      <Link textTransform="uppercase">Astro Drop is Live</Link>
-      <Link textTransform="uppercase">Astro Drop is Live</Link>
-      <Link textTransform="uppercase">Astro Drop is Live</Link>
-      <Link textTransform="uppercase">Astro Drop is Live</Link>
-      <Link textTransform="uppercase">Astro Drop is Live</Link>
-      <Link textTransform="uppercase">Astro Drop is Live</Link>
-      <Link textTransform="uppercase">Astro Drop is Live</Link>
-      <Link textTransform="uppercase">Astro Drop is Live</Link>
-      <Link textTransform="uppercase">Astro Drop is Live</Link>
-      <Link textTransform="uppercase">Astro Drop is Live</Link>
-      <Link textTransform="uppercase">Astro Drop is Live</Link>
-      <Link textTransform="uppercase">Astro Drop is Live</Link>
-      <Link textTransform="uppercase">Astro Drop is Live</Link>
-      <Link textTransform="uppercase">Astro Drop is Live</Link>
-      <Link textTransform="uppercase">Astro Drop is Live</Link>
-      <Link textTransform="uppercase">Astro Drop is Live</Link>
-      <Link textTransform="uppercase">Astro Drop is Live</Link>
+      <Link
+        href="https://lockdrop.astroport.fi/"
+        textTransform="uppercase"
+        isExternal
+      >
+        Astro Drop is Live
+      </Link>
+      <Link
+        href="https://lockdrop.astroport.fi/"
+        textTransform="uppercase"
+        isExternal
+      >
+        Astro Drop is Live
+      </Link>
+      <Link
+        href="https://lockdrop.astroport.fi/"
+        textTransform="uppercase"
+        isExternal
+      >
+        Astro Drop is Live
+      </Link>
+      <Link
+        href="https://lockdrop.astroport.fi/"
+        textTransform="uppercase"
+        isExternal
+      >
+        Astro Drop is Live
+      </Link>
+      <Link
+        href="https://lockdrop.astroport.fi/"
+        textTransform="uppercase"
+        isExternal
+      >
+        Astro Drop is Live
+      </Link>
+      <Link
+        href="https://lockdrop.astroport.fi/"
+        textTransform="uppercase"
+        isExternal
+      >
+        Astro Drop is Live
+      </Link>
+      <Link
+        href="https://lockdrop.astroport.fi/"
+        textTransform="uppercase"
+        isExternal
+      >
+        Astro Drop is Live
+      </Link>
+      <Link
+        href="https://lockdrop.astroport.fi/"
+        textTransform="uppercase"
+        isExternal
+      >
+        Astro Drop is Live
+      </Link>
+      <Link
+        href="https://lockdrop.astroport.fi/"
+        textTransform="uppercase"
+        isExternal
+      >
+        Astro Drop is Live
+      </Link>
+      <Link
+        href="https://lockdrop.astroport.fi/"
+        textTransform="uppercase"
+        isExternal
+      >
+        Astro Drop is Live
+      </Link>
+      <Link
+        href="https://lockdrop.astroport.fi/"
+        textTransform="uppercase"
+        isExternal
+      >
+        Astro Drop is Live
+      </Link>
+      <Link
+        href="https://lockdrop.astroport.fi/"
+        textTransform="uppercase"
+        isExternal
+      >
+        Astro Drop is Live
+      </Link>
+      <Link
+        href="https://lockdrop.astroport.fi/"
+        textTransform="uppercase"
+        isExternal
+      >
+        Astro Drop is Live
+      </Link>
+      <Link
+        href="https://lockdrop.astroport.fi/"
+        textTransform="uppercase"
+        isExternal
+      >
+        Astro Drop is Live
+      </Link>
+      <Link
+        href="https://lockdrop.astroport.fi/"
+        textTransform="uppercase"
+        isExternal
+      >
+        Astro Drop is Live
+      </Link>
+      <Link
+        href="https://lockdrop.astroport.fi/"
+        textTransform="uppercase"
+        isExternal
+      >
+        Astro Drop is Live
+      </Link>
+      <Link
+        href="https://lockdrop.astroport.fi/"
+        textTransform="uppercase"
+        isExternal
+      >
+        Astro Drop is Live
+      </Link>
+      <Link
+        href="https://lockdrop.astroport.fi/"
+        textTransform="uppercase"
+        isExternal
+      >
+        Astro Drop is Live
+      </Link>
+      <Link
+        href="https://lockdrop.astroport.fi/"
+        textTransform="uppercase"
+        isExternal
+      >
+        Astro Drop is Live
+      </Link>
+      <Link
+        href="https://lockdrop.astroport.fi/"
+        textTransform="uppercase"
+        isExternal
+      >
+        Astro Drop is Live
+      </Link>
+      <Link
+        href="https://lockdrop.astroport.fi/"
+        textTransform="uppercase"
+        isExternal
+      >
+        Astro Drop is Live
+      </Link>
+      <Link
+        href="https://lockdrop.astroport.fi/"
+        textTransform="uppercase"
+        isExternal
+      >
+        Astro Drop is Live
+      </Link>
+      <Link
+        href="https://lockdrop.astroport.fi/"
+        textTransform="uppercase"
+        isExternal
+      >
+        Astro Drop is Live
+      </Link>
+      <Link
+        href="https://lockdrop.astroport.fi/"
+        textTransform="uppercase"
+        isExternal
+      >
+        Astro Drop is Live
+      </Link>
+      <Link
+        href="https://lockdrop.astroport.fi/"
+        textTransform="uppercase"
+        isExternal
+      >
+        Astro Drop is Live
+      </Link>
+      <Link
+        href="https://lockdrop.astroport.fi/"
+        textTransform="uppercase"
+        isExternal
+      >
+        Astro Drop is Live
+      </Link>
+      <Link
+        href="https://lockdrop.astroport.fi/"
+        textTransform="uppercase"
+        isExternal
+      >
+        Astro Drop is Live
+      </Link>
+      <Link
+        href="https://lockdrop.astroport.fi/"
+        textTransform="uppercase"
+        isExternal
+      >
+        Astro Drop is Live
+      </Link>
+      <Link
+        href="https://lockdrop.astroport.fi/"
+        textTransform="uppercase"
+        isExternal
+      >
+        Astro Drop is Live
+      </Link>
+      <Link
+        href="https://lockdrop.astroport.fi/"
+        textTransform="uppercase"
+        isExternal
+      >
+        Astro Drop is Live
+      </Link>
+      <Link
+        href="https://lockdrop.astroport.fi/"
+        textTransform="uppercase"
+        isExternal
+      >
+        Astro Drop is Live
+      </Link>
+      <Link
+        href="https://lockdrop.astroport.fi/"
+        textTransform="uppercase"
+        isExternal
+      >
+        Astro Drop is Live
+      </Link>
+      <Link
+        href="https://lockdrop.astroport.fi/"
+        textTransform="uppercase"
+        isExternal
+      >
+        Astro Drop is Live
+      </Link>
+      <Link
+        href="https://lockdrop.astroport.fi/"
+        textTransform="uppercase"
+        isExternal
+      >
+        Astro Drop is Live
+      </Link>
+      <Link
+        href="https://lockdrop.astroport.fi/"
+        textTransform="uppercase"
+        isExternal
+      >
+        Astro Drop is Live
+      </Link>
+      <Link
+        href="https://lockdrop.astroport.fi/"
+        textTransform="uppercase"
+        isExternal
+      >
+        Astro Drop is Live
+      </Link>
+      <Link
+        href="https://lockdrop.astroport.fi/"
+        textTransform="uppercase"
+        isExternal
+      >
+        Astro Drop is Live
+      </Link>
+      <Link
+        href="https://lockdrop.astroport.fi/"
+        textTransform="uppercase"
+        isExternal
+      >
+        Astro Drop is Live
+      </Link>
+      <Link
+        href="https://lockdrop.astroport.fi/"
+        textTransform="uppercase"
+        isExternal
+      >
+        Astro Drop is Live
+      </Link>
     </HStack>
   );
 };
