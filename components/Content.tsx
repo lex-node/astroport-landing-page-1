@@ -53,8 +53,7 @@ const Content = () => {
               </UnorderedList>
               <Text>
                 It’s backwards compatible with Terraswap message formats and
-                features advanced analytics, charting and a next-generation user
-                interface.
+                features and a next-generation user interface.
               </Text>
               <HStack pt="4" spacing="6">
                 <Button
