@@ -133,8 +133,8 @@ const Content = () => {
               </Heading>
               <Text>
                 The marketplace never closes on Astroport. Anyone can set up a
-                merchant stall by supplying liquidity in one of three pools.
-                Then, anyone else can trade against those tokens at any time.
+                merchant stall by supplying liquidity in one of two pools. Then,
+                anyone else can trade against those tokens at any time.
               </Text>
               <Text>
                 LPs earn fees. And at launch, they can provide liquidity to earn
