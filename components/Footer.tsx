@@ -64,7 +64,7 @@ const Footer = () => {
               <Link
                 variant="cta"
                 flex="0"
-                href="https://lockdrop.astroport.fi"
+                href="https://app.astroport.fi"
                 isExternal
               >
                 <Flex align="center" height="100%">
