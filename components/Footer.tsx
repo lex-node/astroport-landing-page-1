@@ -82,7 +82,7 @@ const Footer = () => {
                       mr="1"
                       // display={[null, null, "none"]}
                     />
-                    <Text whiteSpace="nowrap">Enter Astro drop</Text>
+                    <Text whiteSpace="nowrap">Enter App</Text>
                   </Flex>
                 </Flex>
               </Link>
@@ -121,7 +121,7 @@ const Footer = () => {
                   justifyContent="space-between"
                   fontFamily="WhyteInktrap"
                 >
-                  {/* <Box>
+                  <Box>
                     <Text fontSize="24px" mb={["4", null, "6"]}>
                       Astroport
                     </Text>
@@ -132,18 +132,23 @@ const Footer = () => {
                       textTransform="uppercase"
                       fontSize={["14px", null, "1rem"]}
                     >
-                      <Link pointerEvents="none" opacity="0.5">
+                      <Link href="https://app.astroport.fi" isExternal>
                         Trade / Swap
                       </Link>
-                      <Link pointerEvents="none" opacity="0.5">
+                      <Link href="https://app.astroport.fi" isExternal>
                         liquidity pools
                       </Link>
-                      <Link>Docs</Link>
-                      <Link pointerEvents="none" opacity="0.5">
+                      <Link href="https://app.astroport.fi" isExternal>
+                        Pre-launches
+                      </Link>
+                      <Link href="https://docs.astroport.fi/" isExternal>
+                        Docs
+                      </Link>
+                      <Link href="https://app.astroport.fi" isExternal>
                         Governance
                       </Link>
                     </VStack>
-                  </Box> */}
+                  </Box>
                 </Flex>
                 <Flex
                   direction="column"
