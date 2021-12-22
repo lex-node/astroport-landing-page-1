@@ -67,8 +67,19 @@ const Navbar: FC = () => {
                   Support
                 </MenuButton>
                 <MenuList zIndex={200}>
-                  <MenuItem>Tutorials</MenuItem>
-                  <MenuItem>Forum</MenuItem>
+                  <MenuItem>
+                    <Link
+                      href="https://docs.astroport.fi/astroport/workstation/trading/swapping-tokens"
+                      isExternal
+                    >
+                      Tutorials
+                    </Link>
+                  </MenuItem>
+                  <MenuItem href="https://forum.astroport.fi/" isExternal>
+                    <Link href="https://forum.astroport.fi/" isExternal>
+                      Forum
+                    </Link>
+                  </MenuItem>
                 </MenuList>
               </Menu>
             </HStack>
