@@ -69,7 +69,7 @@ const Navbar: FC = () => {
                 <MenuList zIndex={200}>
                   <MenuItem>
                     <Link
-                      href="https://docs.astroport.fi/astroport/workstation/trading/swapping-tokens"
+                      href="https://docs.astroport.fi/astroport/workstation/basics"
                       isExternal
                     >
                       Tutorials
@@ -156,7 +156,7 @@ const Navbar: FC = () => {
                   </Link>
                   <VStack spacing="0" align="flex-start" mt="1">
                     <Link
-                      href="https://docs.astroport.fi/astroport/workstation/trading/swapping-tokens"
+                      href="https://docs.astroport.fi/astroport/workstation/basics"
                       isExternal
                       color="white"
                     >
