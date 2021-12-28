@@ -1,6 +1,6 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
-import { Box, Container, VStack } from "@chakra-ui/react";
+import { Box, Container } from "@chakra-ui/react";
 
 import markdownTC from "docs/tc.md";
 

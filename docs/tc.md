@@ -1,9 +1,9 @@
 # Terms and conditions
 
 **Date of Initial Publication:** December 11, 2021  
-**Last Updated:** December 14, 2021
+**Last Updated:** December 28, 2021
 
-These terms and conditions (these **_“Terms”_** ) constitute a binding legal agreement between each individual, entity, group or association who views, interacts, links to or otherwise uses or derives any benefit from the Site (as defined below) ( **_“Users”_** ) and Pythia Orbiter 2, a Cayman Islands limited liability company (the owner/operator of the Site) and each of its successors and assigns (the **_“Site Operator”_** ).
+These terms and conditions (these **_“Terms”_** ) constitute a binding legal agreement between each individual, entity, group or association who views, interacts, links to or otherwise uses or derives any benefit from the Site (as defined below) ( **_“Users”_** ) and Delphi Labs Ltd, a British Virgin Islands company limited by shares (the owner/operator of the Site) and each of its successors and assigns (the **_“Site Operator”_** ).
 
 Please contact us at [delphi_labs_contracts@delphidigital.io](mailto:delphi_labs_contracts@delphidigital.io) for any questions or issues.
 
