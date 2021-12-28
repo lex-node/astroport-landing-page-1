@@ -41,7 +41,7 @@ const Hero = () => {
             </Heading>
           </Box>
           <Link
-            href="https://lockdrop.astroport.fi/"
+            href="https://app.astroport.fi/"
             isExternal
             variant="cta"
             flex="0"
@@ -59,7 +59,7 @@ const Hero = () => {
                   mb="1"
                   mr="1"
                 />
-                <Text whiteSpace="nowrap">Add liquidity</Text>
+                <Text whiteSpace="nowrap">Start trading</Text>
               </Flex>
             </Flex>
           </Link>

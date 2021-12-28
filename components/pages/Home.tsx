@@ -2,7 +2,7 @@ import React from "react";
 import { Box } from "@chakra-ui/react";
 import dynamic from "next/dynamic";
 
-import LiveBanner from "components/liveBanner";
+// import LiveBanner from "components/liveBanner";
 import Hero from "components/Hero";
 import Intro from "components/Intro";
 import NoisePattern from "components/Noisepattern";
@@ -24,7 +24,7 @@ const Home = () => {
       <TCBanner />
       <Box position="relative" zIndex="10">
         <Navbar />
-        <LiveBanner />
+        {/* <LiveBanner /> */}
         <Hero />
         <Intro />
         <Carousel />

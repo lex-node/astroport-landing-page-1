@@ -13,6 +13,10 @@ import {
   useDisclosure,
   Text,
   VStack,
+  Menu,
+  MenuButton,
+  MenuList,
+  MenuItem,
 } from "@chakra-ui/react";
 
 import { Link as SmoothLink } from "react-scroll";
@@ -58,22 +62,33 @@ const Navbar: FC = () => {
                   About
                 </SmoothLink>
               </Text>
-              {/* <Menu>
+              <Menu>
                 <MenuButton as={Link} color="white">
                   Support
                 </MenuButton>
                 <MenuList zIndex={200}>
-                  <MenuItem>Tutorials</MenuItem>
-                  <MenuItem>Forum</MenuItem>
+                  <MenuItem>
+                    <Link
+                      href="https://docs.astroport.fi/astroport/workstation/basics"
+                      isExternal
+                    >
+                      Tutorials
+                    </Link>
+                  </MenuItem>
+                  <MenuItem href="https://forum.astroport.fi/" isExternal>
+                    <Link href="https://forum.astroport.fi/" isExternal>
+                      Forum
+                    </Link>
+                  </MenuItem>
                 </MenuList>
-              </Menu> */}
+              </Menu>
             </HStack>
           </Box>
           <Box>
             <SocialsNav />
           </Box>
           <Box>
-            <Button
+            {/* <Button
               as="a"
               variant="primary"
               href="https://www.immunefi.com/bounty/astroport"
@@ -82,19 +97,17 @@ const Navbar: FC = () => {
               rel="noreferrer"
             >
               Bug Bounty
-            </Button>
-            {/* <Button
+            </Button> */}
+            <Button
               as="a"
               variant="primary"
-              href="/"
+              href="https://app.astroport.fi"
               size="sm"
               target="_blank"
               rel="noreferrer"
-              textTransform="uppercase"
-              fontWeight="500"
             >
-              Go to Astro drop
-            </Button> */}
+              Enter app
+            </Button>
           </Box>
         </HStack>
         <Box display={{ md: "none" }} mr="-4">
@@ -142,7 +155,11 @@ const Navbar: FC = () => {
                     Support
                   </Link>
                   <VStack spacing="0" align="flex-start" mt="1">
-                    <Link href="/" color="white">
+                    <Link
+                      href="https://docs.astroport.fi/astroport/workstation/basics"
+                      isExternal
+                      color="white"
+                    >
                       Tutorials
                     </Link>
                     <Link href="/" color="white">

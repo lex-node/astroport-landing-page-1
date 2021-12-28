@@ -59,14 +59,14 @@ const Content = () => {
                 <Button
                   as="a"
                   variant="primary"
-                  href="https://lockdrop.astroport.fi"
+                  href="https://app.astroport.fi"
                   size="sm"
                   target="_blank"
                   rel="noreferrer"
                   textTransform="uppercase"
                   fontWeight="500"
                 >
-                  Go to Astro drop
+                  Launch app
                 </Button>
               </HStack>
             </VStack>
@@ -146,11 +146,11 @@ const Content = () => {
                 directly into their platforms. That means traders throughout the
                 Terra ecosystem always have access to your liquidity.
               </Text>
-              <HStack pt="4" spacing="6" display="none">
+              <HStack pt="4" spacing="6">
                 <Button
                   as="a"
                   variant="primary"
-                  href="/"
+                  href="https://app.astroport.fi"
                   size="sm"
                   target="_blank"
                   rel="noreferrer"
@@ -162,7 +162,7 @@ const Content = () => {
                 <Button
                   as="a"
                   variant="primary"
-                  href="/"
+                  href="https://app.astroport.fi"
                   size="sm"
                   target="_blank"
                   rel="noreferrer"
