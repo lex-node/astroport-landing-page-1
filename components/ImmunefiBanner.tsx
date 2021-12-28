@@ -68,7 +68,7 @@ const ImmunefiBanner = () => {
             <Flex align="center" textAlign="left" pt="4">
               <Box pb="8">
                 <Heading as="h2" color="#1AFAB7" fontWeight="400">
-                  Get paid up to $1,500,000
+                  Get paid up to $3,000,000
                 </Heading>
                 <Text color="white" fontSize="1.25rem">
                   if you discover bugs and vulnerabilities on Astroport.
