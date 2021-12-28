@@ -101,8 +101,13 @@
     font-family: "WhyteInktrap";
   }
 
+  header {
+    text-align: center;
+  }
+
   h1 {
     font-size: 2.5rem;
+    margin-bottom: 2rem;
 
     @media screen and (min-width: 62em) {
       font-size: 3.5rem;
@@ -111,6 +116,7 @@
 
   h2 {
     font-size: 2rem;
+    margin-bottom: 2rem;
 
     @media screen and (min-width: 62em) {
       font-size: 2.25rem;
@@ -119,6 +125,7 @@
 
   h3 {
     font-size: 1.5rem;
+    margin-bottom: 2rem;
 
     @media screen and (min-width: 62em) {
       font-size: 1.75rem;
@@ -127,6 +134,7 @@
 
   h4 {
     font-size: 1.25rem;
+    margin-bottom: 1rem;
 
     @media screen and (min-width: 62em) {
       font-size: 1.25rem;
@@ -148,33 +156,59 @@
     }
   }
 
-  ul {
+  ul,
+  ol {
     padding-left: 1rem;
+  }
+
+  ul {
     list-style-type: disc;
 
-    &.second {
+    ul {
       padding-left: 2rem;
       list-style-type: circle;
     }
+  }
 
-    &.letter {
-      list-style: lower-latin;
-    }
+  ol {
+    list-style: lower-latin;
+  }
+
+  li {
+    padding: 0.45rem 0;
+    line-height: 1.6;
   }
 
   p,
   ul,
+  ol,
   div {
     & + h3 {
       padding-top: 2rem;
     }
   }
 
+  p {
+    & + p {
+      padding-top: 1rem;
+    }
+  }
+
   p,
   ul,
+  ol,
   div {
     & + h4 {
-      padding-top: 0.5rem;
+      padding-top: 1.5rem;
+    }
+  }
+
+  p,
+  ul,
+  ol,
+  div {
+    & + h2 {
+      padding-top: 3rem;
     }
   }
 }
