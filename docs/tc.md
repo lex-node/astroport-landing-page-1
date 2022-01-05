@@ -1,7 +1,8 @@
 # Terms and conditions
 
 **Date of Initial Publication:** December 11, 2021  
-**Last Updated:** December 28, 2021
+**Last Updated:** January 5, 2022
+**Change History:** [Astroport Github](https://github.com/astroport-fi/astroport-landing-page/commits/master/docs/tc.md)
 
 These terms and conditions (these **_“Terms”_** ) constitute a binding legal agreement between each individual, entity, group or association who views, interacts, links to or otherwise uses or derives any benefit from the Site (as defined below) ( **_“Users”_** ) and Delphi Labs Ltd, a British Virgin Islands company limited by shares (the owner/operator of the Site) and each of its successors and assigns (the **_“Site Operator”_** ).
 
@@ -56,20 +57,16 @@ The Site Operator and the Site are not agents or intermediaries of the User, do 
 
 #### 1.4 Defined Terms
 
-- **_“Astroport Smart Contract Protocol”_** means the source code at [https://github.com/astroport-fi/astroport.](https://github.com/astroport-fi/astroport.) .
-- **_“Astroport Smart Contract System”_** means the runtime bytecodes (aka “smart contracts”) deployed to the following Terra network addresses:
-
-  - "astro_multisig": "terra1c7m6j8ya58a2fkkptn8fgudx8sqjqvc8azq0ex",
-  - "astro_token_address": "terra1xj49zyqrwpv5k928jwfpfy2ha668nwdgkwlrg3",
-  - "astro_builder_unlock_contract": "terra1fh27l8h4s0tfx9ykqxq5efq4xx88f06x6clwmr",
-  - "astroport_factory_address": "[NOT YET DEPLOYED]"
-  - "lockdropAddress": "terra1627ldjvxatt54ydd3ns6xaxtd68a2vtyu7kakj",
-  - "airdrop_Address": "terra1dpe2aqykm2vnakcz4vgpha0agxnlkjvgfahhk7",
-  - "auction_Address": "terra1tvld5k6pus2yh7pcu7xuwyjedn7mjxfkkkjjap"
+- **_“Astroport Smart Contract Protocol”_** means the source code at [https://github.com/astroport-fi/astroport](https://github.com/astroport-fi/astroport).
+ 
+- **_“Astroport Smart Contract System”_** means all blockchain-based runtime bytecodes (aka “smart contracts”) about which the Site provides information, and includes, without limitation, the runtime bytecodes deployed to the Terra network addresses listed in the JSON files at [https://github.com/astroport-fi/astroport-changelog/tree/master/columbus-5/1.0.0](https://github.com/astroport-fi/astroport-changelog/tree/master/columbus-5/1.0.0) (as such files are updated from time to time), which are incorporated herein by reference.
 
 - **_“Site”_** means the web site, web pages, web applications and information and software available at or accessible through the URL [https://astroport.fi/](https://astroport.fi/) or any sub-URL of such URL.
+
 - **_“Terra”_** : at each time, the canonical blockchain and virtual machine environment of the Terra ‘mainnet’, as recognized by at least a majority of the Terra Validators then being operated in good faith in the ordinary course of the network. On the Purchase Date, the Terra mainnet is the network associated with ChainID ‘columbus-5’.
-- **_“Terra Core Nodes”_** : at each time, the internet-connected computers then running unaltered and correctly configured instances of the most up-to-date production release of Terra Core (the reference implementation of the Terra Protocol at [https://github.com/terra-money/core](https://github.com/terra-money/core) .)
+
+- **_“Terra Core Nodes”_** : at each time, the internet-connected computers then running unaltered and correctly configured instances of the most up-to-date production release of Terra Core (the reference implementation of the Terra Protocol at [https://github.com/terra-money/core](https://github.com/terra-money/core)).
+
 - **_“Terra Validators”_** : at each time, the top 100 Terra Core Nodes (by number of $LUNA staked) at such time.
 
 ### 2\. Site operator discretion; certain risks of the site
@@ -303,11 +300,16 @@ These Terms constitutes the entire agreement between the parties relating to the
 
 #### 8.8 Rules of Interpretation
 
-1.  “hereof,” “herein,” “hereunder,” “hereby” and words of similar import will, unless otherwise stated, be construed to refer to these Terms as a whole and not to any particular provision of these Terms;
-2.  “include(s)” and “including” shall be construed to be followed by the words “without limitation”;
-3.  “or” shall be construed to be the “inclusive or” rather than “exclusive or” unless the context requires otherwise;
-4.  any rule of construction to the effect that ambiguities are to be resolved against the drafting party shall not be applied in the construction or interpretation of these Terms;
-5.  section titles, captions and headings are for convenience of reference only and have no legal or contractual effect.;
-6.  whenever the context requires: the singular number shall include the plural, and vice versa; the masculine gender shall include the feminine and neuter genders; the feminine gender shall include the masculine and neuter genders; and the neuter gender shall include the masculine and feminine genders; and
+(a)  “hereof,” “herein,” “hereunder,” “hereby” and words of similar import will, unless otherwise stated, be construed to refer to these Terms as a whole and not to any particular provision of these Terms;
 
-except as otherwise indicated, all references in these Terms to “Sections,” “clauses,” etc., are intended to refer to Sections of Sections, clauses, etc. of these Terms.
+(b)  “include(s)” and “including” shall be construed to be followed by the words “without limitation”;
+
+(c)  “or” shall be construed to be the “inclusive or” rather than “exclusive or” unless the context requires otherwise;
+
+(d)  any rule of construction to the effect that ambiguities are to be resolved against the drafting party shall not be applied in the construction or interpretation of these Terms;
+
+(e)  section titles, captions and headings are for convenience of reference only and have no legal or contractual effect.;
+
+(f)  whenever the context requires: the singular number shall include the plural, and vice versa; the masculine gender shall include the feminine and neuter genders; the feminine gender shall include the masculine and neuter genders; and the neuter gender shall include the masculine and feminine genders; and
+
+(g) except as otherwise indicated, all references in these Terms to “Sections,” “clauses,” etc., are intended to refer to Sections of Sections, clauses, etc. of these Terms.
