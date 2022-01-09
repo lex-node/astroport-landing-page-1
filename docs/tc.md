@@ -1,7 +1,7 @@
 # Terms and conditions
 
 **Date of Initial Publication:** December 11, 2021  
-**Last Updated:** January 5, 2022
+**Last Updated:** January 9, 2022
 **Change History:** [Astroport Github](https://github.com/astroport-fi/astroport-landing-page/commits/master/docs/tc.md)
 
 These terms and conditions (these **_“Terms”_** ) constitute a binding legal agreement between each individual, entity, group or association who views, interacts, links to or otherwise uses or derives any benefit from the Site (as defined below) ( **_“Users”_** ) and Delphi Labs Ltd, a British Virgin Islands company limited by shares (the owner/operator of the Site) and each of its successors and assigns (the **_“Site Operator”_** ).
@@ -63,11 +63,11 @@ The Site Operator and the Site are not agents or intermediaries of the User, do 
 
 - **_“Site”_** means the web site, web pages, web applications and information and software available at or accessible through the URL [https://astroport.fi/](https://astroport.fi/) or any sub-URL of such URL.
 
-- **_“Terra”_** : at each time, the canonical blockchain and virtual machine environment of the Terra ‘mainnet’, as recognized by at least a majority of the Terra Validators then being operated in good faith in the ordinary course of the network. On the Purchase Date, the Terra mainnet is the network associated with ChainID ‘columbus-5’.
+- **_“Terra”_** : means, at each time, the canonical blockchain and virtual machine environment of the Terra ‘mainnet’, as recognized by at least a majority of the Terra Validators then being operated in good faith in the ordinary course of the network. On the Purchase Date, the Terra mainnet is the network associated with ChainID ‘columbus-5’.
 
-- **_“Terra Core Nodes”_** : at each time, the internet-connected computers then running unaltered and correctly configured instances of the most up-to-date production release of Terra Core (the reference implementation of the Terra Protocol at [https://github.com/terra-money/core](https://github.com/terra-money/core)).
+- **_“Terra Core Nodes”_** : means, at each time, the internet-connected computers then running unaltered and correctly configured instances of the most up-to-date production release of Terra Core (the reference implementation of the Terra Protocol at [https://github.com/terra-money/core](https://github.com/terra-money/core)).
 
-- **_“Terra Validators”_** : at each time, the top 100 Terra Core Nodes (by number of $LUNA staked) at such time.
+- **_“Terra Validators”_** : means, at each time, the Terra Core Nodes included in the active validator set for Terra at such time. As of the date of these Terms, the Terra Validators are the top 130 Terra Core Nodes (ranked by number of $LUNA staked).
 
 ### 2\. Site operator discretion; certain risks of the site
 
