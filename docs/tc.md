@@ -1,7 +1,7 @@
 # Terms and conditions
 
 **Date of Initial Publication:** December 11, 2021  
-**Last Updated:** January 9, 2022
+**Last Updated:** January 20, 2022
 **Change History:** [Astroport Github](https://github.com/astroport-fi/astroport-landing-page/commits/master/docs/tc.md)
 
 These terms and conditions (these **_“Terms”_** ) constitute a binding legal agreement between each individual, entity, group or association who views, interacts, links to or otherwise uses or derives any benefit from the Site (as defined below) ( **_“Users”_** ) and Delphi Labs Ltd, a British Virgin Islands company limited by shares (the owner/operator of the Site) and each of its successors and assigns (the **_“Site Operator”_** ).
@@ -40,6 +40,8 @@ The Site aggregates and publishes publicly available third-party information abo
 - transaction records on Terra relating to the Astroport Smart Contract System.
 
 The Site also offers interaction methods whereby the User can indicate a transaction the User would like to perform in connection with the Astroport Smart Contract System (such as swapping one token for another). When used in this way, the Site can generate a draft transaction message which the User can independently utilize in conjunction with a third-party wallet application or device to conduct transactions on Terra.
+
+All information and functionality available on the Site is subject to, and each User hereby acknowledges and agrees to accept and assume the risks and qualifications set forth in, the [Astroport Disclaimers and Disclosures](https://astroport.medium.com/astroport-disclaimers-38dee1f94300), as they may be updated from time to time. 
 
 #### 1.2 About Astroport
 
