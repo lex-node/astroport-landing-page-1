@@ -138,12 +138,6 @@ const Footer = () => {
                       <Link href="http://app.astroport.fi/pools" isExternal>
                         liquidity pools
                       </Link>
-                      <Link
-                        href="https://astroport.medium.com/hello-astro-announcing-the-astroport-governance-token-drops-a07a1bf3ed94"
-                        isExternal
-                      >
-                        Pre-launches
-                      </Link>
                       <Link href="https://docs.astroport.fi/" isExternal>
                         Docs
                       </Link>
