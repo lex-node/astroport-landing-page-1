@@ -1,6 +1,6 @@
-# Astroport Landing page
+# Astroport Landing Page
 
-## Development
+### Development
 
 This project was bootstrapped with [Next.js](https://github.com/vercel/next.js).
 
