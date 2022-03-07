@@ -31,6 +31,9 @@ import AstroportLogo from "components/icons/AstroportLogo";
 const Navbar: FC = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const btnRef = React.useRef();
+  const TUTORIALS_LINK = "https://docs.astroport.fi/astroport/workstation/basics";
+  const FORUM_LINK = "https://forum.astroport.fi/";
+
   return (
     <Container
       maxW="container.xl"
@@ -69,14 +72,14 @@ const Navbar: FC = () => {
                 <MenuList zIndex={200}>
                   <MenuItem>
                     <Link
-                      href="https://docs.astroport.fi/astroport/workstation/basics"
+                      href={TUTORIALS_LINK}
                       isExternal
                     >
                       Tutorials
                     </Link>
                   </MenuItem>
-                  <MenuItem href="https://forum.astroport.fi/" isExternal>
-                    <Link href="https://forum.astroport.fi/" isExternal>
+                  <MenuItem>
+                    <Link href={FORUM_LINK} isExternal>
                       Forum
                     </Link>
                   </MenuItem>
@@ -132,7 +135,6 @@ const Navbar: FC = () => {
             px={["6", null, "12"]}
             py="8"
             direction="column"
-            justifyContent="space-between"
           >
             <Flex justify="space-between" width="100%" align="center">
               <Box>
@@ -145,46 +147,33 @@ const Navbar: FC = () => {
                 <CloseIcon color="white" width="1.5rem" height="1.5rem" />
               </Button>
             </Flex>
-            <Box>
+            <Box mt="10">
               <VStack spacing="8" align="flex-start">
-                <Link href="/" textTransform="uppercase" color="white">
-                  About
-                </Link>
                 <Box>
-                  <Link href="/" textTransform="uppercase" color="white">
-                    Support
-                  </Link>
-                  <VStack spacing="0" align="flex-start" mt="1">
+                  <VStack spacing="4" align="flex-start" mt="1">
                     <Link
-                      href="https://docs.astroport.fi/astroport/workstation/basics"
+                      href={TUTORIALS_LINK}
                       isExternal
                       color="white"
+                      fontSize="lg"
                     >
                       Tutorials
                     </Link>
-                    <Link href="/" color="white">
+                    <Link href={FORUM_LINK} color="white" fontSize="lg">
                       Forum
                     </Link>
                   </VStack>
                 </Box>
                 <Box mt="4">
-                  <Text
-                    textTransform="uppercase"
-                    color="white"
-                    mb="4"
-                    fontFamily=""
-                  >
-                    Community
-                  </Text>
                   <SocialsNav />
                 </Box>
               </VStack>
             </Box>
-            <VStack spacing="10" align="flex-start">
+            <VStack spacing="10" align="flex-start" mt="auto">
               <Button
                 as="a"
                 variant="primary"
-                href="/"
+                href="https://app.astroport.fi"
                 size="sm"
                 target="_blank"
                 rel="noreferrer"
@@ -199,20 +188,12 @@ const Navbar: FC = () => {
               </Button>
               <HStack spacing="12" align="flex-start">
                 <Link
-                  href="/"
+                  href="/terms-and-conditions"
                   textTransform="uppercase"
                   color="white"
                   opacity="0.7"
                 >
                   Terms of use
-                </Link>
-                <Link
-                  href="/"
-                  textTransform="uppercase"
-                  color="white"
-                  opacity="0.7"
-                >
-                  Privacy Policy
                 </Link>
               </HStack>
             </VStack>
