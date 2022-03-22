@@ -37,7 +37,7 @@ const Hero = () => {
               fontWeight="500"
               variant="brand"
             >
-              Astroport. The future of trading.
+              Astroport. The future of trading
             </Heading>
           </Box>
           <Link
