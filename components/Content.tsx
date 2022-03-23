@@ -66,7 +66,7 @@ const Content = () => {
                   textTransform="uppercase"
                   fontWeight="500"
                 >
-                  Launch app
+                  <Text lineHeight={"normal"}>Launch app</Text>
                 </Button>
               </HStack>
             </VStack>
@@ -157,7 +157,7 @@ const Content = () => {
                   textTransform="uppercase"
                   fontWeight="500"
                 >
-                  Trade now
+                  <Text lineHeight={"normal"}>Trade now</Text>
                 </Button>
                 <Button
                   as="a"
@@ -169,7 +169,7 @@ const Content = () => {
                   textTransform="uppercase"
                   fontWeight="500"
                 >
-                  Provide liquidity
+                  <Text lineHeight={"normal"}>Provide liquidity</Text>
                 </Button>
               </HStack>
             </VStack>
