@@ -1,4 +1,5 @@
 import React, { FC, ReactNode } from "react";
+import { useTranslation } from "next-i18next";
 import {
   Modal,
   ModalOverlay,
@@ -15,6 +16,7 @@ type Props = {
 };
 
 const SoonModal: FC<Props> = ({ children }) => {
+  const { t } = useTranslation();
   const { isOpen, onOpen, onClose } = useDisclosure();
   // @ts-expect-error
   const button = React.cloneElement(children, {
@@ -31,7 +33,7 @@ const SoonModal: FC<Props> = ({ children }) => {
           <ModalBody>
             <Flex align="center" direction="column">
               <Heading size="xl" mb="4">
-                Coming soon
+                {t("soonmodal-title")}
               </Heading>
             </Flex>
           </ModalBody>

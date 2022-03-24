@@ -1,4 +1,5 @@
 import React, { FC } from "react";
+import { useTranslation } from "next-i18next";
 import {
   Link,
   Flex,
@@ -29,6 +30,7 @@ import CloseIcon from "components/icons/CloseIcon";
 import AstroportLogo from "components/icons/AstroportLogo";
 
 const Navbar: FC = () => {
+  const { t } = useTranslation();
   const { isOpen, onOpen, onClose } = useDisclosure();
   const btnRef = React.useRef();
   const TUTORIALS_LINK = "https://docs.astroport.fi/astroport/workstation/basics";
@@ -62,12 +64,12 @@ const Navbar: FC = () => {
                   smooth={true}
                   duration={200}
                 >
-                  About
+                  {t("navbar-about")}
                 </SmoothLink>
               </Text>
               <Menu>
                 <MenuButton as={Link} color="white">
-                  Support
+                  {t("navbar-support")}
                 </MenuButton>
                 <MenuList zIndex={200}>
                   <MenuItem>
@@ -75,12 +77,12 @@ const Navbar: FC = () => {
                       href={TUTORIALS_LINK}
                       isExternal
                     >
-                      Tutorials
+                      {t("navbar-tutorials")}
                     </Link>
                   </MenuItem>
                   <MenuItem>
                     <Link href={FORUM_LINK} isExternal>
-                      Forum
+                      {t("navbar-forum")}
                     </Link>
                   </MenuItem>
                 </MenuList>
@@ -109,7 +111,7 @@ const Navbar: FC = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Enter app
+              {t("navbar-enter")}
             </Button>
           </Box>
         </HStack>
@@ -157,10 +159,10 @@ const Navbar: FC = () => {
                       color="white"
                       fontSize="lg"
                     >
-                      Tutorials
+                      {t("navbar-tutorials")}
                     </Link>
                     <Link href={FORUM_LINK} color="white" fontSize="lg">
-                      Forum
+                      {t("navbar-forum")}
                     </Link>
                   </VStack>
                 </Box>
@@ -184,7 +186,7 @@ const Navbar: FC = () => {
                 borderStyle="solid"
                 borderColor="rgba(255,255,255,0.2)"
               >
-                Launch App
+                {t("navbar-launch")}
               </Button>
               <HStack spacing="12" align="flex-start">
                 <Link
@@ -193,7 +195,7 @@ const Navbar: FC = () => {
                   color="white"
                   opacity="0.7"
                 >
-                  Terms of use
+                  {t("navbar-terms")}
                 </Link>
               </HStack>
             </VStack>

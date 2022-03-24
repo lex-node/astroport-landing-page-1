@@ -1,7 +1,10 @@
 import React from "react";
+import { useTranslation } from "next-i18next";
 import { Box, Text, Heading } from "@chakra-ui/react";
 
 const ComingSoon = () => {
+  const { t } = useTranslation();
+
   return (
     <Box pb={["16", null, "32"]} bg="#EEF1F5">
       <Box maxW="xl" margin="0 auto" textAlign="center" px={["6", null, "0"]}>
@@ -10,17 +13,13 @@ const ComingSoon = () => {
           mb={["3", null, "6"]}
           textAlign="center"
         >
-          Our Mission
+          {t("comingsoon-desc-a")}
         </Heading>
         <Text fontSize={["md", null, "lg"]} fontWeight="bold" mb="6">
-          Astroport removes the complexity of advanced yield farming strategies
-          to deliver optimized, sustainable yield for users
+          {t("comingsoon-desc-b")}
         </Text>
         <Text fontSize={["md", null, "lg"]}>
-          Astroport&apos;s first product will be focus on borrow strategies
-          which are available within the Terra ecosystem. The protocol will
-          evolve and develop new vault strategies through community governance
-          proposals and grants over time
+          {t("comingsoon-desc-c")}
         </Text>
       </Box>
     </Box>

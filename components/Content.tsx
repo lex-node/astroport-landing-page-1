@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "next-i18next";
 import {
   Box,
   Container,
@@ -15,6 +16,8 @@ import {
 } from "@chakra-ui/react";
 
 const Content = () => {
+  const { t } = useTranslation();
+
   return (
     <Box pt={["10", null, "16", "28"]} pb={["16", null, null, "20"]}>
       <Container maxW="container.xl" px={["8", null, "12"]} color="white">
@@ -36,24 +39,21 @@ const Content = () => {
                 lineHeight="1.2"
                 fontWeight="400"
               >
-                The next evolution in DEXes
+                {t("content-desc-a")}
               </Heading>
               <Text>
-                Written from scratch in Rust, Astroport combines the best pieces
-                of six years of development on the Ethereum blockchain and
-                delivers it on Terra.
+                {t("content-desc-b")}
               </Text>
-              <Text>It supports two liquidity pool types:</Text>
+              <Text>{t("content-desc-c")}</Text>
               <UnorderedList>
-                <ListItem>Uniswap’s Constant Product formula pools</ListItem>
-                <ListItem>Curve’s StableSwap Invariant formula pools </ListItem>
+                <ListItem>{t("content-desc-d")}</ListItem>
+                <ListItem>{t("content-desc-e")}</ListItem>
                 {/* <ListItem>
                   Balancer’s Liquidity Bootstrapping (LBP) pools.
                 </ListItem> */}
               </UnorderedList>
               <Text>
-                It’s backwards compatible with Terraswap message formats and
-                features and a next-generation user interface.
+                {t("content-desc-f")}
               </Text>
               <HStack pt="4" spacing="6">
                 <Button
@@ -66,7 +66,7 @@ const Content = () => {
                   textTransform="uppercase"
                   fontWeight="500"
                 >
-                  <Text lineHeight={"normal"}>Launch app</Text>
+                  <Text lineHeight={"normal"}>{t("content-link-a")}</Text>
                 </Button>
               </HStack>
             </VStack>
@@ -129,22 +129,16 @@ const Content = () => {
                 lineHeight="1.2"
                 fontWeight="400"
               >
-                Where traders and LPs meet
+                {t("content-desc-g")}
               </Heading>
               <Text>
-                The marketplace never closes on Astroport. Anyone can set up a
-                merchant stall by supplying liquidity in one of two pools. Then,
-                anyone else can trade against those tokens at any time.
+                {t("content-desc-h")}
               </Text>
               <Text>
-                LPs earn fees. And at launch, they can provide liquidity to earn
-                ASTRO, too. Since all of Astroport’s liquidity lives in smart
-                contracts, it’s programmable.
+                {t("content-desc-i")}
               </Text>
               <Text>
-                Other Terra-based dapps can integrate Astroport liquidity
-                directly into their platforms. That means traders throughout the
-                Terra ecosystem always have access to your liquidity.
+                {t("content-desc-j")}
               </Text>
               <HStack pt="4" spacing="6">
                 <Button
@@ -157,7 +151,7 @@ const Content = () => {
                   textTransform="uppercase"
                   fontWeight="500"
                 >
-                  <Text lineHeight={"normal"}>Trade now</Text>
+                  <Text lineHeight={"normal"}>{t("content-link-b")}</Text>
                 </Button>
                 <Button
                   as="a"
@@ -169,7 +163,7 @@ const Content = () => {
                   textTransform="uppercase"
                   fontWeight="500"
                 >
-                  <Text lineHeight={"normal"}>Provide liquidity</Text>
+                  <Text lineHeight={"normal"}>{t("content-link-c")}</Text>
                 </Button>
               </HStack>
             </VStack>
