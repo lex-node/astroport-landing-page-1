@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "next-i18next";
 import {
   Box,
   Container,
@@ -23,6 +24,7 @@ const spin = keyframes`
 const spinAnimation = `${spin} infinite 60s linear`;
 
 const Carousel = () => {
+  const { t } = useTranslation();
   const heroOptions = {
     loop: true,
     autoplay: true,
@@ -63,121 +65,121 @@ const Carousel = () => {
           className="translate-carousel"
         >
           <Text textTransform="uppercase" color="white">
-            Astroport Specs
+            {t("carousel-specs")}
           </Text>
           <Text textTransform="uppercase" color="white">
-            Astroport Specs
+            {t("carousel-specs")}
           </Text>
           <Text textTransform="uppercase" color="white">
-            Astroport Specs
+            {t("carousel-specs")}
           </Text>
           <Text textTransform="uppercase" color="white">
-            Astroport Specs
+            {t("carousel-specs")}
           </Text>
           <Text textTransform="uppercase" color="white">
-            Astroport Specs
+            {t("carousel-specs")}
           </Text>
           <Text textTransform="uppercase" color="white">
-            Astroport Specs
+            {t("carousel-specs")}
           </Text>
           <Text textTransform="uppercase" color="white">
-            Astroport Specs
+            {t("carousel-specs")}
           </Text>
           <Text textTransform="uppercase" color="white">
-            Astroport Specs
+            {t("carousel-specs")}
           </Text>
           <Text textTransform="uppercase" color="white">
-            Astroport Specs
+            {t("carousel-specs")}
           </Text>
           <Text textTransform="uppercase" color="white">
-            Astroport Specs
+            {t("carousel-specs")}
           </Text>
           <Text textTransform="uppercase" color="white">
-            Astroport Specs
+            {t("carousel-specs")}
           </Text>
           <Text textTransform="uppercase" color="white">
-            Astroport Specs
+            {t("carousel-specs")}
           </Text>
           <Text textTransform="uppercase" color="white">
-            Astroport Specs
+            {t("carousel-specs")}
           </Text>
           <Text textTransform="uppercase" color="white">
-            Astroport Specs
+            {t("carousel-specs")}
           </Text>
           <Text textTransform="uppercase" color="white">
-            Astroport Specs
+            {t("carousel-specs")}
           </Text>
           <Text textTransform="uppercase" color="white">
-            Astroport Specs
+            {t("carousel-specs")}
           </Text>
           <Text textTransform="uppercase" color="white">
-            Astroport Specs
+            {t("carousel-specs")}
           </Text>
           <Text textTransform="uppercase" color="white">
-            Astroport Specs
+            {t("carousel-specs")}
           </Text>
           <Text textTransform="uppercase" color="white">
-            Astroport Specs
+            {t("carousel-specs")}
           </Text>
           <Text textTransform="uppercase" color="white">
-            Astroport Specs
+            {t("carousel-specs")}
           </Text>
           <Text textTransform="uppercase" color="white">
-            Astroport Specs
+            {t("carousel-specs")}
           </Text>
           <Text textTransform="uppercase" color="white">
-            Astroport Specs
+            {t("carousel-specs")}
           </Text>
           <Text textTransform="uppercase" color="white">
-            Astroport Specs
+            {t("carousel-specs")}
           </Text>
           <Text textTransform="uppercase" color="white">
-            Astroport Specs
+            {t("carousel-specs")}
           </Text>
           <Text textTransform="uppercase" color="white">
-            Astroport Specs
+            {t("carousel-specs")}
           </Text>
           <Text textTransform="uppercase" color="white">
-            Astroport Specs
+            {t("carousel-specs")}
           </Text>
           <Text textTransform="uppercase" color="white">
-            Astroport Specs
+            {t("carousel-specs")}
           </Text>
           <Text textTransform="uppercase" color="white">
-            Astroport Specs
+            {t("carousel-specs")}
           </Text>
           <Text textTransform="uppercase" color="white">
-            Astroport Specs
+            {t("carousel-specs")}
           </Text>
           <Text textTransform="uppercase" color="white">
-            Astroport Specs
+            {t("carousel-specs")}
           </Text>
           <Text textTransform="uppercase" color="white">
-            Astroport Specs
+            {t("carousel-specs")}
           </Text>
           <Text textTransform="uppercase" color="white">
-            Astroport Specs
+            {t("carousel-specs")}
           </Text>
           <Text textTransform="uppercase" color="white">
-            Astroport Specs
+            {t("carousel-specs")}
           </Text>
           <Text textTransform="uppercase" color="white">
-            Astroport Specs
+            {t("carousel-specs")}
           </Text>
           <Text textTransform="uppercase" color="white">
-            Astroport Specs
+            {t("carousel-specs")}
           </Text>
           <Text textTransform="uppercase" color="white">
-            Astroport Specs
+            {t("carousel-specs")}
           </Text>
           <Text textTransform="uppercase" color="white">
-            Astroport Specs
+            {t("carousel-specs")}
           </Text>
           <Text textTransform="uppercase" color="white">
-            Astroport Specs
+            {t("carousel-specs")}
           </Text>
           <Text textTransform="uppercase" color="white">
-            Astroport Specs
+            {t("carousel-specs")}
           </Text>
         </HStack>
         <Container
@@ -204,9 +206,9 @@ const Carousel = () => {
                 textTransform="uppercase"
                 mb={["4", null, null, "0"]}
               >
-                Core
+                {t("carousel-desc-a")}
                 <br />
-                Features
+                {t("carousel-desc-b")}
                 <sup className="heading__sup">01</sup>
               </Heading>
               <UnorderedList
@@ -214,10 +216,10 @@ const Carousel = () => {
                 pb={["10", null, "20"]}
                 fontWeight="normal"
               >
-                <ListItem>Programmable liquidity</ListItem>
-                <ListItem>All-new Rust code</ListItem>
-                <ListItem>Oracle integration</ListItem>
-                <ListItem>Easy dapp integration</ListItem>
+                <ListItem>{t("carousel-list-a")}</ListItem>
+                <ListItem>{t("carousel-list-b")}</ListItem>
+                <ListItem>{t("carousel-list-c")}</ListItem>
+                <ListItem>{t("carousel-list-d")}</ListItem>
               </UnorderedList>
               {/* <Box borderTop="1px" color="white" pr="10" pt="4">
                 <Heading
@@ -263,7 +265,7 @@ const Carousel = () => {
                         letterSpacing="1px"
                         fontSize="9px"
                       >
-                        AUTONOMOUS&nbsp;&nbsp;&nbsp;OPEN-SOURCE&nbsp;&nbsp;&nbsp;DECENTRALIZED
+                        {t("carousel-link-a")}&nbsp;&nbsp;&nbsp;{t("carousel-link-a")}&nbsp;&nbsp;&nbsp;{t("carousel-link-c")}
                       </textPath>
                     </text>
                   </svg>

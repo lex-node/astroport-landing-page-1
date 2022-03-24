@@ -1,6 +1,7 @@
 import React from "react";
 import { NextSeo } from "next-seo";
 import { NextPage } from "next";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
 import Home from "components/pages/Home";
 
@@ -32,5 +33,11 @@ const HomePage: NextPage = () => {
     </>
   );
 };
+
+export const getStaticProps = async ({ locale }) => ({
+  props: {
+    ...await serverSideTranslations(locale),
+  },
+})
 
 export default HomePage;

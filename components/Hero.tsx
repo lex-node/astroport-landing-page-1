@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "next-i18next";
 import {
   Container,
   Box,
@@ -17,6 +18,8 @@ import ReactPlayer from "react-player/lazy";
 import ArrowRightIcon from "components/icons/ArrowRightIcon";
 
 const Hero = () => {
+  const { t } = useTranslation();
+
   return (
     <Container
       maxW="container.xl"
@@ -37,7 +40,7 @@ const Hero = () => {
               fontWeight="500"
               variant="brand"
             >
-              Astroport. The future of trading
+              {t("hero-header")}
             </Heading>
           </Box>
           <Link
@@ -59,7 +62,7 @@ const Hero = () => {
                   mb="1"
                   mr="1"
                 />
-                <Text whiteSpace="nowrap">Start trading</Text>
+                <Text whiteSpace="nowrap">{t("hero-trading")}</Text>
               </Flex>
             </Flex>
           </Link>

@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "next-i18next";
 import {
   Box,
   Container,
@@ -12,6 +13,8 @@ import {
 } from "@chakra-ui/react";
 
 const Collaborators = () => {
+  const { t } = useTranslation();
+
   return (
     <Box
       pt={["10", null, "16", "28"]}
@@ -28,9 +31,9 @@ const Collaborators = () => {
             textTransform="uppercase"
             mb={["10", null, null, "0"]}
           >
-            Collab
+            {t("collaborators-title-a")}
             <br />
-            orators
+            {t("collaborators-title-b")}
           </Heading>
           <VStack spacing="50px" maxW="container.md">
             <Stack
@@ -48,12 +51,7 @@ const Collaborators = () => {
               </Box>
               <Box>
                 <Text>
-                  <Link variant="animated">The Delphi Labs</Link> team has
-                  extensive experience working with a wide array of token-based
-                  projects to engineer rational and balanced network economies
-                  that promote organic ecosystem growth. Clients include Axie
-                  Infinity (AXS), Synthetix (SNX), Aave (AAVE), Nervos (CKB) and
-                  Skale (SKL).
+                  <Link variant="animated">{t("collaborators-link-a")}</Link> {t("collaborators-desc-a")}
                 </Text>
               </Box>
             </Stack>
@@ -72,11 +70,7 @@ const Collaborators = () => {
               </Box>
               <Box>
                 <Text>
-                  <Link variant="animated">IDEO CoLab</Link> invests in
-                  early-stage distributed web startups and co-create with them
-                  to launch new products and protocols. Partners include
-                  Handshake (HNS), PoolTogether (POOL), Instadapp (INST), Near
-                  (NEAR) and Optimism.
+                  <Link variant="animated">{t("collaborators-link-b")}</Link> {t("collaborators-desc-b")}
                 </Text>
               </Box>
             </Stack>
@@ -95,9 +89,7 @@ const Collaborators = () => {
               </Box>
               <Box>
                 <Text>
-                  <Link variant="animated">Terraform Labs</Link> incubates
-                  foundational protocols on the Terra blockchain including
-                  Mirror (MIR), Anchor (ANC) and Chai.
+                  <Link variant="animated">{t("collaborators-link-c")}</Link> {t("collaborators-desc-c")}
                 </Text>
               </Box>
             </Stack>

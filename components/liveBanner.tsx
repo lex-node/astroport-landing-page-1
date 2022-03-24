@@ -1,9 +1,12 @@
 import React from "react";
+import { useTranslation } from "next-i18next";
 import { HStack, Link } from "@chakra-ui/react";
 
 import DividerIcon from "./icons/DividerIcon";
 
-const liveBanner = () => {
+const LiveBanner = () => {
+  const { t } = useTranslation();
+
   return (
     <HStack
       fontSize="28px"
@@ -20,276 +23,276 @@ const liveBanner = () => {
         textTransform="uppercase"
         isExternal
       >
-        Astro Drop is Live
+        {t("livebanner-title")}
       </Link>
       <Link
         href="https://lockdrop.astroport.fi/"
         textTransform="uppercase"
         isExternal
       >
-        Astro Drop is Live
+        {t("livebanner-title")}
       </Link>
       <Link
         href="https://lockdrop.astroport.fi/"
         textTransform="uppercase"
         isExternal
       >
-        Astro Drop is Live
+        {t("livebanner-title")}
       </Link>
       <Link
         href="https://lockdrop.astroport.fi/"
         textTransform="uppercase"
         isExternal
       >
-        Astro Drop is Live
+        {t("livebanner-title")}
       </Link>
       <Link
         href="https://lockdrop.astroport.fi/"
         textTransform="uppercase"
         isExternal
       >
-        Astro Drop is Live
+        {t("livebanner-title")}
       </Link>
       <Link
         href="https://lockdrop.astroport.fi/"
         textTransform="uppercase"
         isExternal
       >
-        Astro Drop is Live
+        {t("livebanner-title")}
       </Link>
       <Link
         href="https://lockdrop.astroport.fi/"
         textTransform="uppercase"
         isExternal
       >
-        Astro Drop is Live
+        {t("livebanner-title")}
       </Link>
       <Link
         href="https://lockdrop.astroport.fi/"
         textTransform="uppercase"
         isExternal
       >
-        Astro Drop is Live
+        {t("livebanner-title")}
       </Link>
       <Link
         href="https://lockdrop.astroport.fi/"
         textTransform="uppercase"
         isExternal
       >
-        Astro Drop is Live
+        {t("livebanner-title")}
       </Link>
       <Link
         href="https://lockdrop.astroport.fi/"
         textTransform="uppercase"
         isExternal
       >
-        Astro Drop is Live
+        {t("livebanner-title")}
       </Link>
       <Link
         href="https://lockdrop.astroport.fi/"
         textTransform="uppercase"
         isExternal
       >
-        Astro Drop is Live
+        {t("livebanner-title")}
       </Link>
       <Link
         href="https://lockdrop.astroport.fi/"
         textTransform="uppercase"
         isExternal
       >
-        Astro Drop is Live
+        {t("livebanner-title")}
       </Link>
       <Link
         href="https://lockdrop.astroport.fi/"
         textTransform="uppercase"
         isExternal
       >
-        Astro Drop is Live
+        {t("livebanner-title")}
       </Link>
       <Link
         href="https://lockdrop.astroport.fi/"
         textTransform="uppercase"
         isExternal
       >
-        Astro Drop is Live
+        {t("livebanner-title")}
       </Link>
       <Link
         href="https://lockdrop.astroport.fi/"
         textTransform="uppercase"
         isExternal
       >
-        Astro Drop is Live
+        {t("livebanner-title")}
       </Link>
       <Link
         href="https://lockdrop.astroport.fi/"
         textTransform="uppercase"
         isExternal
       >
-        Astro Drop is Live
+        {t("livebanner-title")}
       </Link>
       <Link
         href="https://lockdrop.astroport.fi/"
         textTransform="uppercase"
         isExternal
       >
-        Astro Drop is Live
+        {t("livebanner-title")}
       </Link>
       <Link
         href="https://lockdrop.astroport.fi/"
         textTransform="uppercase"
         isExternal
       >
-        Astro Drop is Live
+        {t("livebanner-title")}
       </Link>
       <Link
         href="https://lockdrop.astroport.fi/"
         textTransform="uppercase"
         isExternal
       >
-        Astro Drop is Live
+        {t("livebanner-title")}
       </Link>
       <Link
         href="https://lockdrop.astroport.fi/"
         textTransform="uppercase"
         isExternal
       >
-        Astro Drop is Live
+        {t("livebanner-title")}
       </Link>
       <Link
         href="https://lockdrop.astroport.fi/"
         textTransform="uppercase"
         isExternal
       >
-        Astro Drop is Live
+        {t("livebanner-title")}
       </Link>
       <Link
         href="https://lockdrop.astroport.fi/"
         textTransform="uppercase"
         isExternal
       >
-        Astro Drop is Live
+        {t("livebanner-title")}
       </Link>
       <Link
         href="https://lockdrop.astroport.fi/"
         textTransform="uppercase"
         isExternal
       >
-        Astro Drop is Live
+        {t("livebanner-title")}
       </Link>
       <Link
         href="https://lockdrop.astroport.fi/"
         textTransform="uppercase"
         isExternal
       >
-        Astro Drop is Live
+        {t("livebanner-title")}
       </Link>
       <Link
         href="https://lockdrop.astroport.fi/"
         textTransform="uppercase"
         isExternal
       >
-        Astro Drop is Live
+        {t("livebanner-title")}
       </Link>
       <Link
         href="https://lockdrop.astroport.fi/"
         textTransform="uppercase"
         isExternal
       >
-        Astro Drop is Live
+        {t("livebanner-title")}
       </Link>
       <Link
         href="https://lockdrop.astroport.fi/"
         textTransform="uppercase"
         isExternal
       >
-        Astro Drop is Live
+        {t("livebanner-title")}
       </Link>
       <Link
         href="https://lockdrop.astroport.fi/"
         textTransform="uppercase"
         isExternal
       >
-        Astro Drop is Live
+        {t("livebanner-title")}
       </Link>
       <Link
         href="https://lockdrop.astroport.fi/"
         textTransform="uppercase"
         isExternal
       >
-        Astro Drop is Live
+        {t("livebanner-title")}
       </Link>
       <Link
         href="https://lockdrop.astroport.fi/"
         textTransform="uppercase"
         isExternal
       >
-        Astro Drop is Live
+        {t("livebanner-title")}
       </Link>
       <Link
         href="https://lockdrop.astroport.fi/"
         textTransform="uppercase"
         isExternal
       >
-        Astro Drop is Live
+        {t("livebanner-title")}
       </Link>
       <Link
         href="https://lockdrop.astroport.fi/"
         textTransform="uppercase"
         isExternal
       >
-        Astro Drop is Live
+        {t("livebanner-title")}
       </Link>
       <Link
         href="https://lockdrop.astroport.fi/"
         textTransform="uppercase"
         isExternal
       >
-        Astro Drop is Live
+        {t("livebanner-title")}
       </Link>
       <Link
         href="https://lockdrop.astroport.fi/"
         textTransform="uppercase"
         isExternal
       >
-        Astro Drop is Live
+        {t("livebanner-title")}
       </Link>
       <Link
         href="https://lockdrop.astroport.fi/"
         textTransform="uppercase"
         isExternal
       >
-        Astro Drop is Live
+        {t("livebanner-title")}
       </Link>
       <Link
         href="https://lockdrop.astroport.fi/"
         textTransform="uppercase"
         isExternal
       >
-        Astro Drop is Live
+        {t("livebanner-title")}
       </Link>
       <Link
         href="https://lockdrop.astroport.fi/"
         textTransform="uppercase"
         isExternal
       >
-        Astro Drop is Live
+        {t("livebanner-title")}
       </Link>
       <Link
         href="https://lockdrop.astroport.fi/"
         textTransform="uppercase"
         isExternal
       >
-        Astro Drop is Live
+        {t("livebanner-title")}
       </Link>
       <Link
         href="https://lockdrop.astroport.fi/"
         textTransform="uppercase"
         isExternal
       >
-        Astro Drop is Live
+        {t("livebanner-title")}
       </Link>
     </HStack>
   );
 };
 
-export default liveBanner;
+export default LiveBanner;

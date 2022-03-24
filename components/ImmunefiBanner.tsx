@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "next-i18next";
 import {
   Box,
   Flex,
@@ -13,6 +14,8 @@ import {
 import EdgeCornerIcon from "components/icons/EdgeCornerIcon";
 
 const ImmunefiBanner = () => {
+  const { t } = useTranslation();
+
   return (
     <Box pt="24">
       <Link
@@ -68,10 +71,10 @@ const ImmunefiBanner = () => {
             <Flex align="center" textAlign="left" pt="4">
               <Box pb="8">
                 <Heading as="h2" color="#1AFAB7" fontWeight="400">
-                  Get paid up to $3,000,000
+                  {t("immunefi-desc-a")}
                 </Heading>
                 <Text color="white" fontSize="1.25rem">
-                  if you discover bugs and vulnerabilities on Astroport.
+                  {t("immunefi-desc-b")}
                 </Text>
                 <Box mt={[6, null, 7]} w={["60%", null, "auto"]}>
                   <HStack
@@ -88,7 +91,7 @@ const ImmunefiBanner = () => {
                         color="brand.purple"
                         _hover={{ textDecoration: "underline" }}
                       >
-                        Report Bug
+                        {t("immunefi-desc-c")}
                       </Button>
                     </Box>
                     <HStack py={[3, null, 4]} spacing="4">
@@ -98,7 +101,7 @@ const ImmunefiBanner = () => {
                         color="white"
                         fontSize="0.8125rem"
                       >
-                        with
+                        {t("immunefi-desc-d")}
                       </Text>
                       <Image
                         src="/immunefi-logo.svg"

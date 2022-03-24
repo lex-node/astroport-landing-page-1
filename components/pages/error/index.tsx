@@ -1,4 +1,5 @@
 import React, { FC } from "react";
+import { useTranslation } from "next-i18next";
 import { Box, Heading, Stack, Text, Button, Flex } from "@chakra-ui/react";
 import Link from "next/link";
 
@@ -9,12 +10,13 @@ interface IProps {
 const IndexPageComponent: FC<IProps> = ({ statusCode }) => {
   const heightOfNavbar: string = "74px";
   const containerPadding: string = "1rem";
+  const { t } = useTranslation();
 
   const signOutButtonNode = () => {
     return (
       <Box>
         <Link href="/" passHref>
-          <Button as="a">Return to the home page</Button>
+          <Button as="a">{t("error-return-home")}</Button>
         </Link>
       </Box>
     );

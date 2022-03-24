@@ -1,4 +1,5 @@
 import React, { FC } from "react";
+import { useTranslation } from "next-i18next";
 import {
   Box,
   Container,
@@ -25,6 +26,7 @@ const spin = keyframes`
 const spinAnimation = `${spin} infinite 60s linear`;
 
 const Hero = () => {
+  const { t } = useTranslation();
   const terraOptions = {
     loop: true,
     autoplay: true,
@@ -87,7 +89,7 @@ const Hero = () => {
                   letterSpacing="4px"
                   fontSize="12px"
                 >
-                  HYPER SPEED &nbsp; EXPLAINED
+                  {t("intro-title-a")} &nbsp; {t("intro-title-b")}
                 </textPath>
               </text>
             </svg>
@@ -102,14 +104,13 @@ const Hero = () => {
         id="about"
       >
         <Box>
-          Hovering above the
+          {t("intro-desc-a")}
           <Box display="inline-block" px="2" mb="-3">
             <AspectRatio ratio={1} width="50px">
               <Lottie options={terraOptions} />
             </AspectRatio>
           </Box>
-          <strong>Terra ecosystem</strong>, Astroport is a neutral marketplace
-          where anyone, from anywhere in the galaxy
+          <strong>{t("intro-desc-b")}</strong>, {t("intro-desc-c")}
           <HStack display="inline-block" spacing="4" px="4">
             <Image
               src="/mirror.png"
@@ -133,18 +134,18 @@ const Hero = () => {
               display="inline"
             />
           </HStack>
-          can dock to trade their wares.
+          {t("intro-desc-d")}
         </Box>
         <Box>
-          <strong>Decentralized, permissionless and open-source</strong>,
-          Astroport’s marketplace is a public good governed by its community of
+          <strong>{t("intro-desc-e")}</strong>,
+          {t("intro-desc-f")}
           <br />
           <Box display="inline-block" px="1" mb="-5">
             <AspectRatio ratio={1} width="64px">
               <Lottie options={astroOptions} />
             </AspectRatio>
           </Box>
-          token holders.
+          {t("intro-desc-g")}
         </Box>
         <Button
           as="a"
@@ -156,7 +157,7 @@ const Hero = () => {
           textTransform="uppercase"
           fontWeight="500"
         >
-          Learn more
+          {t("intro-learn")}
         </Button>
         <SocialsNav />
       </VStack>

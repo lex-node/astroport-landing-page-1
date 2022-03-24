@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "next-i18next";
 import {
   Box,
   Container,
@@ -20,6 +21,7 @@ import Lottie from "react-lottie";
 import * as animationAstro from "../public/astro_A.json";
 
 const Footer = () => {
+  const { t } = useTranslation();
   const astroOptions = {
     loop: true,
     autoplay: true,
@@ -58,8 +60,7 @@ const Footer = () => {
                 p={["4", null, "12"]}
                 fontFamily="WhyteInktrap"
               >
-                Astroport brings liquidity to Terra tokens from all parts of the
-                galaxy.
+                {t("footer-desc-a")}
               </Text>
               <Link
                 variant="cta"
@@ -82,7 +83,7 @@ const Footer = () => {
                       mr="1"
                       // display={[null, null, "none"]}
                     />
-                    <Text whiteSpace="nowrap">Enter App</Text>
+                    <Text whiteSpace="nowrap">{t("footer-desc-b")}</Text>
                   </Flex>
                 </Flex>
               </Link>
@@ -123,7 +124,7 @@ const Footer = () => {
                 >
                   <Box>
                     <Text fontSize="24px" mb={["4", null, "6"]}>
-                      Astroport
+                      {t("footer-desc-c")}
                     </Text>
                     <VStack
                       align="flex-start"
@@ -133,16 +134,16 @@ const Footer = () => {
                       fontSize={["14px", null, "1rem"]}
                     >
                       <Link href="https://app.astroport.fi" isExternal>
-                        Trade / Swap
+                        {t("footer-link-a")}
                       </Link>
                       <Link href="http://app.astroport.fi/pools" isExternal>
-                        liquidity pools
+                        {t("footer-link-b")}
                       </Link>
                       <Link href="https://docs.astroport.fi/" isExternal>
-                        Docs
+                        {t("footer-link-c")}
                       </Link>
                       <Link href="https://forum.astroport.fi/" isExternal>
-                        Governance
+                        {t("footer-link-d")}
                       </Link>
                     </VStack>
                   </Box>
@@ -154,7 +155,7 @@ const Footer = () => {
                 >
                   <Box>
                     <Text fontSize="24px" mb={["4", null, "6"]}>
-                      Support
+                      {t("footer-desc-d")}
                     </Text>
                     {/* <VStack
                       align="flex-start"
@@ -175,13 +176,13 @@ const Footer = () => {
                       fontSize={["14px", null, "1rem"]}
                     >
                       <NextLink href="/terms-and-conditions" passHref>
-                        <Link>Terms of use</Link>
+                        <Link>{t("footer-link-e")}</Link>
                       </NextLink>
                       <Link
                         href="https://www.immunefi.com/bounty/astroport"
                         isExternal
                       >
-                        Bug Bounty
+                        {t("footer-link-f")}
                       </Link>
 
                       {/* <Link>Privacy policy</Link> */}
@@ -191,7 +192,7 @@ const Footer = () => {
                 <Flex direction="column" flex="1" fontFamily="WhyteInktrap">
                   <Box>
                     <Text fontSize="24px" mb={["4", null, "6"]}>
-                      Community
+                    {t("footer-desc-e")}
                     </Text>
                     <VStack
                       align="flex-start"
@@ -204,22 +205,22 @@ const Footer = () => {
                         href="https://discord.gg/astroport"
                         isExternal={true}
                       >
-                        Discord
+                        {t("footer-link-g")}
                       </Link>
                       <Link
                         href="https://astroport.medium.com/"
                         isExternal={true}
                       >
-                        Medium
+                        {t("footer-link-h")}
                       </Link>
                       <Link href="https://t.me/astroport_fi" isExternal={true}>
-                        Telegram
+                        {t("footer-link-i")}
                       </Link>
                       <Link
                         href="https://twitter.com/astroport_fi"
                         isExternal={true}
                       >
-                        Twitter
+                        {t("footer-link-j")}
                       </Link>
                     </VStack>
                   </Box>
