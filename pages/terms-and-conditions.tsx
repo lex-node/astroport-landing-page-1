@@ -1,6 +1,7 @@
 import React from "react";
 import { NextSeo } from "next-seo";
 import { NextPage } from "next";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
 import TC from "components/pages/TC";
 
@@ -32,5 +33,11 @@ const TCPage: NextPage = () => {
     </>
   );
 };
+
+export const getStaticProps = async ({ locale }) => ({
+  props: {
+    ...await serverSideTranslations(locale),
+  },
+})
 
 export default TCPage;
