@@ -35,7 +35,7 @@ const TCBanner = () => {
       <VStack spacing="8" align="flex-start">
         <VStack spacing="3" color="white" align="flex-start">
           <Text>
-            {t("tcbanner-header")}{" "}
+            {t("tcbanner-header-begin")}{" "}
             <NextLink href="/terms-and-conditions" passHref>
               <Link href="#" fontWeight="bold">
                 {t("tcbanner-header-link")}
