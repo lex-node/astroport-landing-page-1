@@ -2,21 +2,23 @@ import React, { FC } from "react";
 import { useTranslation } from "next-i18next";
 import { Box, Heading, Stack, Text, Button, Flex } from "@chakra-ui/react";
 import Link from "next/link";
+import NotFoundIllustration from "./NotFoundIllustration";
 
 interface IProps {
   statusCode: number;
 }
 
 const IndexPageComponent: FC<IProps> = ({ statusCode }) => {
+  const { t } = useTranslation();
   const heightOfNavbar: string = "74px";
   const containerPadding: string = "1rem";
-  const { t } = useTranslation();
+  const notFoundError = statusCode && statusCode == 404;
 
   const signOutButtonNode = () => {
     return (
       <Box>
         <Link href="/" passHref>
-          <Button as="a">{t("error-return-home")}</Button>
+          <Button variant="primary" as="a" textTransform="inherit">{t("error-return-home")}</Button>
         </Link>
       </Box>
     );
@@ -29,13 +31,8 @@ const IndexPageComponent: FC<IProps> = ({ statusCode }) => {
         justifyContent="center"
         alignItems="center"
       >
-        <Stack spacing={4} maxW="xl" mx="auto">
-          <Heading textAlign="center">Nextjs Hasura Boilerplate</Heading>
-          <Text fontSize="xl" lineHeight="tall" textAlign="center">
-            {statusCode
-              ? `An error ${statusCode} occurred on server`
-              : "An error occurred on client"}
-          </Text>
+        <Stack spacing={16} px={10} w="full" maxW="3xl" mx="auto">
+          {notFoundError && <NotFoundIllustration width="100%" />}
           <Box>
             <Stack isInline align="center" justifyContent="center">
               {signOutButtonNode()}
