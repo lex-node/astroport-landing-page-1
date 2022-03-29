@@ -34,6 +34,7 @@ const Navbar: FC = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const btnRef = React.useRef();
   const TUTORIALS_LINK = "https://docs.astroport.fi/astroport/workstation/basics";
+  const DISCORD_LINK = 'https://discord.gg/astroport'
   const FORUM_LINK = "https://forum.astroport.fi/";
 
   return (
@@ -80,6 +81,18 @@ const Navbar: FC = () => {
                       {t("navbar-tutorials")}
                     </Link>
                   </MenuItem>
+                  <MenuItem>
+                    <Link href={DISCORD_LINK} isExternal>
+                      {t("navbar-discord")}
+                    </Link>
+                  </MenuItem>
+                </MenuList>
+              </Menu>
+              <Menu>
+                <MenuButton as={Link} color="white">
+                  {t("navbar-governance")}
+                </MenuButton>
+                <MenuList zIndex={200}>
                   <MenuItem>
                     <Link href={FORUM_LINK} isExternal>
                       {t("navbar-forum")}
@@ -163,6 +176,9 @@ const Navbar: FC = () => {
                     </Link>
                     <Link href={FORUM_LINK} color="white" fontSize="lg">
                       {t("navbar-forum")}
+                    </Link>
+                    <Link href={DISCORD_LINK} color="white" fontSize="lg">
+                      {t("navbar-discord")}
                     </Link>
                   </VStack>
                 </Box>
