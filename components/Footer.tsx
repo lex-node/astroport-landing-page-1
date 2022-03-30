@@ -139,9 +139,9 @@ const Footer = () => {
                       <Link href="http://app.astroport.fi/pools" isExternal>
                         {t("footer-link-b")}
                       </Link>
-                      <Link href="https://docs.astroport.fi/" isExternal>
-                        {t("footer-link-c")}
-                      </Link>
+                      <NextLink href="/terms-and-conditions" passHref>
+                        <Link>{t("footer-link-e")}</Link>
+                      </NextLink>
                       <Link href="https://forum.astroport.fi/" isExternal>
                         {t("footer-link-d")}
                       </Link>
@@ -175,9 +175,9 @@ const Footer = () => {
                       textTransform="uppercase"
                       fontSize={["14px", null, "1rem"]}
                     >
-                      <NextLink href="/terms-and-conditions" passHref>
-                        <Link>{t("footer-link-e")}</Link>
-                      </NextLink>
+                      <Link href="https://docs.astroport.fi/" isExternal>
+                        {t("footer-link-c")}
+                      </Link>
                       <Link
                         href="https://www.immunefi.com/bounty/astroport"
                         isExternal
