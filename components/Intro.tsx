@@ -138,6 +138,7 @@ const Hero = () => {
         </Box>
         <Box>
           <strong>{t("intro-desc-e")}</strong>,
+          {'\u00A0'}
           {t("intro-desc-f")}
           <br />
           <Box display="inline-block" px="1" mb="-5">
