@@ -32,6 +32,8 @@ import AstroportLogo from "components/icons/AstroportLogo";
 const Navbar: FC = () => {
   const { t } = useTranslation();
   const { isOpen, onOpen, onClose } = useDisclosure();
+  const { isOpen: isOpenMenu,  onOpen: onOpenMenu, onClose: onCloseMenu } = useDisclosure();
+  const { isOpen: isOpenMenuB,  onOpen: onOpenMenuB, onClose: onCloseMenuB } = useDisclosure();
   const btnRef = React.useRef();
   const TUTORIALS_LINK = "https://docs.astroport.fi/astroport/workstation/basics";
   const DISCORD_LINK = 'https://discord.gg/astroport'
@@ -68,11 +70,11 @@ const Navbar: FC = () => {
                   {t("navbar-about")}
                 </SmoothLink>
               </Text>
-              <Menu>
-                <MenuButton as={Link} color="white">
+              <Menu isOpen={isOpenMenu} gutter={0}>
+                <MenuButton as={Link} color="white" py="2" onMouseEnter={onOpenMenu} onMouseLeave={onCloseMenu}>
                   {t("navbar-support")}
                 </MenuButton>
-                <MenuList zIndex={200}>
+                <MenuList zIndex={200} m="0" onMouseEnter={onOpenMenu} onMouseLeave={onCloseMenu}>
                   <MenuItem>
                     <Link
                       href={TUTORIALS_LINK}
@@ -88,11 +90,11 @@ const Navbar: FC = () => {
                   </MenuItem>
                 </MenuList>
               </Menu>
-              <Menu>
-                <MenuButton as={Link} color="white">
+              <Menu isOpen={isOpenMenuB} gutter={0}>
+                <MenuButton as={Link} color="white" py="2" onMouseEnter={onOpenMenuB} onMouseLeave={onCloseMenuB}>
                   {t("navbar-governance")}
                 </MenuButton>
-                <MenuList zIndex={200}>
+                <MenuList zIndex={200} m="0" onMouseEnter={onOpenMenuB} onMouseLeave={onCloseMenuB}>
                   <MenuItem>
                     <Link href={FORUM_LINK} isExternal>
                       {t("navbar-forum")}
