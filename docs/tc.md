@@ -17,7 +17,7 @@ Among other things, the Terms and Conditions provide that you must:
 - agree that the Site is only being provided as an aid to your own independent research and evaluation of Astroport and that no representation or warranty is being made as to the accuracy or completeness of information on the Site;
 - agree that the ability of the Site to connect with third-party wallet applications or devices is not an endorsement or recommendation thereof by or on behalf of the operators of the Site, and you must assume all responsibility for selecting and evaluating and incurring the risks of any bugs, defects, malfunctions or interruptions of any third-party wallet applications or devices you directly or indirectly use in connection with the Site;
 - comply with all applicable laws, rules and regulations;
-- not be person who is subject to national or international sanctions or located or ordinarily resident in Cuba, Iran, North Korea, Sudan, Syria, the Crimea region or any other country or jurisdiction against which the U.S. or the United Nations maintains economic sanctions;
+- not be person who is subject to national or international sanctions or located or ordinarily resident in Cuba, Iran, North Korea, Sudan, Syria, the Crimea, the Donetsk People’s Republic (DNR) and Luhansk People’s Republic (LNR) regions of Ukraine  or any other country or jurisdiction against which the U.S. or the United Nations maintains economic sanctions;
 - not hold the operator of the Site or any of its representatives or affiliates liable for any damages you suffer in connection with your use of the Site or Astroport;
 - waive your right to initiate or participate in class actions relating to the Site; and
 - resolve any disputes regarding the Site pursuant to binding, confidential arbitration and waive your right to a jury trial in connection with such disputes.
@@ -157,8 +157,9 @@ Each User must not, directly or indirectly, in connection with their use of the 
   - trading without changes in material beneficial ownership for the purpose of creating or inducing a false or misleading appearance of trading activity or creating or inducing a false or misleading appearance with respect to market conditions; or
   - participating in, facilitating, assisting or knowingly transacting with any pool, syndicate or joint account organized for the purpose of unfairly or deceptively influencing market prices;
 
-- transact in securities, commodities futures, trading of commodities on a leveraged, margined or financed basis, binary options (including prediction-market transactions), real estate or real estate leases, equipment leases, debt financings, equity financings or other similar transactions, in each case, if such transactions do not comply with all laws, rules and regulations applicable to the parties and assets engaged therein; or
-- engage in token-based or other financings of a business, enterprise, venture, DAO, software development project or other initiative, including ICOs, DAICOs, IEOs, or other token-based fundraising events.
+- transact in securities, commodities futures, trading of commodities on a leveraged, margined or financed basis, binary options (including prediction-market transactions), real estate or real estate leases, equipment leases, debt financings, equity financings or other similar transactions, in each case, if such transactions do not comply with all laws, rules and regulations applicable to the parties and assets engaged therein; 
+- engage in token-based or other financings of a business, enterprise, venture, DAO, software development project or other initiative, including ICOs, DAICOs, IEOs, or other token-based fundraising events; or 
+- engage in any act, practice or course of business that operates to circumvent any sanctions or export controls targeting the User or the country or territory where User is located.
 
 The foregoing matters are referred to herein as **_“Prohibited Uses”_** .
 
