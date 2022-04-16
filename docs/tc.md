@@ -1,7 +1,7 @@
 # Terms and conditions
 
 **Date of Initial Publication:** December 11, 2021  
-**Last Updated:** January 20, 2022
+**Last Updated:** April 16, 2022
 **Change History:** [Astroport Github](https://github.com/astroport-fi/astroport-landing-page/commits/master/docs/tc.md)
 
 These terms and conditions (these **_“Terms”_** ) constitute a binding legal agreement between each individual, entity, group or association who views, interacts, links to or otherwise uses or derives any benefit from the Site (as defined below) ( **_“Users”_** ) and Delphi Labs Ltd, a British Virgin Islands company limited by shares (the owner/operator of the Site) and each of its successors and assigns (the **_“Site Operator”_** ).
